@@ -1,6 +1,6 @@
-# AI-2 Teaching Diagrams
+# AI2 Teaching Diagrams
 
-Comprehensive visual reference guides for AI-2 Machine Learning projects.
+Comprehensive visual reference guides for AI2 Machine Learning projects.
 
 ## Available Diagrams
 
@@ -79,5 +79,5 @@ To add new diagrams:
 ---
 
 **Last Updated**: December 2024
-**Course**: AI-2 Artificial Intelligence, Machine Learning & Computer Vision
+**Course**: AI2 Artificial Intelligence, Machine Learning & Computer Vision
 **Maintainer**: Telebort Engineering
