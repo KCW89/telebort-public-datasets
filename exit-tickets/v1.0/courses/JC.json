@@ -1,0 +1,3254 @@
+{
+  "courseId": "jc-junior-creator",
+  "courseName": "JC-Junior Creator",
+  "courseCode": "JC",
+  "domain": "creative_computing",
+  "tier": "foundation",
+  "difficulty": 1,
+  "metadata": {
+    "version": "1.1",
+    "lastModified": "2025-12-23",
+    "totalLessons": 9,
+    "totalQuestions": 45,
+    "ageGroup": "6-10",
+    "language": "very_simple"
+  },
+  "lessons": [
+    {
+      "lessonId": "jc-lesson-1",
+      "lessonNumber": 1,
+      "lessonTitle": "Introduction to Coding & Tynker",
+      "lessonSlug": "introduction-to-coding-and-tynker",
+      "totalQuestions": 5,
+      "questions": [
+        {
+          "questionId": "jc-q001",
+          "globalId": "exit-ticket-0500",
+          "questionNumber": 1,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What is coding?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_CODING_BASICS"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Giving instructions to computers",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Yes! Coding is like giving instructions to your computer friend!",
+                "detailed": "You're right! Coding is giving instructions to computers, just like you tell your dog to sit or follow a recipe to make cookies!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Playing video games",
+              "isCorrect": false,
+              "misconceptionId": "JC_CODING_BASICS",
+              "feedback": {
+                "short": "Not quite! Playing games is fun, but coding makes the games!",
+                "detailed": "Playing video games is awesome! But coding is how we MAKE the games. When you code, you tell the computer how to make Mario jump!",
+                "socraticHint": "Who creates the games you play - is it the players or someone who writes instructions?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Drawing pictures on the computer",
+              "isCorrect": false,
+              "misconceptionId": "JC_CODING_BASICS",
+              "feedback": {
+                "short": "Not exactly! Drawing is fun, but coding is giving instructions.",
+                "detailed": "Drawing on computers is creative! But coding is different - it's giving step-by-step instructions to make the computer do things!",
+                "socraticHint": "When you follow a recipe, are you drawing or following instructions?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Typing on a keyboard",
+              "isCorrect": false,
+              "misconceptionId": "JC_CODING_BASICS",
+              "feedback": {
+                "short": "Not quite! Typing is part of using computers, but coding is special!",
+                "detailed": "Typing is something we do with computers! But coding is special - it's writing instructions that tell computers exactly what to do!",
+                "socraticHint": "What's the difference between typing words and giving instructions?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "Giving instructions to computers"
+        },
+        {
+          "questionId": "jc-q002",
+          "globalId": "exit-ticket-0501",
+          "questionNumber": 2,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What does Tynker use to make coding fun and easy?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_TYNKER_BLOCKS"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Colorful blocks that snap together",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! Tynker uses colorful blocks like LEGO!",
+                "detailed": "Yes! Tynker uses colorful blocks that snap together like LEGO pieces! No typing needed - just drag and drop!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Difficult words to type",
+              "isCorrect": false,
+              "misconceptionId": "JC_TYNKER_BLOCKS",
+              "feedback": {
+                "short": "Nope! Tynker makes it easy - no difficult typing!",
+                "detailed": "Good news! Tynker doesn't use difficult words. It uses fun colorful blocks that you can drag around - much easier than typing!",
+                "socraticHint": "Does Tynker look more like playing with toys or typing homework?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Only numbers and math",
+              "isCorrect": false,
+              "misconceptionId": "JC_TYNKER_BLOCKS",
+              "feedback": {
+                "short": "Not quite! Tynker uses fun blocks, not just numbers!",
+                "detailed": "Tynker uses colorful picture blocks that are fun to play with! You don't need to know lots of math - just drag blocks together!",
+                "socraticHint": "When you see Tynker, does it look like a math worksheet or like playing with colorful toys?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Secret computer language",
+              "isCorrect": false,
+              "misconceptionId": "JC_TYNKER_BLOCKS",
+              "feedback": {
+                "short": "Not exactly! Tynker uses simple blocks you can understand!",
+                "detailed": "Tynker makes coding easy by using blocks with pictures and simple words - no secret languages needed!",
+                "socraticHint": "Can you read what's written on Tynker blocks?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "Colorful blocks that snap together"
+        },
+        {
+          "questionId": "jc-q003",
+          "globalId": "exit-ticket-0502",
+          "questionNumber": 3,
+          "questionType": "explain",
+          "questionArchetype": "explain",
+          "prompt": "Why is Tynker better for beginners than old coding?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_TYNKER_BLOCKS"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "It uses blocks that snap together like puzzles",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Exactly! Puzzle blocks are much easier than typing code!",
+                "detailed": "You got it! Old coding had scary text, but Tynker uses blocks that fit together like puzzle pieces - so much easier and more fun!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "It has more buttons to click",
+              "isCorrect": false,
+              "misconceptionId": "JC_TYNKER_BLOCKS",
+              "feedback": {
+                "short": "Not quite! It's not about more buttons - it's about easy blocks!",
+                "detailed": "Tynker is better because it uses simple blocks instead of hard typing. The blocks make it like playing, not working!",
+                "socraticHint": "What makes building with LEGO easier than writing instructions on paper?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "It is faster than old coding",
+              "isCorrect": false,
+              "misconceptionId": "JC_TYNKER_BLOCKS",
+              "feedback": {
+                "short": "Not exactly! It's easier to learn, which is what matters!",
+                "detailed": "Tynker is better because it's easier to understand, not because it's faster. Blocks help you learn coding in a fun way!",
+                "socraticHint": "Would you rather type 'public class Main' or drag a colorful block?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "It works on any computer",
+              "isCorrect": false,
+              "misconceptionId": "JC_TYNKER_BLOCKS",
+              "feedback": {
+                "short": "That's not the main reason! It's about using blocks instead of typing!",
+                "detailed": "While Tynker does work on computers, what makes it special for beginners is the block-based coding - no scary typing needed!",
+                "socraticHint": "What's different about how you create code in Tynker?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Explanation",
+          "correctAnswerText": "It uses blocks that snap together like puzzles"
+        },
+        {
+          "questionId": "jc-q004",
+          "globalId": "exit-ticket-0503",
+          "questionNumber": 4,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "Where can you see coding being used around you?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_CODING_BASICS"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "In tablet games, traffic lights, and smart toys",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Yes! Coding is everywhere making things work!",
+                "detailed": "Perfect! Coding makes your tablet games work, changes traffic lights, runs smart toys, and so much more. It's all around us!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Only in video games",
+              "isCorrect": false,
+              "misconceptionId": "JC_CODING_BASICS",
+              "feedback": {
+                "short": "Not just games! Coding is in lots of things around you!",
+                "detailed": "Video games do use coding, but it's also in traffic lights, your tablet, smart toys, and even your TV! Coding is everywhere!",
+                "socraticHint": "Look around your room - what other things might have computers inside?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Only at school",
+              "isCorrect": false,
+              "misconceptionId": "JC_CODING_BASICS",
+              "feedback": {
+                "short": "Nope! Coding is at home, at school, and everywhere!",
+                "detailed": "You learn coding at school, but it's used everywhere! In your home devices, at stores, in cars, and all around town!",
+                "socraticHint": "Do you use tablets or watch cartoons at home? What makes those work?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Only in big computers",
+              "isCorrect": false,
+              "misconceptionId": "JC_CODING_BASICS",
+              "feedback": {
+                "short": "Not just big computers! Coding is in small things too!",
+                "detailed": "Coding works in computers of all sizes - big ones, small ones, tablets, phones, toys, and more!",
+                "socraticHint": "Does your tablet have a computer inside? What about a smart toy?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "In tablet games, traffic lights, and smart toys"
+        },
+        {
+          "questionId": "jc-q005",
+          "globalId": "exit-ticket-0504",
+          "questionNumber": 5,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What do you need to start using Tynker?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_TYNKER_BLOCKS"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "An email account and help from parents",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! You need an email (like Gmail) and parent help!",
+                "detailed": "Yes! You need a Google email account (like yourname@gmail.com) and a parent or guardian to help you sign up. Then you're ready to code!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "A special computer robot",
+              "isCorrect": false,
+              "misconceptionId": "JC_TYNKER_BLOCKS",
+              "feedback": {
+                "short": "Nope! Just a regular computer and an email account!",
+                "detailed": "You don't need a robot! Just a regular computer or tablet, a Google email, and help from mom or dad to sign up!",
+                "socraticHint": "What do you need to sign up for most websites?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "To know how to type really fast",
+              "isCorrect": false,
+              "misconceptionId": "JC_TYNKER_BLOCKS",
+              "feedback": {
+                "short": "Not true! Tynker uses blocks - no fast typing needed!",
+                "detailed": "Good news! You don't need to type fast because Tynker uses drag-and-drop blocks. You just need an email account to sign up!",
+                "socraticHint": "Does Tynker use typing or dragging blocks?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "To be really good at math",
+              "isCorrect": false,
+              "misconceptionId": "JC_TYNKER_BLOCKS",
+              "feedback": {
+                "short": "Not at all! You just need an email to get started!",
+                "detailed": "You don't need to be a math expert! Tynker is designed for beginners. You just need a Google email account and parent help to sign up!",
+                "socraticHint": "What do most websites ask for when you sign up?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "An email account and help from parents"
+        }
+      ]
+    },
+    {
+      "lessonId": "jc-lesson-2",
+      "lessonNumber": 2,
+      "lessonTitle": "Computer Hardware & Software",
+      "lessonSlug": "computer-hardware-and-software",
+      "totalQuestions": 5,
+      "questions": [
+        {
+          "questionId": "jc-q006",
+          "globalId": "exit-ticket-0505",
+          "questionNumber": 1,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What is hardware?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_HARDWARE_SOFTWARE"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Computer parts you can touch",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Yes! Hardware is anything you can touch like a mouse or keyboard!",
+                "detailed": "Exactly! Hardware means the computer parts you can touch - like your mouse, keyboard, monitor, and all the parts you can see and feel!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Programs inside the computer",
+              "isCorrect": false,
+              "misconceptionId": "JC_HARDWARE_SOFTWARE",
+              "feedback": {
+                "short": "Not quite! That's software! Hardware is what you can touch.",
+                "detailed": "Programs inside are called software! Hardware is the parts you can touch - like the screen, keyboard, and mouse!",
+                "socraticHint": "Can you touch a keyboard? Can you touch a program?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Games you play",
+              "isCorrect": false,
+              "misconceptionId": "JC_HARDWARE_SOFTWARE",
+              "feedback": {
+                "short": "Nope! Games are software! Hardware is the physical parts.",
+                "detailed": "Games are software (programs)! Hardware is the physical stuff like your computer, mouse, and screen that you can actually touch!",
+                "socraticHint": "Can you pick up a game and hold it in your hand?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "The internet",
+              "isCorrect": false,
+              "misconceptionId": "JC_HARDWARE_SOFTWARE",
+              "feedback": {
+                "short": "Not the internet! Hardware is the physical computer parts.",
+                "detailed": "The internet is not something you can touch! Hardware is the physical parts like your computer, keyboard, and mouse!",
+                "socraticHint": "Can you pick up the internet? Or can you only pick up the computer?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "Computer parts you can touch"
+        },
+        {
+          "questionId": "jc-q007",
+          "globalId": "exit-ticket-0506",
+          "questionNumber": 2,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What does the CPU do?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_HARDWARE_SOFTWARE"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "It's the computer's brain that thinks and makes things work",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! The CPU is like the computer's super-fast brain!",
+                "detailed": "Yes! The CPU is the brain of the computer! It thinks super fast and makes everything work - like your brain tells your body what to do!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "It shows pictures on the screen",
+              "isCorrect": false,
+              "misconceptionId": "JC_HARDWARE_SOFTWARE",
+              "feedback": {
+                "short": "Not quite! That's the monitor's job! The CPU is the brain.",
+                "detailed": "The monitor shows pictures! The CPU is different - it's the brain that thinks and tells all the other parts what to do!",
+                "socraticHint": "Which part of your body shows you things - your eyes or your brain?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "It lets you type letters",
+              "isCorrect": false,
+              "misconceptionId": "JC_HARDWARE_SOFTWARE",
+              "feedback": {
+                "short": "That's the keyboard! The CPU is the thinking part.",
+                "detailed": "The keyboard is for typing! The CPU is like the brain - it thinks and processes all the information!",
+                "socraticHint": "What part of your body does the thinking - your hands or your brain?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "It prints on paper",
+              "isCorrect": false,
+              "misconceptionId": "JC_HARDWARE_SOFTWARE",
+              "feedback": {
+                "short": "That's the printer! The CPU is the brain that thinks.",
+                "detailed": "A printer makes paper copies! The CPU is the brain inside the computer that thinks super fast and runs everything!",
+                "socraticHint": "Where is the thinking part - inside the computer or in the printer?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "It's the computer's brain that thinks and makes things work"
+        },
+        {
+          "questionId": "jc-q008",
+          "globalId": "exit-ticket-0507",
+          "questionNumber": 3,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What is software?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_HARDWARE_SOFTWARE"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Programs you can't touch that make hardware work",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Perfect! Software is like magic spells for hardware!",
+                "detailed": "Exactly! Software is programs you can't touch - like games and apps! It tells the hardware (the parts you can touch) what to do!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "The keyboard and mouse",
+              "isCorrect": false,
+              "misconceptionId": "JC_HARDWARE_SOFTWARE",
+              "feedback": {
+                "short": "Nope! Keyboard and mouse are hardware! Software is programs.",
+                "detailed": "You can touch a keyboard and mouse - those are hardware! Software is the programs like games and apps that you can't touch!",
+                "socraticHint": "Can you hold a keyboard? Can you hold a program?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "The computer screen",
+              "isCorrect": false,
+              "misconceptionId": "JC_HARDWARE_SOFTWARE",
+              "feedback": {
+                "short": "That's hardware! Software is programs you can't touch.",
+                "detailed": "The screen is hardware - you can touch it! Software is programs like Tynker and games that you can't physically touch!",
+                "socraticHint": "Can you tap the screen with your finger?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Soft pillows for your chair",
+              "isCorrect": false,
+              "misconceptionId": "JC_HARDWARE_SOFTWARE",
+              "feedback": {
+                "short": "Nice try! But software means computer programs, not soft things!",
+                "detailed": "The word sounds like 'soft' but it doesn't mean soft things! Software means programs like games and apps inside the computer!",
+                "socraticHint": "What does Tynker have inside - games and programs or pillows?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "Programs you can't touch that make hardware work"
+        },
+        {
+          "questionId": "jc-q009",
+          "globalId": "exit-ticket-0508",
+          "questionNumber": 4,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "Which one is an example of system software?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_HARDWARE_SOFTWARE"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Windows or macOS - the computer's boss",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Yes! Windows and macOS run the whole computer!",
+                "detailed": "Correct! Windows and macOS are system software - they're like the boss that runs everything on your computer!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "A video game",
+              "isCorrect": false,
+              "misconceptionId": "JC_HARDWARE_SOFTWARE",
+              "feedback": {
+                "short": "Not quite! Games are application software, not system software.",
+                "detailed": "Games are application software (programs we use for fun)! System software is the boss program like Windows that runs the computer!",
+                "socraticHint": "What starts up first - the game or the computer system?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Your keyboard",
+              "isCorrect": false,
+              "misconceptionId": "JC_HARDWARE_SOFTWARE",
+              "feedback": {
+                "short": "That's hardware! System software is a program that runs the computer.",
+                "detailed": "A keyboard is hardware you can touch! System software is a program like Windows that controls the whole computer!",
+                "socraticHint": "Can you touch a keyboard? Is that a program?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "A web browser like Chrome",
+              "isCorrect": false,
+              "misconceptionId": "JC_HARDWARE_SOFTWARE",
+              "feedback": {
+                "short": "That's application software! System software runs the whole computer.",
+                "detailed": "Chrome is application software (a program you use)! System software like Windows is the boss that runs everything!",
+                "socraticHint": "What needs to be running before you can open Chrome?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "Windows or macOS - the computer's boss"
+        },
+        {
+          "questionId": "jc-q010",
+          "globalId": "exit-ticket-0509",
+          "questionNumber": 5,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What's the difference between a mouse and a touchpad?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_HARDWARE_SOFTWARE"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Mouse moves separately, touchpad uses your finger on laptop",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! Mouse is separate, touchpad is built into laptops!",
+                "detailed": "Perfect! A mouse is a separate piece you move around, but a touchpad is flat on the laptop where you use your finger!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "They are exactly the same thing",
+              "isCorrect": false,
+              "misconceptionId": "JC_HARDWARE_SOFTWARE",
+              "feedback": {
+                "short": "Not quite! They both move the arrow but work differently.",
+                "detailed": "They both move the arrow on screen, but a mouse is separate and a touchpad is built into the laptop where you use your finger!",
+                "socraticHint": "Do you move a mouse with your whole hand or just touch it with your finger?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Mouse is for games, touchpad is for typing",
+              "isCorrect": false,
+              "misconceptionId": "JC_HARDWARE_SOFTWARE",
+              "feedback": {
+                "short": "Not exactly! Both move the arrow - they're just different shapes.",
+                "detailed": "Both mouse and touchpad move the arrow around! The difference is a mouse is separate and a touchpad is flat on your laptop!",
+                "socraticHint": "Can you type with either of them, or do you need a keyboard for typing?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Mouse is software, touchpad is hardware",
+              "isCorrect": false,
+              "misconceptionId": "JC_HARDWARE_SOFTWARE",
+              "feedback": {
+                "short": "Both are hardware! They're different in how you use them.",
+                "detailed": "Both mouse and touchpad are hardware you can touch! The difference is a mouse is separate and a touchpad is built into the laptop!",
+                "socraticHint": "Can you touch both of them with your hand?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "Mouse moves separately, touchpad uses your finger on laptop"
+        }
+      ]
+    },
+    {
+      "lessonId": "jc-lesson-3",
+      "lessonNumber": 3,
+      "lessonTitle": "Computer Literacy & Typing",
+      "lessonSlug": "computer-literacy-and-typing",
+      "totalQuestions": 5,
+      "questions": [
+        {
+          "questionId": "jc-q011",
+          "globalId": "exit-ticket-0510",
+          "questionNumber": 1,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What is a tab in your web browser?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_COMPUTER_LITERACY"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "A separate window for different web pages",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! Tabs let you have many web pages open at once!",
+                "detailed": "Yes! Tabs are like pages in a book - you can have many open at the same time in one window!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "A button on your keyboard",
+              "isCorrect": false,
+              "misconceptionId": "JC_COMPUTER_LITERACY",
+              "feedback": {
+                "short": "Not quite! That's the Tab key. Browser tabs are different!",
+                "detailed": "There is a Tab key on your keyboard, but browser tabs are windows inside your web browser for different pages!",
+                "socraticHint": "Where do you see tabs - on your keyboard or at the top of your browser?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "A folder on your computer",
+              "isCorrect": false,
+              "misconceptionId": "JC_COMPUTER_LITERACY",
+              "feedback": {
+                "short": "Nope! Folders store files. Tabs show different web pages!",
+                "detailed": "Folders hold files! Tabs are different - they let you look at many different websites at the same time in your browser!",
+                "socraticHint": "Do you use tabs when you're browsing the internet or organizing files?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "A type of computer mouse",
+              "isCorrect": false,
+              "misconceptionId": "JC_COMPUTER_LITERACY",
+              "feedback": {
+                "short": "That's not right! Tabs are parts of your web browser, not mice!",
+                "detailed": "A mouse is hardware! Tabs are the separate windows you see at the top of your browser for different web pages!",
+                "socraticHint": "Can you touch and hold a tab like you can hold a mouse?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "A separate window for different web pages"
+        },
+        {
+          "questionId": "jc-q012",
+          "globalId": "exit-ticket-0511",
+          "questionNumber": 2,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What's the difference between a file and a folder?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_FILES_FOLDERS"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Folders hold files inside, files are like toys in the toy box",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Perfect! Folders are containers, files are the things inside!",
+                "detailed": "Exactly! Think of folders as toy boxes that hold things, and files as the toys inside! Folders organize your files!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "They are the same thing",
+              "isCorrect": false,
+              "misconceptionId": "JC_FILES_FOLDERS",
+              "feedback": {
+                "short": "Not quite! Folders hold files - they're different!",
+                "detailed": "Folders and files are different! A folder is like a backpack that holds things, and files are like the books inside the backpack!",
+                "socraticHint": "Is a toy box the same as the toys inside it?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Files hold folders inside",
+              "isCorrect": false,
+              "misconceptionId": "JC_FILES_FOLDERS",
+              "feedback": {
+                "short": "It's the opposite! Folders hold files, not the other way around!",
+                "detailed": "It's backwards! Folders are the containers, and files go inside folders. Like toys go inside a toy box, not the other way!",
+                "socraticHint": "Do books go inside a backpack, or does a backpack go inside books?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Files are only for pictures, folders are for everything else",
+              "isCorrect": false,
+              "misconceptionId": "JC_FILES_FOLDERS",
+              "feedback": {
+                "short": "Not true! Files can be anything - pictures, games, documents!",
+                "detailed": "Files can be pictures, documents, games, and more! Folders are containers that help organize any type of file!",
+                "socraticHint": "Can you have different types of toys in one toy box?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "Folders hold files inside, files are like toys in the toy box"
+        },
+        {
+          "questionId": "jc-q013",
+          "globalId": "exit-ticket-0512",
+          "questionNumber": 3,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What does Ctrl+C do on Windows (or Command+C on Mac)?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_KEYBOARD_SHORTCUTS"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Copy - makes a copy of what you selected",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Yes! It copies like a copy machine!",
+                "detailed": "Correct! Ctrl+C (or Command+C) copies what you picked. It's like using a copy machine - you can paste it somewhere else!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Cut - removes it and saves it",
+              "isCorrect": false,
+              "misconceptionId": "JC_KEYBOARD_SHORTCUTS",
+              "feedback": {
+                "short": "Not quite! That's Ctrl+X! Ctrl+C is for copying.",
+                "detailed": "Ctrl+X cuts! Ctrl+C is different - it COPIES (like taking a photo) without removing the original!",
+                "socraticHint": "Does 'C' stand for Copy or Cut?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Close the window",
+              "isCorrect": false,
+              "misconceptionId": "JC_KEYBOARD_SHORTCUTS",
+              "feedback": {
+                "short": "Nope! Ctrl+C copies things. It doesn't close windows!",
+                "detailed": "Closing windows is different! Ctrl+C copies what you selected so you can paste it somewhere else!",
+                "socraticHint": "What does the 'C' in Ctrl+C remind you of - Copy or Close?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Clear everything on the screen",
+              "isCorrect": false,
+              "misconceptionId": "JC_KEYBOARD_SHORTCUTS",
+              "feedback": {
+                "short": "Not at all! Ctrl+C makes a copy - it doesn't clear anything!",
+                "detailed": "Ctrl+C is safe - it just copies! It doesn't clear or delete anything. Your original stays right where it is!",
+                "socraticHint": "When you copy something, does the original disappear or stay?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "Copy - makes a copy of what you selected"
+        },
+        {
+          "questionId": "jc-q014",
+          "globalId": "exit-ticket-0513",
+          "questionNumber": 4,
+          "questionType": "explain",
+          "questionArchetype": "explain",
+          "prompt": "Why do we learn to type with all our fingers instead of just pointing and pecking?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_TYPING"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "It's faster and your fingers learn where the keys are",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Exactly! Using all fingers is much faster once you learn!",
+                "detailed": "Yes! When each finger has its own keys, you can type super fast without looking! It's like learning to play piano!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "It looks cooler to other people",
+              "isCorrect": false,
+              "misconceptionId": "JC_TYPING",
+              "feedback": {
+                "short": "Not really! It's about being faster and more comfortable!",
+                "detailed": "Using all fingers helps YOU type faster and easier! Your fingers remember where keys are, like magic typing!",
+                "socraticHint": "Which would help you more - looking cool or getting your work done faster?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "The computer only works that way",
+              "isCorrect": false,
+              "misconceptionId": "JC_TYPING",
+              "feedback": {
+                "short": "Not true! The computer works either way - but all fingers is faster!",
+                "detailed": "The computer doesn't care how you type! But using all fingers helps you type faster and without getting tired!",
+                "socraticHint": "Does the computer know if you use one finger or ten?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "One finger wears out the keyboard",
+              "isCorrect": false,
+              "misconceptionId": "JC_TYPING",
+              "feedback": {
+                "short": "That's not why! It's because using all fingers is much faster!",
+                "detailed": "Keyboards don't wear out from one finger! We use all fingers because it's faster and your hands don't get tired!",
+                "socraticHint": "Would it be faster to walk with one leg or run with both?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Explanation",
+          "correctAnswerText": "It's faster and your fingers learn where the keys are"
+        },
+        {
+          "questionId": "jc-q015",
+          "globalId": "exit-ticket-0514",
+          "questionNumber": 5,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "Which fingers should press the space bar?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_TYPING"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Your thumbs - both of them can share!",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Perfect! Thumbs are the space bar experts!",
+                "detailed": "Yes! Both thumbs can press the space bar! They're like the space bar champions of your hands!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Your pinky fingers",
+              "isCorrect": false,
+              "misconceptionId": "JC_TYPING",
+              "feedback": {
+                "short": "Not quite! Pinkies press other keys. Thumbs press space!",
+                "detailed": "Pinky fingers are for keys like Q, A, Z, and P! Your thumbs are the ones that press the big space bar!",
+                "socraticHint": "Which finger is closest to the big space bar?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Your pointer fingers",
+              "isCorrect": false,
+              "misconceptionId": "JC_TYPING",
+              "feedback": {
+                "short": "Nope! Pointers are for other letters. Thumbs press space!",
+                "detailed": "Pointer fingers have lots of keys to press like F, J, and others! Thumbs are perfect for the space bar!",
+                "socraticHint": "What's the biggest finger closest to the space bar?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Any finger you want",
+              "isCorrect": false,
+              "misconceptionId": "JC_TYPING",
+              "feedback": {
+                "short": "Thumbs work best! They're right there near the space bar!",
+                "detailed": "While you could use any finger, thumbs are perfect because they rest right above the space bar and don't need to type letters!",
+                "socraticHint": "Which fingers don't have letter keys to press?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "Your thumbs - both of them can share!"
+        }
+      ]
+    },
+    {
+      "lessonId": "jc-lesson-4",
+      "lessonNumber": 4,
+      "lessonTitle": "What is Event",
+      "lessonSlug": "what-is-event",
+      "totalQuestions": 5,
+      "questions": [
+        {
+          "questionId": "jc-q016",
+          "globalId": "exit-ticket-0515",
+          "questionNumber": 1,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What is an event in coding?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_EVENTS"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Something that makes your code start running",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Perfect! Events are like magic buttons that start actions!",
+                "detailed": "Yes! An event starts your code - like pressing the green flag or clicking a character. It's like saying 'GO!'"
+              }
+            },
+            {
+              "key": "B",
+              "text": "A party for your code",
+              "isCorrect": false,
+              "misconceptionId": "JC_EVENTS",
+              "feedback": {
+                "short": "Not quite! Events start actions, they're not parties!",
+                "detailed": "Events aren't parties! They're special blocks that tell your code when to start - like clicking or pressing keys!",
+                "socraticHint": "What happens when you click the green flag in Tynker?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "A character in your game",
+              "isCorrect": false,
+              "misconceptionId": "JC_EVENTS",
+              "feedback": {
+                "short": "Nope! Characters are actors. Events make things happen!",
+                "detailed": "Characters are called actors! Events are the things that START the action - like clicking or pressing buttons!",
+                "socraticHint": "Is the green flag a character, or does it start your code?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "A special color for blocks",
+              "isCorrect": false,
+              "misconceptionId": "JC_EVENTS",
+              "feedback": {
+                "short": "Not exactly! Events are blocks that start actions, not just colors!",
+                "detailed": "Event blocks might have a color, but what makes them special is they START your code when something happens!",
+                "socraticHint": "What do you do with event blocks - look at their color or use them to start code?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "Something that makes your code start running"
+        },
+        {
+          "questionId": "jc-q017",
+          "globalId": "exit-ticket-0516",
+          "questionNumber": 2,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What does the 'On Start' event do?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_EVENTS"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Makes your code run when you press the green flag",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Yes! Green flag means GO - your code starts!",
+                "detailed": "Exactly! When you click the green flag, any code connected to 'On Start' begins running. It's like starting a race!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Stops all the code",
+              "isCorrect": false,
+              "misconceptionId": "JC_EVENTS",
+              "feedback": {
+                "short": "That's the opposite! 'On Start' STARTS the code, not stops it!",
+                "detailed": "'On Start' makes code begin! The red stop button stops code. Green flag with 'On Start' = GO!",
+                "socraticHint": "Does 'start' mean begin or end?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Changes the background",
+              "isCorrect": false,
+              "misconceptionId": "JC_EVENTS",
+              "feedback": {
+                "short": "Nope! 'On Start' begins your code - it doesn't change backgrounds!",
+                "detailed": "'On Start' tells when to begin! To change backgrounds, you need different blocks that actually change the scene!",
+                "socraticHint": "Does 'start' tell WHEN to do something or WHAT to do?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Only works one time ever",
+              "isCorrect": false,
+              "misconceptionId": "JC_EVENTS",
+              "feedback": {
+                "short": "Not true! It runs every time you click the green flag!",
+                "detailed": "'On Start' works every time you press the green flag! Click it again and your code starts again!",
+                "socraticHint": "What happens if you press the green flag twice?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "Makes your code run when you press the green flag"
+        },
+        {
+          "questionId": "jc-q018",
+          "globalId": "exit-ticket-0517",
+          "questionNumber": 3,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What does 'When Key Pressed' event do?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_EVENTS"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Makes something happen when you press a keyboard key",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! Press a key = action happens!",
+                "detailed": "Yes! When you press a specific key on your keyboard, the code connected to that event runs! Like controlling a character in a game!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Only works with mouse clicks",
+              "isCorrect": false,
+              "misconceptionId": "JC_EVENTS",
+              "feedback": {
+                "short": "Not quite! This one is for KEYBOARD keys, not mouse!",
+                "detailed": "Mouse clicks use different events! 'When Key Pressed' is specifically for pressing keys on your keyboard like arrows or letters!",
+                "socraticHint": "Is a keyboard the same as a mouse?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Types letters on the screen",
+              "isCorrect": false,
+              "misconceptionId": "JC_EVENTS",
+              "feedback": {
+                "short": "Nope! It makes CODE run, it doesn't type letters!",
+                "detailed": "'When Key Pressed' starts your code when you press a key! It doesn't type - it triggers actions like moving a character!",
+                "socraticHint": "Does this event write words or start actions?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Turns off the computer",
+              "isCorrect": false,
+              "misconceptionId": "JC_EVENTS",
+              "feedback": {
+                "short": "Not at all! It's for controlling your code, not the computer!",
+                "detailed": "'When Key Pressed' is for your Tynker projects! It makes things happen in your code - it doesn't control the computer itself!",
+                "socraticHint": "Is this event dangerous or is it just for games and programs?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "Makes something happen when you press a keyboard key"
+        },
+        {
+          "questionId": "jc-q019",
+          "globalId": "exit-ticket-0518",
+          "questionNumber": 4,
+          "questionType": "explain",
+          "questionArchetype": "explain",
+          "prompt": "Why do we need events in our code?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_EVENTS"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "To tell the code when to start doing things",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Exactly! Events are the 'start signals' for code!",
+                "detailed": "Perfect! Without events, code wouldn't know when to run! Events are like start signals that tell code 'Now is the time!'"
+              }
+            },
+            {
+              "key": "B",
+              "text": "To make the code look colorful",
+              "isCorrect": false,
+              "misconceptionId": "JC_EVENTS",
+              "feedback": {
+                "short": "Not about colors! Events tell code WHEN to start!",
+                "detailed": "Events are about timing, not looks! They tell your code when to start running - like when you click or press a key!",
+                "socraticHint": "Does code run because it's pretty or because something triggers it?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "To make the code run slower",
+              "isCorrect": false,
+              "misconceptionId": "JC_EVENTS",
+              "feedback": {
+                "short": "Nope! Events start code at the right time, not slow it down!",
+                "detailed": "Events don't slow code down! They make code start at the perfect moment - like when you're ready to play!",
+                "socraticHint": "Does pressing 'start' on a game slow it down or begin it?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Code doesn't need events",
+              "isCorrect": false,
+              "misconceptionId": "JC_EVENTS",
+              "feedback": {
+                "short": "Wrong! Code needs events to know when to start!",
+                "detailed": "Code definitely needs events! Without them, your code wouldn't know when to run. Events are like the green flag - they say GO!",
+                "socraticHint": "What happens if you write code but never click the green flag?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Explanation",
+          "correctAnswerText": "To tell the code when to start doing things"
+        },
+        {
+          "questionId": "jc-q020",
+          "globalId": "exit-ticket-0519",
+          "questionNumber": 5,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What does 'Broadcast' do?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_EVENTS"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Sends a message to all actors to tell them to do something",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Perfect! It's like shouting 'Ready!' to everyone!",
+                "detailed": "Yes! Broadcast sends a message out to all actors, like using a megaphone! Then actors listen and do what they're programmed to do!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Makes everything on TV",
+              "isCorrect": false,
+              "misconceptionId": "JC_EVENTS",
+              "feedback": {
+                "short": "Not TV broadcast! This is a coding message between actors!",
+                "detailed": "In coding, 'broadcast' means sending a message to your actors, not making TV shows! It's like actors talking to each other!",
+                "socraticHint": "Are we talking about TV or coding messages?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Deletes all the actors",
+              "isCorrect": false,
+              "misconceptionId": "JC_EVENTS",
+              "feedback": {
+                "short": "No way! Broadcast is for sending messages, not deleting!",
+                "detailed": "Broadcast is friendly! It sends messages to tell actors what to do next. It doesn't delete anything!",
+                "socraticHint": "Does sending someone a message make them disappear?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Makes sounds louder",
+              "isCorrect": false,
+              "misconceptionId": "JC_EVENTS",
+              "feedback": {
+                "short": "Not about volume! Broadcast sends messages between actors!",
+                "detailed": "Broadcast doesn't change sound! It's a way for one actor to send a message to other actors in your code!",
+                "socraticHint": "Is 'broadcast' about sound levels or sending messages?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "Sends a message to all actors to tell them to do something"
+        }
+      ]
+    },
+    {
+      "lessonId": "jc-lesson-5",
+      "lessonNumber": 5,
+      "lessonTitle": "Animation Challenge",
+      "lessonSlug": "animation-challenge",
+      "totalQuestions": 5,
+      "questions": [
+        {
+          "questionId": "jc-q021",
+          "globalId": "exit-ticket-0520",
+          "questionNumber": 1,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What does the 'animate' block do?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_ANIMATION"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Makes your character move or do actions",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! It makes characters dance, jump, and move!",
+                "detailed": "Yes! The animate block makes your character do cool moves like dancing, waving, or jumping! One click = one action!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Draws pictures on the screen",
+              "isCorrect": false,
+              "misconceptionId": "JC_ANIMATION",
+              "feedback": {
+                "short": "Not quite! It makes characters move, not draw pictures!",
+                "detailed": "The animate block makes your character do actions! For drawing, you'd use stamp or pen blocks!",
+                "socraticHint": "Does animation make something move or create new pictures?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Changes the background color",
+              "isCorrect": false,
+              "misconceptionId": "JC_ANIMATION",
+              "feedback": {
+                "short": "Nope! Animate is for character movements, not backgrounds!",
+                "detailed": "Animate makes your character move! To change backgrounds, you need different blocks made for backgrounds!",
+                "socraticHint": "Does animation affect what characters do or what the background looks like?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Makes things invisible",
+              "isCorrect": false,
+              "misconceptionId": "JC_ANIMATION",
+              "feedback": {
+                "short": "That's different! Animate makes characters move and act!",
+                "detailed": "Animate is for movements and actions! To make things invisible, you'd use show/hide blocks!",
+                "socraticHint": "When something animates, do you see it move or does it disappear?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "Makes your character move or do actions"
+        },
+        {
+          "questionId": "jc-q022",
+          "globalId": "exit-ticket-0521",
+          "questionNumber": 2,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What does the 'forever' block do?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_LOOPS"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Repeats the code inside over and over",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Perfect! It keeps going like a hamster wheel!",
+                "detailed": "Exactly! Forever blocks make the code inside repeat over and over, non-stop! Like a hamster wheel that keeps spinning!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Runs the code only one time",
+              "isCorrect": false,
+              "misconceptionId": "JC_LOOPS",
+              "feedback": {
+                "short": "That's the opposite! Forever means it repeats, not just once!",
+                "detailed": "Forever means it keeps going! If you want something once, you don't need the forever block - just connect it to an event!",
+                "socraticHint": "What does the word 'forever' mean - once or many times?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Stops all the code",
+              "isCorrect": false,
+              "misconceptionId": "JC_LOOPS",
+              "feedback": {
+                "short": "Nope! Forever keeps code running - it doesn't stop it!",
+                "detailed": "Forever is the opposite of stopping! It makes code keep going and going until you press the stop button!",
+                "socraticHint": "Does 'forever' sound like stopping or continuing?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Makes the project save automatically",
+              "isCorrect": false,
+              "misconceptionId": "JC_LOOPS",
+              "feedback": {
+                "short": "Not about saving! Forever makes code repeat over and over!",
+                "detailed": "Forever is about repeating code, not saving! It makes whatever's inside it keep happening again and again!",
+                "socraticHint": "Is 'forever' about what code does or about saving files?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "Repeats the code inside over and over"
+        },
+        {
+          "questionId": "jc-q023",
+          "globalId": "exit-ticket-0522",
+          "questionNumber": 3,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What does an 'if-then' block do?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_CONDITIONALS"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Checks if something is true, then does an action",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Yes! It asks a question and does something if the answer is yes!",
+                "detailed": "Exactly! If-then blocks make choices! IF something is true, THEN do the action inside. Like 'IF it's raining, THEN bring an umbrella!'"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Makes things happen at the same time",
+              "isCorrect": false,
+              "misconceptionId": "JC_CONDITIONALS",
+              "feedback": {
+                "short": "Not quite! It makes choices based on true or false!",
+                "detailed": "If-then doesn't do things at once - it makes a choice! IF something is true, THEN it does the action. If false, it skips it!",
+                "socraticHint": "Does 'if-then' mean 'do both' or 'check first, then decide'?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Repeats code forever",
+              "isCorrect": false,
+              "misconceptionId": "JC_CONDITIONALS",
+              "feedback": {
+                "short": "That's the forever block! If-then makes decisions!",
+                "detailed": "Forever blocks repeat! If-then blocks make choices - they check if something is true and only do the action if it is!",
+                "socraticHint": "Does 'if' sound like repeating or making a choice?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Stops the program completely",
+              "isCorrect": false,
+              "misconceptionId": "JC_CONDITIONALS",
+              "feedback": {
+                "short": "Nope! It makes smart choices, it doesn't stop everything!",
+                "detailed": "If-then blocks make decisions! They check conditions and do actions based on whether something is true or false!",
+                "socraticHint": "Does checking 'if' something is true mean stopping or deciding?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "Checks if something is true, then does an action"
+        },
+        {
+          "questionId": "jc-q024",
+          "globalId": "exit-ticket-0523",
+          "questionNumber": 4,
+          "questionType": "explain",
+          "questionArchetype": "explain",
+          "prompt": "Why would you put an animate block inside a forever block?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_ANIMATION",
+            "JC_LOOPS"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "To make the character keep doing the animation over and over",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Perfect! Forever makes the animation repeat non-stop!",
+                "detailed": "Exactly! Putting animate inside forever makes your character keep dancing or moving continuously! It won't stop until you stop it!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "To make the animation go slower",
+              "isCorrect": false,
+              "misconceptionId": "JC_ANIMATION",
+              "feedback": {
+                "short": "Not about speed! Forever makes it repeat, not slow down!",
+                "detailed": "Forever doesn't change speed - it makes the animation happen again and again! For speed, you'd use wait blocks!",
+                "socraticHint": "Does 'forever' mean slower or repeating?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "To make two characters animate at once",
+              "isCorrect": false,
+              "misconceptionId": "JC_ANIMATION",
+              "feedback": {
+                "short": "Not for multiple characters! Forever makes one character repeat!",
+                "detailed": "Forever makes the code repeat for that character! For two characters, you'd give each one their own code!",
+                "socraticHint": "Does one forever block control one character or many?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "To make the character bigger",
+              "isCorrect": false,
+              "misconceptionId": "JC_ANIMATION",
+              "feedback": {
+                "short": "Not about size! Forever makes things repeat!",
+                "detailed": "Forever makes actions repeat! To change size, you'd need size blocks. Forever just keeps doing the same thing over and over!",
+                "socraticHint": "Does repeating something make it bigger or just do it more times?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Explanation",
+          "correctAnswerText": "To make the character keep doing the animation over and over"
+        },
+        {
+          "questionId": "jc-q025",
+          "globalId": "exit-ticket-0524",
+          "questionNumber": 5,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What is the Character Builder in Tynker?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_ANIMATION"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "A tool to create and customize your own characters",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Yes! It lets you make your own special characters!",
+                "detailed": "Perfect! Character Builder is like a magic workshop where you create custom characters by picking body parts, colors, and styles!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "A person who builds computers",
+              "isCorrect": false,
+              "misconceptionId": "JC_ANIMATION",
+              "feedback": {
+                "short": "Not a person! It's a Tynker tool for making characters!",
+                "detailed": "Character Builder is a tool inside Tynker! It helps you design your own actors for your projects!",
+                "socraticHint": "Is this about a job or a tool in Tynker?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "A block that makes characters move",
+              "isCorrect": false,
+              "misconceptionId": "JC_ANIMATION",
+              "feedback": {
+                "short": "Not a block! It's a tool for creating characters!",
+                "detailed": "Character Builder is where you DESIGN characters! Animation blocks are what make them move after you create them!",
+                "socraticHint": "Do you use Character Builder before or after adding code blocks?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "A way to delete characters",
+              "isCorrect": false,
+              "misconceptionId": "JC_ANIMATION",
+              "feedback": {
+                "short": "Opposite! Character Builder CREATES characters, not deletes them!",
+                "detailed": "Character Builder is for making new characters! It helps you design and customize actors for your projects!",
+                "socraticHint": "Does 'builder' mean create or delete?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "A tool to create and customize your own characters"
+        }
+      ]
+    },
+    {
+      "lessonId": "jc-lesson-6",
+      "lessonNumber": 6,
+      "lessonTitle": "Street Art",
+      "lessonSlug": "street-art",
+      "totalQuestions": 5,
+      "questions": [
+        {
+          "questionId": "jc-q026",
+          "globalId": "exit-ticket-0525",
+          "questionNumber": 1,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What does the 'stamp' block do?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_VISUAL_EFFECTS"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Leaves a copy of your character on the screen",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Perfect! It's like a rubber stamp - leaves a mark!",
+                "detailed": "Yes! The stamp block is like a rubber stamp! It leaves an image of your character wherever it is, creating cool art!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Makes your character jump",
+              "isCorrect": false,
+              "misconceptionId": "JC_VISUAL_EFFECTS",
+              "feedback": {
+                "short": "Not for jumping! Stamp leaves copies of your character!",
+                "detailed": "Stamp doesn't make movement! It leaves a copy of your character in its current spot, like pressing a rubber stamp!",
+                "socraticHint": "Does a rubber stamp make things jump or leave a mark?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Sends messages to other actors",
+              "isCorrect": false,
+              "misconceptionId": "JC_VISUAL_EFFECTS",
+              "feedback": {
+                "short": "That's broadcast! Stamp creates art by leaving copies!",
+                "detailed": "Broadcasting sends messages! Stamp is for art - it leaves copies of your character on the screen!",
+                "socraticHint": "Is stamp about communication or making art?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Erases everything on screen",
+              "isCorrect": false,
+              "misconceptionId": "JC_VISUAL_EFFECTS",
+              "feedback": {
+                "short": "That's clear! Stamp ADDS copies - it doesn't erase!",
+                "detailed": "Stamp adds to your art by leaving copies! The 'clear' block is what erases everything!",
+                "socraticHint": "Does a stamp add marks or remove them?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "Leaves a copy of your character on the screen"
+        },
+        {
+          "questionId": "jc-q027",
+          "globalId": "exit-ticket-0526",
+          "questionNumber": 2,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What do visual effects like 'ghost', 'whirl', and 'pixelate' do?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_VISUAL_EFFECTS"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Change how your character looks",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Yes! They make your character look different and cool!",
+                "detailed": "Perfect! Visual effects change your character's appearance - ghost makes it see-through, whirl makes it spin, pixelate makes it blocky!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Make your character move faster",
+              "isCorrect": false,
+              "misconceptionId": "JC_VISUAL_EFFECTS",
+              "feedback": {
+                "short": "Not about speed! Effects change how things look!",
+                "detailed": "Visual effects change appearance, not speed! They make your character look different - see-through, swirly, or blocky!",
+                "socraticHint": "Does 'visual' mean how things look or how fast they move?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Delete your character",
+              "isCorrect": false,
+              "misconceptionId": "JC_VISUAL_EFFECTS",
+              "feedback": {
+                "short": "They don't delete! They just change how things look!",
+                "detailed": "Effects are safe! They just change appearance temporarily. Your character is still there, just looks different!",
+                "socraticHint": "If you add a ghost effect, does the character disappear completely?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Play music and sounds",
+              "isCorrect": false,
+              "misconceptionId": "JC_VISUAL_EFFECTS",
+              "feedback": {
+                "short": "Not sounds! Visual effects change how things LOOK!",
+                "detailed": "Visual effects are for your eyes, not your ears! They change appearance. Sound blocks are different!",
+                "socraticHint": "Does 'visual' mean what you see or what you hear?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "Change how your character looks"
+        },
+        {
+          "questionId": "jc-q028",
+          "globalId": "exit-ticket-0527",
+          "questionNumber": 3,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What does 'when key pressed' let you do in Street Art?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_EVENTS"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Control different effects or actions with keyboard keys",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! Each key can trigger different art effects!",
+                "detailed": "Yes! You can make different keys do different things - press A for stars, B for effects, arrows to move! It's like keyboard magic!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Type words on the screen",
+              "isCorrect": false,
+              "misconceptionId": "JC_EVENTS",
+              "feedback": {
+                "short": "Not for typing! It triggers actions and effects!",
+                "detailed": "When key pressed doesn't type - it triggers CODE! It makes effects happen, characters move, or art appear!",
+                "socraticHint": "Is this event for writing words or controlling your art?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Turn the computer on and off",
+              "isCorrect": false,
+              "misconceptionId": "JC_EVENTS",
+              "feedback": {
+                "short": "Not for the computer! It controls your Tynker project!",
+                "detailed": "When key pressed works inside Tynker! It controls your project - making effects, moving characters, creating art!",
+                "socraticHint": "Does this event control Tynker or the whole computer?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Save your project automatically",
+              "isCorrect": false,
+              "misconceptionId": "JC_EVENTS",
+              "feedback": {
+                "short": "Not for saving! It triggers the actions you program!",
+                "detailed": "When key pressed makes YOUR code run! Whatever actions you programmed for that key will happen when you press it!",
+                "socraticHint": "Does this event run code you wrote or does it save files?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "Control different effects or actions with keyboard keys"
+        },
+        {
+          "questionId": "jc-q029",
+          "globalId": "exit-ticket-0528",
+          "questionNumber": 4,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What does the 'clear' block do?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_VISUAL_EFFECTS"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Removes all stamps and art from the screen",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Yes! It's like a magic eraser for your art!",
+                "detailed": "Perfect! Clear removes all the stamps and art you made, giving you a clean screen to start fresh!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Makes your character invisible",
+              "isCorrect": false,
+              "misconceptionId": "JC_VISUAL_EFFECTS",
+              "feedback": {
+                "short": "That's hide! Clear removes stamps, not characters!",
+                "detailed": "Hide makes characters invisible! Clear is different - it removes all the stamp marks and art, but your character stays!",
+                "socraticHint": "Does clear affect your character or the art you've stamped?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Makes the screen brighter",
+              "isCorrect": false,
+              "misconceptionId": "JC_VISUAL_EFFECTS",
+              "feedback": {
+                "short": "Not about brightness! Clear removes stamped art!",
+                "detailed": "Clear doesn't change brightness! It removes all the stamps and art you've created, like wiping a whiteboard clean!",
+                "socraticHint": "When you clean a whiteboard, does it get brighter or just cleaner?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Deletes all your code",
+              "isCorrect": false,
+              "misconceptionId": "JC_VISUAL_EFFECTS",
+              "feedback": {
+                "short": "Don't worry! It only clears art, not your code!",
+                "detailed": "Clear is safe! It only removes the visual art on screen. Your code and characters are safe and stay exactly as they are!",
+                "socraticHint": "Does clear affect what's drawn on screen or the code you wrote?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "Removes all stamps and art from the screen"
+        },
+        {
+          "questionId": "jc-q030",
+          "globalId": "exit-ticket-0529",
+          "questionNumber": 5,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What does 'go to' block do?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_MOTION"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Makes your character jump to a new location instantly",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! It's like teleporting to a new spot!",
+                "detailed": "Yes! Go to makes your character teleport instantly to another actor or a specific position - like magic!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Opens a new web page",
+              "isCorrect": false,
+              "misconceptionId": "JC_MOTION",
+              "feedback": {
+                "short": "Not for web pages! It moves your character in Tynker!",
+                "detailed": "Go to is for moving characters in your project! It makes them jump to different positions on the screen!",
+                "socraticHint": "Are we controlling a web browser or a character in Tynker?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Starts playing music",
+              "isCorrect": false,
+              "misconceptionId": "JC_MOTION",
+              "feedback": {
+                "short": "Not for music! Go to moves characters to new positions!",
+                "detailed": "Go to is about movement and position! For music, you'd use sound blocks. Go to makes characters teleport!",
+                "socraticHint": "Does 'go to' sound like making sounds or moving locations?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Closes the project",
+              "isCorrect": false,
+              "misconceptionId": "JC_MOTION",
+              "feedback": {
+                "short": "It doesn't close anything! It moves your character!",
+                "detailed": "Go to moves characters to new spots on screen! It doesn't close or stop anything - just instant movement!",
+                "socraticHint": "Does 'go to a location' mean closing or moving?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "Makes your character jump to a new location instantly"
+        }
+      ]
+    },
+    {
+      "lessonId": "jc-lesson-7",
+      "lessonNumber": 7,
+      "lessonTitle": "Magic Show",
+      "lessonSlug": "magic-show",
+      "totalQuestions": 5,
+      "questions": [
+        {
+          "questionId": "jc-q031",
+          "globalId": "exit-ticket-0530",
+          "questionNumber": 1,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What does 'broadcast' do in a magic show?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_MESSAGES"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Sends a message to tell all actors to do something",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Perfect! It's like the magician's secret signal!",
+                "detailed": "Yes! Broadcast sends a message to all actors! When you broadcast 'disappear', any actor listening does their disappear action!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Makes sounds louder",
+              "isCorrect": false,
+              "misconceptionId": "JC_MESSAGES",
+              "feedback": {
+                "short": "Not about volume! Broadcast sends messages between actors!",
+                "detailed": "Broadcast isn't about sound! It's about communication - sending messages from one actor to other actors in your show!",
+                "socraticHint": "Is broadcast about sound levels or sending signals?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Shows the actor on TV",
+              "isCorrect": false,
+              "misconceptionId": "JC_MESSAGES",
+              "feedback": {
+                "short": "Not TV! Broadcast sends messages in your Tynker project!",
+                "detailed": "In coding, broadcast means sending a message to actors in your project! It's like using walkie-talkies, not TV!",
+                "socraticHint": "Are we making TV shows or coordinating actors in code?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Deletes actors from the show",
+              "isCorrect": false,
+              "misconceptionId": "JC_MESSAGES",
+              "feedback": {
+                "short": "It doesn't delete! It sends messages to coordinate actions!",
+                "detailed": "Broadcast is for communication! It tells actors when to act. What they do depends on their code - might hide, move, or anything!",
+                "socraticHint": "Does sending someone a message delete them?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "Sends a message to tell all actors to do something"
+        },
+        {
+          "questionId": "jc-q032",
+          "globalId": "exit-ticket-0531",
+          "questionNumber": 2,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What does 'when I receive' block do?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_MESSAGES"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Waits for a broadcast message, then runs the code",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Yes! It listens for messages like having super ears!",
+                "detailed": "Perfect! When I receive waits for a specific broadcast message, then runs its code! It's like waiting to hear your name called!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Gets mail from the mailbox",
+              "isCorrect": false,
+              "misconceptionId": "JC_MESSAGES",
+              "feedback": {
+                "short": "Not real mail! It receives broadcast messages in code!",
+                "detailed": "When I receive listens for code messages (broadcasts)! It's not about real mail - it's about actors communicating!",
+                "socraticHint": "Are we talking about real mail or messages between actors?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Gives the actor a gift",
+              "isCorrect": false,
+              "misconceptionId": "JC_MESSAGES",
+              "feedback": {
+                "short": "Not gifts! It receives broadcast signals to start actions!",
+                "detailed": "When I receive listens for messages in your code! When it hears the right message, it runs its code - no gifts involved!",
+                "socraticHint": "Does 'receive' mean getting a physical gift or getting a signal?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Stops all the code",
+              "isCorrect": false,
+              "misconceptionId": "JC_MESSAGES",
+              "feedback": {
+                "short": "It doesn't stop! It STARTS code when it gets a message!",
+                "detailed": "When I receive starts code, not stops it! When the message arrives, the code connected to it begins running!",
+                "socraticHint": "When you receive a start signal, do you stop or begin?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "Waits for a broadcast message, then runs the code"
+        },
+        {
+          "questionId": "jc-q033",
+          "globalId": "exit-ticket-0532",
+          "questionNumber": 3,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What does the 'ask and wait' block do?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_MESSAGES"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Asks the player a question and waits for their answer",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! It asks and waits for you to type!",
+                "detailed": "Yes! Ask and wait shows a question to the player, then pauses until they type an answer. Then you can use their answer in your code!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Makes the actor stop moving forever",
+              "isCorrect": false,
+              "misconceptionId": "JC_MESSAGES",
+              "feedback": {
+                "short": "Not forever! It just pauses until you type an answer!",
+                "detailed": "Ask and wait pauses temporarily while waiting for an answer! Once you answer, the code continues - it's not forever!",
+                "socraticHint": "Does waiting for an answer mean stopping forever or pausing temporarily?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Asks another actor to help",
+              "isCorrect": false,
+              "misconceptionId": "JC_MESSAGES",
+              "feedback": {
+                "short": "Not other actors! It asks the PLAYER for input!",
+                "detailed": "Ask and wait talks to you, the player! It asks you questions and waits for your typed answer!",
+                "socraticHint": "Who types the answer - another actor or the person playing?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Makes everything invisible",
+              "isCorrect": false,
+              "misconceptionId": "JC_MESSAGES",
+              "feedback": {
+                "short": "Not about visibility! It asks questions and gets answers!",
+                "detailed": "Ask and wait is for interaction! It asks the player questions and uses their answers - nothing becomes invisible!",
+                "socraticHint": "Does asking a question make things disappear or gather information?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "Asks the player a question and waits for their answer"
+        },
+        {
+          "questionId": "jc-q034",
+          "globalId": "exit-ticket-0533",
+          "questionNumber": 4,
+          "questionType": "explain",
+          "questionArchetype": "explain",
+          "prompt": "How do broadcast and 'when I receive' work together?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_MESSAGES"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "One actor broadcasts a message, other actors receive it and act",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Perfect! It's like walkie-talkies - one talks, others listen!",
+                "detailed": "Exactly! One actor broadcasts (sends) a message, and actors with 'when I receive' listen and do their actions! It's teamwork!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "They both do exactly the same thing",
+              "isCorrect": false,
+              "misconceptionId": "JC_MESSAGES",
+              "feedback": {
+                "short": "They're different! One sends, one receives!",
+                "detailed": "Broadcast SENDS messages and 'when I receive' LISTENS for messages! They work together like a phone call - one person talks, another listens!",
+                "socraticHint": "Can talking and listening be the same thing?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "They make actors move at the same time",
+              "isCorrect": false,
+              "misconceptionId": "JC_MESSAGES",
+              "feedback": {
+                "short": "Not just movement! They coordinate any actions through messages!",
+                "detailed": "They help actors coordinate! Broadcast sends signals, and 'when I receive' responds - could be movement, sounds, effects, anything!",
+                "socraticHint": "Is this about movement specifically or about communication?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "They don't work together at all",
+              "isCorrect": false,
+              "misconceptionId": "JC_MESSAGES",
+              "feedback": {
+                "short": "They're a team! One sends messages, the other receives them!",
+                "detailed": "They're partners! Without broadcast, there's no message. Without 'when I receive', no one listens. They need each other!",
+                "socraticHint": "Can you have a phone call with only one phone?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Explanation",
+          "correctAnswerText": "One actor broadcasts a message, other actors receive it and act"
+        },
+        {
+          "questionId": "jc-q035",
+          "globalId": "exit-ticket-0534",
+          "questionNumber": 5,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What does 'repeat until' block do?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_LOOPS"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Keeps repeating code until something becomes true",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Yes! It keeps trying until the condition is true!",
+                "detailed": "Perfect! Repeat until keeps doing the code inside until something you specify becomes true! Then it stops and moves on!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Repeats forever and never stops",
+              "isCorrect": false,
+              "misconceptionId": "JC_LOOPS",
+              "feedback": {
+                "short": "That's forever! Repeat until stops when condition is true!",
+                "detailed": "Forever never stops! Repeat until is different - it keeps going UNTIL something becomes true, then it stops!",
+                "socraticHint": "What does 'until' mean - forever or up to a certain point?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Repeats only one time",
+              "isCorrect": false,
+              "misconceptionId": "JC_LOOPS",
+              "feedback": {
+                "short": "It repeats multiple times until condition is true!",
+                "detailed": "Repeat until keeps going! It might repeat many times - it stops only when the condition you set becomes true!",
+                "socraticHint": "If you practice 'until' you get it right, do you practice once or keep trying?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Makes everything happen at once",
+              "isCorrect": false,
+              "misconceptionId": "JC_LOOPS",
+              "feedback": {
+                "short": "Not all at once! It repeats over and over until done!",
+                "detailed": "Repeat until does things one after another in a loop! It keeps repeating until the condition is met - not all at once!",
+                "socraticHint": "Does 'repeat' mean do many times or do once all together?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "Keeps repeating code until something becomes true"
+        }
+      ]
+    },
+    {
+      "lessonId": "jc-lesson-8",
+      "lessonNumber": 8,
+      "lessonTitle": "Starry Night & Gotcha",
+      "lessonSlug": "starry-night-and-gotcha",
+      "totalQuestions": 5,
+      "questions": [
+        {
+          "questionId": "jc-q036",
+          "globalId": "exit-ticket-0535",
+          "questionNumber": 1,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What is a clone?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_CLONES"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "A copy of an actor that you can create with code",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Perfect! Clones are like magic copies!",
+                "detailed": "Yes! A clone is a copy of an actor! You can make many stars or enemies by cloning one actor - like making twins with code!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "A type of robot character",
+              "isCorrect": false,
+              "misconceptionId": "JC_CLONES",
+              "feedback": {
+                "short": "Not a robot! Clone means a copy of any actor!",
+                "detailed": "Clone isn't a type of character - it's a COPY! You can clone cats, stars, robots, or any actor you want!",
+                "socraticHint": "Does 'clone' describe what something is or describe making copies?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "A sound effect",
+              "isCorrect": false,
+              "misconceptionId": "JC_CLONES",
+              "feedback": {
+                "short": "Not a sound! Clones are copies of actors!",
+                "detailed": "Clones are visual copies of actors, not sounds! They help you make many stars, enemies, or objects appear!",
+                "socraticHint": "Can you see a clone on screen or only hear it?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "A type of background",
+              "isCorrect": false,
+              "misconceptionId": "JC_CLONES",
+              "feedback": {
+                "short": "Not backgrounds! Clones are copies of actors!",
+                "detailed": "Clones are for actors (characters)! They let you make many copies of one character, like making multiple stars appear!",
+                "socraticHint": "Do clones affect the background or the characters?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "A copy of an actor that you can create with code"
+        },
+        {
+          "questionId": "jc-q037",
+          "globalId": "exit-ticket-0536",
+          "questionNumber": 2,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "Why should you delete clones when you're done with them?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_CLONES"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Too many clones slow down your game",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Yes! Too many clones make the computer work too hard!",
+                "detailed": "Exactly! Too many clones make your game run slow like a snail! Delete old clones to keep everything running fast!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Clones take up space on your desk",
+              "isCorrect": false,
+              "misconceptionId": "JC_CLONES",
+              "feedback": {
+                "short": "Not physical space! They use computer memory!",
+                "detailed": "Clones are digital - they don't take desk space! But too many use up computer memory and slow things down!",
+                "socraticHint": "Are clones real objects or computer data?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "You only get 3 clones total",
+              "isCorrect": false,
+              "misconceptionId": "JC_CLONES",
+              "feedback": {
+                "short": "You can have many more! But clean up old ones to stay fast!",
+                "detailed": "You can make lots of clones! But you should delete old ones you don't need anymore so your game stays fast!",
+                "socraticHint": "Is there a tiny limit or is it about keeping things running smoothly?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Clones are dangerous",
+              "isCorrect": false,
+              "misconceptionId": "JC_CLONES",
+              "feedback": {
+                "short": "Clones are safe! Delete them to keep your game fast, not for safety!",
+                "detailed": "Clones aren't dangerous! We delete old ones to keep the game running smoothly. Too many clones just slow things down!",
+                "socraticHint": "Are clones harmful or just potentially numerous?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "Too many clones slow down your game"
+        },
+        {
+          "questionId": "jc-q038",
+          "globalId": "exit-ticket-0537",
+          "questionNumber": 3,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What do variables help you do in a game?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_VARIABLES"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Keep track of numbers like score or lives",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Perfect! Variables are like magic boxes that remember numbers!",
+                "detailed": "Yes! Variables remember important numbers like your score, how many lives you have, or time left! They're like memory boxes!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Make characters move faster",
+              "isCorrect": false,
+              "misconceptionId": "JC_VARIABLES",
+              "feedback": {
+                "short": "Not about speed! Variables remember numbers like scores!",
+                "detailed": "Variables don't change speed - they REMEMBER numbers! Like keeping track of your score or counting stars collected!",
+                "socraticHint": "Does a scoreboard make you faster or just keep track of points?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Change the background color",
+              "isCorrect": false,
+              "misconceptionId": "JC_VARIABLES",
+              "feedback": {
+                "short": "Not for backgrounds! Variables store and remember numbers!",
+                "detailed": "Variables are for remembering numbers! For backgrounds, you'd use different blocks. Variables track scores, lives, time!",
+                "socraticHint": "Is a variable a visual thing or a memory thing?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Delete all clones",
+              "isCorrect": false,
+              "misconceptionId": "JC_VARIABLES",
+              "feedback": {
+                "short": "Variables don't delete! They remember numbers for you!",
+                "detailed": "Variables store numbers - they don't delete things! Delete clone blocks delete clones. Variables just remember numbers!",
+                "socraticHint": "Does keeping score delete things or just count them?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "Keep track of numbers like score or lives"
+        },
+        {
+          "questionId": "jc-q039",
+          "globalId": "exit-ticket-0538",
+          "questionNumber": 4,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What does 'when occurs' block do?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_EVENTS"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Runs code when something specific happens, like touching another actor",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Yes! It's like a smart alarm that watches for changes!",
+                "detailed": "Perfect! When occurs watches for specific things to happen - like when score changes or when actors touch! Then it runs code!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Happens only one time at the start",
+              "isCorrect": false,
+              "misconceptionId": "JC_EVENTS",
+              "feedback": {
+                "short": "Not just once! It watches and runs whenever the condition is true!",
+                "detailed": "When occurs keeps watching! Every time the condition becomes true (like touching), it runs the code again!",
+                "socraticHint": "If you touch something multiple times, does it only notice once?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Makes random things happen",
+              "isCorrect": false,
+              "misconceptionId": "JC_EVENTS",
+              "feedback": {
+                "short": "Not random! It watches for SPECIFIC things to happen!",
+                "detailed": "When occurs isn't random! It watches for specific conditions you choose - like touching, scoring, or reaching a number!",
+                "socraticHint": "Does 'when occurs' mean random or when a specific condition is met?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Stops all the code forever",
+              "isCorrect": false,
+              "misconceptionId": "JC_EVENTS",
+              "feedback": {
+                "short": "It doesn't stop! It STARTS code when conditions are met!",
+                "detailed": "When occurs triggers code to run! It doesn't stop things - it's an event that makes specific code start!",
+                "socraticHint": "Does 'when' something happens mean stop or start an action?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "Runs code when something specific happens, like touching another actor"
+        },
+        {
+          "questionId": "jc-q040",
+          "globalId": "exit-ticket-0539",
+          "questionNumber": 5,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What does 'pick random' do?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_RANDOM"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Chooses a surprise number between two numbers you pick",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Yes! It's like rolling dice - you get a surprise number!",
+                "detailed": "Perfect! Pick random chooses a surprise number between your min and max! Great for making stars appear in different spots!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Always picks the same number",
+              "isCorrect": false,
+              "misconceptionId": "JC_RANDOM",
+              "feedback": {
+                "short": "Opposite! Random means different each time!",
+                "detailed": "Random means surprise! It picks different numbers each time, like rolling dice. That's what makes games fun and unpredictable!",
+                "socraticHint": "Does 'random' mean the same every time or different?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Picks the biggest number possible",
+              "isCorrect": false,
+              "misconceptionId": "JC_RANDOM",
+              "feedback": {
+                "short": "Not always biggest! It picks ANY number in the range!",
+                "detailed": "Pick random can choose any number between your min and max! Could be big, small, or in the middle - it's a surprise!",
+                "socraticHint": "If you roll dice, do you always get the biggest number?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Deletes random actors",
+              "isCorrect": false,
+              "misconceptionId": "JC_RANDOM",
+              "feedback": {
+                "short": "It doesn't delete! It picks surprise numbers!",
+                "detailed": "Pick random is for numbers! It helps you create variety by choosing random positions, sizes, or values - nothing gets deleted!",
+                "socraticHint": "Does 'pick' mean delete or choose?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "Chooses a surprise number between two numbers you pick"
+        }
+      ]
+    },
+    {
+      "lessonId": "jc-lesson-9",
+      "lessonNumber": 9,
+      "lessonTitle": "Debugging Challenge",
+      "lessonSlug": "debugging-challenge",
+      "totalQuestions": 5,
+      "questions": [
+        {
+          "questionId": "jc-q041",
+          "globalId": "exit-ticket-0540",
+          "questionNumber": 1,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What does 'debugging' mean?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_DEBUGGING"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Finding and fixing problems in your code",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Yes! Debugging is being a code detective!",
+                "detailed": "Perfect! Debugging means finding bugs (mistakes) in your code and fixing them! Like being a detective who solves code mysteries!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Getting rid of real bugs and insects",
+              "isCorrect": false,
+              "misconceptionId": "JC_DEBUGGING",
+              "feedback": {
+                "short": "Not real bugs! Code bugs are mistakes in programs!",
+                "detailed": "The word comes from a real moth Grace Hopper found! But now 'debugging' means fixing code mistakes, not catching bugs!",
+                "socraticHint": "Are we talking about insects or code problems?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Making your code more colorful",
+              "isCorrect": false,
+              "misconceptionId": "JC_DEBUGGING",
+              "feedback": {
+                "short": "Not about colors! Debugging means finding and fixing mistakes!",
+                "detailed": "Debugging is about fixing problems so your code works correctly! Colors might be pretty, but debugging is about function!",
+                "socraticHint": "Does 'bug' refer to mistakes or decorations?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Deleting all your code to start over",
+              "isCorrect": false,
+              "misconceptionId": "JC_DEBUGGING",
+              "feedback": {
+                "short": "Don't delete everything! Debugging means FIXING problems!",
+                "detailed": "Debugging is about finding what's wrong and fixing just that part! You keep your good code and only fix the bugs!",
+                "socraticHint": "If your toy breaks, do you fix it or throw away all your toys?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "Finding and fixing problems in your code"
+        },
+        {
+          "questionId": "jc-q042",
+          "globalId": "exit-ticket-0541",
+          "questionNumber": 2,
+          "questionType": "debug",
+          "questionArchetype": "debug",
+          "prompt": "Your code isn't working when you click the green flag. What should you check first?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_DEBUGGING"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Check if you have an 'On Start' event block connected",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Yes! No event = no action!",
+                "detailed": "Perfect detective work! Code needs an event block to start! 'On Start' tells the code to run when you click the green flag!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Delete all your code immediately",
+              "isCorrect": false,
+              "misconceptionId": "JC_DEBUGGING",
+              "feedback": {
+                "short": "Don't delete! Check if blocks are connected first!",
+                "detailed": "Never delete everything! First check if your blocks are connected to an event. Often the code is good, just not connected!",
+                "socraticHint": "Should you throw away a toy or first check if the batteries are in?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Change all the colors",
+              "isCorrect": false,
+              "misconceptionId": "JC_DEBUGGING",
+              "feedback": {
+                "short": "Colors aren't the problem! Check your event blocks!",
+                "detailed": "Colors don't affect how code works! If code isn't starting, check if you have an event block like 'On Start' connected!",
+                "socraticHint": "Does changing colors make code run or just look different?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Add more actors to the stage",
+              "isCorrect": false,
+              "misconceptionId": "JC_DEBUGGING",
+              "feedback": {
+                "short": "More actors won't help! Check if your code has an event!",
+                "detailed": "Adding actors won't fix it! The problem is your code isn't starting. Make sure it has an 'On Start' event block!",
+                "socraticHint": "If a car won't start, does adding more cars help?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Debugging",
+          "correctAnswerText": "Check if you have an 'On Start' event block connected"
+        },
+        {
+          "questionId": "jc-q043",
+          "globalId": "exit-ticket-0542",
+          "questionNumber": 3,
+          "questionType": "debug",
+          "questionArchetype": "debug",
+          "prompt": "Too many clones appeared and your game is slow! What should you do?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_CLONES"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Add 'delete this clone' when you're done with each clone",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Perfect! Clean up old clones to keep games fast!",
+                "detailed": "Great debugging! Deleting clones when you're done with them keeps your game running fast. Like cleaning up toys!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Make even more clones to fix it",
+              "isCorrect": false,
+              "misconceptionId": "JC_CLONES",
+              "feedback": {
+                "short": "That makes it worse! Delete old clones instead!",
+                "detailed": "More clones make it slower! The solution is to delete clones you don't need anymore with 'delete this clone' block!",
+                "socraticHint": "If your room is too messy, does adding more toys help?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Change the background color",
+              "isCorrect": false,
+              "misconceptionId": "JC_CLONES",
+              "feedback": {
+                "short": "Background won't help! Delete unused clones!",
+                "detailed": "Background color doesn't affect speed! Too many clones slow things down - delete old ones with 'delete this clone'!",
+                "socraticHint": "Does changing wallpaper clean up a messy room?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Hide all the clones",
+              "isCorrect": false,
+              "misconceptionId": "JC_CLONES",
+              "feedback": {
+                "short": "Hiding doesn't help! You need to DELETE them!",
+                "detailed": "Hiding clones still keeps them in memory! Use 'delete this clone' to actually remove them and speed things up!",
+                "socraticHint": "If toys are making a room crowded, does hiding them create more space?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Debugging",
+          "correctAnswerText": "Add 'delete this clone' when you're done with each clone"
+        },
+        {
+          "questionId": "jc-q044",
+          "globalId": "exit-ticket-0543",
+          "questionNumber": 4,
+          "questionType": "explain",
+          "questionArchetype": "explain",
+          "prompt": "Why is debugging an important skill?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_DEBUGGING"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Everyone makes mistakes, and debugging helps you fix them",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Yes! Even expert coders debug - mistakes help us learn!",
+                "detailed": "Perfect! Every programmer finds bugs in their code! Debugging helps you fix problems and learn from mistakes. It's a superpower!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "So you never make any mistakes",
+              "isCorrect": false,
+              "misconceptionId": "JC_DEBUGGING",
+              "feedback": {
+                "short": "We all make mistakes! Debugging helps us FIX them!",
+                "detailed": "Making mistakes is normal and OK! Debugging is about finding and fixing bugs when they happen. That's how we learn!",
+                "socraticHint": "Do professional programmers never have bugs or do they just know how to fix them?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Only beginners need to debug",
+              "isCorrect": false,
+              "misconceptionId": "JC_DEBUGGING",
+              "feedback": {
+                "short": "Even experts debug! Everyone's code has bugs sometimes!",
+                "detailed": "Debugging is for everyone! Even professional programmers debug every day. It's a key skill at every level!",
+                "socraticHint": "Do professional athletes never make mistakes or do they practice fixing them?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "To make your code look prettier",
+              "isCorrect": false,
+              "misconceptionId": "JC_DEBUGGING",
+              "feedback": {
+                "short": "Not about looks! Debugging makes code WORK correctly!",
+                "detailed": "Debugging is about function, not appearance! It's finding and fixing problems so your code does what you want!",
+                "socraticHint": "Is debugging about how code looks or how it works?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Explanation",
+          "correctAnswerText": "Everyone makes mistakes, and debugging helps you fix them"
+        },
+        {
+          "questionId": "jc-q045",
+          "globalId": "exit-ticket-0544",
+          "questionNumber": 5,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What should you do when you find a bug in your code?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "JC_DEBUGGING"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Stay calm, test one thing at a time, and fix it step by step",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Perfect approach! You're a debugging superstar!",
+                "detailed": "Exactly! Good debugging means: Look at the problem, think about why, test one change, fix it, celebrate! You're doing great!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Give up and start a new project",
+              "isCorrect": false,
+              "misconceptionId": "JC_DEBUGGING",
+              "feedback": {
+                "short": "Don't give up! Bugs are puzzles you can solve!",
+                "detailed": "Every coder faces bugs! They're not scary - they're puzzles! Take your time, test things, and you'll fix it! You can do it!",
+                "socraticHint": "Do you throw away a puzzle if it's hard, or keep trying?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Delete everything and cry",
+              "isCorrect": false,
+              "misconceptionId": "JC_DEBUGGING",
+              "feedback": {
+                "short": "Bugs are normal! Stay positive and fix them step by step!",
+                "detailed": "Finding bugs is part of coding! They help us learn! Take a breath, look at the problem calmly, and fix it one step at a time!",
+                "socraticHint": "When a toy breaks, do you throw it away or try to fix it?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Ignore it and hope it goes away",
+              "isCorrect": false,
+              "misconceptionId": "JC_DEBUGGING",
+              "feedback": {
+                "short": "Bugs don't disappear! But you can fix them!",
+                "detailed": "Bugs stay until you fix them! Good news - you have the power to fix bugs! Look at them, test solutions, and solve them!",
+                "socraticHint": "If your bike has a flat tire, does ignoring it fix it?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "jc"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "Stay calm, test one thing at a time, and fix it step by step"
+        }
+      ]
+    }
+  ],
+  "totalLessons": 9,
+  "totalQuestions": 45,
+  "staticVersion": "1.0.0",
+  "generatedAt": "2025-12-24T00:53:48.722Z"
+}

@@ -1,0 +1,247 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-24",
+  "schemaVersion": "1.0",
+  "totalCourses": 17,
+  "totalLessons": 229,
+  "totalQuestions": 1145,
+  "courses": [
+    {
+      "courseId": "ai-1",
+      "courseCode": "AI1",
+      "courseName": "AI-1 Data Analysis and Data Science",
+      "domain": "ai_data_science",
+      "tier": "intermediate",
+      "difficulty": 2,
+      "totalLessons": 20,
+      "totalQuestions": 100,
+      "dataFile": "courses/AI1.json"
+    },
+    {
+      "courseId": "ai-2",
+      "courseCode": "AI2",
+      "courseName": "AI-2 Artificial Intelligence, Machine Learning & Computer Vision",
+      "domain": "ai_ml_cv",
+      "tier": "advanced",
+      "difficulty": 3,
+      "totalLessons": 18,
+      "totalQuestions": 90,
+      "dataFile": "courses/AI2.json"
+    },
+    {
+      "courseId": "ai-3",
+      "courseCode": "AI3",
+      "courseName": "AI-3 Application of Generative AI",
+      "domain": "ai_generative",
+      "tier": "advanced",
+      "difficulty": 3,
+      "totalLessons": 9,
+      "totalQuestions": 45,
+      "dataFile": "courses/AI3.json"
+    },
+    {
+      "courseId": "bbd-block-design-figma",
+      "courseCode": "BBD",
+      "courseName": "BBD-Block-based Design with Figma",
+      "domain": "design",
+      "tier": "beginner",
+      "difficulty": 2,
+      "totalLessons": 14,
+      "totalQuestions": 70,
+      "dataFile": "courses/BBD.json"
+    },
+    {
+      "courseId": "bbp-block-python",
+      "courseCode": "BBP",
+      "courseName": "BBP-Block-based Python",
+      "domain": "python_programming",
+      "tier": "intermediate",
+      "difficulty": 2,
+      "totalLessons": 12,
+      "totalQuestions": 60,
+      "dataFile": "courses/BBP.json"
+    },
+    {
+      "courseId": "bbw-block-web-edublocks",
+      "courseCode": "BBW",
+      "courseName": "BBW-Web Development with EduBlocks",
+      "domain": "web_development",
+      "tier": "beginner",
+      "difficulty": 2,
+      "totalLessons": 15,
+      "totalQuestions": 75,
+      "dataFile": "courses/BBW.json"
+    },
+    {
+      "courseId": "f1-foundation-creative-computing",
+      "courseCode": "F1",
+      "courseName": "F1-Foundation of Creative Computing",
+      "domain": "creative_computing",
+      "tier": "foundation",
+      "difficulty": 1,
+      "totalLessons": 8,
+      "totalQuestions": 40,
+      "dataFile": "courses/F1.json"
+    },
+    {
+      "courseId": "f2-mobile-cs-principles",
+      "courseCode": "F2",
+      "courseName": "F2-Mobile Computer Science Principles",
+      "domain": "mobile_development",
+      "tier": "intermediate",
+      "difficulty": 2,
+      "totalLessons": 11,
+      "totalQuestions": 55,
+      "dataFile": "courses/F2.json"
+    },
+    {
+      "courseId": "jc-junior-creator",
+      "courseCode": "JC",
+      "courseName": "JC-Junior Creator",
+      "domain": "creative_computing",
+      "tier": "foundation",
+      "difficulty": 1,
+      "totalLessons": 9,
+      "totalQuestions": 45,
+      "dataFile": "courses/JC.json"
+    },
+    {
+      "courseId": "m1-mobile-i-love",
+      "courseCode": "M1",
+      "courseName": "M1-Mobile Apps I Love",
+      "domain": "mobile_development",
+      "tier": "intermediate",
+      "difficulty": 3,
+      "totalLessons": 18,
+      "totalQuestions": 90,
+      "dataFile": "courses/M1.json"
+    },
+    {
+      "courseId": "m2-mobile-we-need",
+      "courseCode": "M2",
+      "courseName": "M2-Mobile Apps We Need",
+      "domain": "mobile_development",
+      "tier": "advanced",
+      "difficulty": 4,
+      "totalLessons": 12,
+      "totalQuestions": 60,
+      "dataFile": "courses/M2.json"
+    },
+    {
+      "courseId": "m3-mobile-intelligence",
+      "courseCode": "M3",
+      "courseName": "M3-Mobile Intelligence",
+      "domain": "mobile_development",
+      "tier": "advanced",
+      "difficulty": "intermediate-advanced",
+      "totalLessons": 17,
+      "totalQuestions": 85,
+      "dataFile": "courses/M3.json"
+    },
+    {
+      "courseId": "web-1",
+      "courseCode": "W1",
+      "courseName": "Web-1 Front-end Design & User Experience",
+      "domain": "web_development",
+      "tier": "intermediate",
+      "difficulty": 2,
+      "totalLessons": 14,
+      "totalQuestions": 70,
+      "dataFile": "courses/W1.json"
+    },
+    {
+      "courseId": "web-2",
+      "courseCode": "W2",
+      "courseName": "Web-2 Advanced JavaScript Foundations",
+      "domain": "web_development",
+      "tier": "intermediate",
+      "difficulty": 3,
+      "totalLessons": 10,
+      "totalQuestions": 50,
+      "dataFile": "courses/W2.json"
+    },
+    {
+      "courseId": "web-3",
+      "courseCode": "W3",
+      "courseName": "Web-3 Server-Side Development & Authentication",
+      "domain": "web_development",
+      "tier": "advanced",
+      "difficulty": 4,
+      "totalLessons": 11,
+      "totalQuestions": 55,
+      "dataFile": "courses/W3.json"
+    },
+    {
+      "courseId": "web-3-5",
+      "courseCode": "W35",
+      "courseName": "Web-3.5 API Integration Mastery",
+      "domain": "web_development",
+      "tier": "advanced",
+      "difficulty": 4,
+      "totalLessons": 12,
+      "totalQuestions": 60,
+      "dataFile": "courses/W35.json"
+    },
+    {
+      "courseId": "web-4",
+      "courseCode": "W4",
+      "courseName": "Web-4 Database Fundamentals",
+      "domain": "web_development",
+      "tier": "advanced",
+      "difficulty": 4,
+      "totalLessons": 19,
+      "totalQuestions": 95,
+      "dataFile": "courses/W4.json"
+    }
+  ],
+  "statistics": {
+    "questionTypeDistribution": {
+      "vocabulary": 266,
+      "code_understanding": 183,
+      "problem_solving": 183,
+      "application": 183,
+      "reflection": 183,
+      "predict": 37,
+      "debug": 29,
+      "blockmodel": 21,
+      "trace": 41,
+      "bebras": 13,
+      "explain": 6
+    },
+    "difficultyDistribution": {
+      "easy": 385,
+      "medium": 503,
+      "hard": 172,
+      "remember": 16,
+      "understand": 16,
+      "apply": 26,
+      "analyze": 20,
+      "evaluate": 7
+    },
+    "bloomsTaxonomyDistribution": {
+      "remember": 329,
+      "understand": 274,
+      "apply": 253,
+      "analyze": 106,
+      "evaluate": 183
+    },
+    "codeBlockStats": {
+      "withCode": 141,
+      "withoutCode": 1004,
+      "languages": {
+        "python": 55,
+        "bash": 1,
+        "jsx": 12,
+        "javascript": 30,
+        "typescript": 12,
+        "html": 4,
+        "css": 1,
+        "svelte": 6,
+        "plaintext": 2,
+        "sql": 16,
+        "yaml": 1,
+        "markdown": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,3315 @@
+{
+  "courseId": "ai-3",
+  "courseName": "AI-3 Application of Generative AI",
+  "courseCode": "AI3",
+  "domain": "ai_generative",
+  "tier": "advanced",
+  "difficulty": 3,
+  "totalLessons": 9,
+  "totalQuestions": 45,
+  "sourceFile": "AI-3-Generative-AI-MCQ.md",
+  "lessons": [
+    {
+      "lessonId": "ai-3-lesson-1",
+      "lessonNumber": 1,
+      "lessonTitle": "Introduction to Generative AI & Core Concepts\n\n### Q1: Vocabulary/Concepts\nHow does generative AI differ from traditional AI?\nA) Generative AI is faster than traditional AI\nB) Generative AI creates new content, traditional AI analyzes existing data ✓\nC) Traditional AI is more accurate than generative AI\nD) There is no difference between them\n\n### Q2: Code Understanding\nWhat makes this prompt structure effective?\n```\nContext: You are a helpful writing assistant for students.\nInstruction: Please summarize the following article in exactly 3 bullet points.\nInput: [Article text about climate change impacts]\nOutput Format: • [Point 1] • [Point 2] • [Point 3]\n```\nA) It's very short and simple\nB) It provides context, clear instructions, specific format, and structure ✓\nC) It uses complex technical language\nD) It doesn't give any examples\n\n### Q3: Problem-Solving\nWhat steps ensure responsible use of generative AI for research papers?\nA) Use AI-generated content without checking\nB) Fact-check AI content, cite sources, check for bias, be transparent about AI use ✓\nC) Copy AI responses directly\nD) Never mention using AI\n\n### Q4: Application\nWhat would be a good educational application of generative AI?\nA) Replacing all teachers with AI\nB) Personalized tutoring systems that adapt to individual learning needs ✓\nC) AI doing all homework for students\nD) Eliminating the need for textbooks\n\n### Q5: Reflection/Meta-learning\nHow should we view the relationship between human creativity and AI?\nA) AI will completely replace human creativity\nB) AI is a creative tool that enhances human capabilities ✓\nC) Human creativity is no longer important\nD) AI and humans should never work together\n\n---",
+      "lessonSlug": "introduction-to-generative-ai-core-concepts-q1-vocabularyconcepts-how-does-generative-ai-differ-from-traditional-ai-a-generative-ai-is-faster-than-traditional-ai-b-generative-ai-creates-new-content-traditional-ai-analyzes-existing-data-c-traditional-ai-is-more-accurate-than-generative-ai-d-there-is-no-difference-between-them-q2-code-understanding-what-makes-this-prompt-structure-effective-context-you-are-a-helpful-writing-assistant-for-students-instruction-please-summarize-the-following-article-in-exactly-3-bullet-points-input-article-text-about-climate-change-impacts-output-format-point-1-point-2-point-3-a-its-very-short-and-simple-b-it-provides-context-clear-instructions-specific-format-and-structure-c-it-uses-complex-technical-language-d-it-doesnt-give-any-examples-q3-problem-solving-what-steps-ensure-responsible-use-of-generative-ai-for-research-papers-a-use-ai-generated-content-without-checking-b-fact-check-ai-content-cite-sources-check-for-bias-be-transparent-about-ai-use-c-copy-ai-responses-directly-d-never-mention-using-ai-q4-application-what-would-be-a-good-educational-application-of-generative-ai-a-replacing-all-teachers-with-ai-b-personalized-tutoring-systems-that-adapt-to-individual-learning-needs-c-ai-doing-all-homework-for-students-d-eliminating-the-need-for-textbooks-q5-reflectionmeta-learning-how-should-we-view-the-relationship-between-human-creativity-and-ai-a-ai-will-completely-replace-human-creativity-b-ai-is-a-creative-tool-that-enhances-human-capabilities-c-human-creativity-is-no-longer-important-d-ai-and-humans-should-never-work-together",
+      "totalQuestions": 5,
+      "questions": [
+        {
+          "questionId": "ai-3-l1-q1",
+          "globalId": "exit-ticket-0541",
+          "questionNumber": 1,
+          "questionType": "vocabulary",
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "prompt": "How does generative AI differ from traditional AI?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "options": [
+            {
+              "key": "A",
+              "text": "Generative AI is faster than traditional AI",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What would happen if this were true in real-world scenarios?"
+            },
+            {
+              "key": "B",
+              "text": "Generative AI creates new content, traditional AI analyzes existing data",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "Traditional AI is more accurate than generative AI",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Think about the fundamental purpose of this technology."
+            },
+            {
+              "key": "D",
+              "text": "There is no difference between them",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Consider what the definition actually means in practice."
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "Generative AI creates new content, traditional AI analyzes existing data",
+          "metadata": {
+            "difficulty": "easy",
+            "estimatedTime": 30,
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "generative-ai",
+              "llm"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_TRADITIONAL_VS_GENERATIVE",
+            "AI3_AI_CAPABILITIES"
+          ]
+        },
+        {
+          "questionId": "ai-3-l1-q2",
+          "globalId": "exit-ticket-0542",
+          "questionNumber": 2,
+          "questionType": "code_understanding",
+          "questionTypeLabel": "Code Understanding",
+          "prompt": "What makes this prompt structure effective?",
+          "hasCodeBlock": true,
+          "codeLanguage": "python",
+          "codeContent": "Context: You are a helpful writing assistant for students.\nInstruction: Please summarize the following article in exactly 3 bullet points.\nInput: [Article text about climate change impacts]\nOutput Format: • [Point 1] • [Point 2] • [Point 3]",
+          "options": [
+            {
+              "key": "A",
+              "text": "It's very short and simple",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What would happen if this were true in real-world scenarios?"
+            },
+            {
+              "key": "B",
+              "text": "It provides context, clear instructions, specific format, and structure",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "It uses complex technical language",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What would happen if this were true in real-world scenarios?"
+            },
+            {
+              "key": "D",
+              "text": "It doesn't give any examples",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What is the key difference between these concepts?"
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "It provides context, clear instructions, specific format, and structure",
+          "metadata": {
+            "difficulty": "medium",
+            "estimatedTime": 60,
+            "bloomsTaxonomy": "understand",
+            "tags": [
+              "python",
+              "prompt-engineering",
+              "generative-ai"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_PROMPT_ENGINEERING",
+            "AI3_PROMPT_STRUCTURE"
+          ]
+        },
+        {
+          "questionId": "ai-3-l1-q3",
+          "globalId": "exit-ticket-0543",
+          "questionNumber": 3,
+          "questionType": "problem_solving",
+          "questionTypeLabel": "Problem-Solving",
+          "prompt": "What steps ensure responsible use of generative AI for research papers?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "options": [
+            {
+              "key": "A",
+              "text": "Use AI-generated content without checking",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Think about the fundamental purpose of this technology."
+            },
+            {
+              "key": "B",
+              "text": "Fact-check AI content, cite sources, check for bias, be transparent about AI use",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "Copy AI responses directly",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What is the key difference between these concepts?"
+            },
+            {
+              "key": "D",
+              "text": "Never mention using AI",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Review the core principles discussed in the lesson."
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "Fact-check AI content, cite sources, check for bias, be transparent about AI use",
+          "metadata": {
+            "difficulty": "medium",
+            "estimatedTime": 90,
+            "bloomsTaxonomy": "apply",
+            "tags": [
+              "generative-ai",
+              "llm"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_RESPONSIBLE_AI_USE",
+            "AI3_FACT_CHECKING",
+            "AI3_CITATION_ETHICS"
+          ]
+        },
+        {
+          "questionId": "ai-3-l1-q4",
+          "globalId": "exit-ticket-0544",
+          "questionNumber": 4,
+          "questionType": "application",
+          "questionTypeLabel": "Application",
+          "prompt": "What would be a good educational application of generative AI?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "options": [
+            {
+              "key": "A",
+              "text": "Replacing all teachers with AI",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What is the key difference between these concepts?"
+            },
+            {
+              "key": "B",
+              "text": "Personalized tutoring systems that adapt to individual learning needs",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "AI doing all homework for students",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Think about the fundamental purpose of this technology."
+            },
+            {
+              "key": "D",
+              "text": "Eliminating the need for textbooks",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What is the key difference between these concepts?"
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "Personalized tutoring systems that adapt to individual learning needs",
+          "metadata": {
+            "difficulty": "hard",
+            "estimatedTime": 90,
+            "bloomsTaxonomy": "analyze",
+            "tags": [
+              "generative-ai",
+              "llm"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_EDUCATIONAL_APPLICATIONS",
+            "AI3_AI_AUTOMATION_LIMITS"
+          ]
+        },
+        {
+          "questionId": "ai-3-l1-q5",
+          "globalId": "exit-ticket-0545",
+          "questionNumber": 5,
+          "questionType": "reflection",
+          "questionTypeLabel": "Reflection/Meta-learning",
+          "prompt": "How should we view the relationship between human creativity and AI?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "options": [
+            {
+              "key": "A",
+              "text": "AI will completely replace human creativity",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Think about the fundamental purpose of this technology."
+            },
+            {
+              "key": "B",
+              "text": "AI is a creative tool that enhances human capabilities",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "Human creativity is no longer important",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Think about the fundamental purpose of this technology."
+            },
+            {
+              "key": "D",
+              "text": "AI and humans should never work together",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Consider what the definition actually means in practice."
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "AI is a creative tool that enhances human capabilities",
+          "metadata": {
+            "difficulty": "easy",
+            "estimatedTime": 60,
+            "bloomsTaxonomy": "evaluate",
+            "tags": [
+              "artificial-intelligence",
+              "ai"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_HUMAN_AI_COLLABORATION",
+            "AI3_CREATIVITY_MISCONCEPTION"
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "ai-3-lesson-2",
+      "lessonNumber": 2,
+      "lessonTitle": "Data, Training & Bias in AI\n\n### Q1: Vocabulary/Concepts\nHow do training data, bias, and data quality relate to each other?\nA) They are completely separate concepts\nB) Poor quality or biased training data leads to biased AI models ✓\nC) Only data quality matters for AI performance\nD) Bias has no effect on AI models\n\n### Q2: Code Understanding\nWhat problems might this data filtering create?\n```python\ntraining_data = original_dataset.filter(\n    lambda x: x['language'] == 'English' and \n              x['age_group'] == 'adult' and\n              x['education_level'] == 'college'\n)\n```\nA) No problems, this filtering is perfect\nB) Creates bias against non-English speakers, children/elderly, non-college educated ✓\nC) Only improves data quality\nD) Makes the model run faster\n\n### Q3: Problem-Solving\nHow would you address bias in a job recommendation AI system?\nA) Ignore the bias, it will fix itself\nB) Analyze outcomes across demographics, audit training data, implement fairness metrics ✓\nC) Only use data from one demographic group\nD) Remove all demographic information\n\n### Q4: Application\nHow would you ensure diversity in training data for a global educational platform?\nA) Use only English language data\nB) Collect multi-language data, ensure cultural representation, test across diverse groups ✓\nC) Focus on one culture only\nD) Use the same data for all regions\n\n### Q5: Reflection/Meta-learning\nHow does experiencing biased AI systems change your perspective on AI fairness?\nA) Bias doesn't matter in AI systems\nB) Shows the importance of diverse and representative AI development ✓\nC) Bias only affects certain people\nD) AI bias is impossible to fix\n\n---",
+      "lessonSlug": "data-training-bias-in-ai-q1-vocabularyconcepts-how-do-training-data-bias-and-data-quality-relate-to-each-other-a-they-are-completely-separate-concepts-b-poor-quality-or-biased-training-data-leads-to-biased-ai-models-c-only-data-quality-matters-for-ai-performance-d-bias-has-no-effect-on-ai-models-q2-code-understanding-what-problems-might-this-data-filtering-create-python-training_data-original_datasetfilter-lambda-x-xlanguage-english-and-xage_group-adult-and-xeducation_level-college-a-no-problems-this-filtering-is-perfect-b-creates-bias-against-non-english-speakers-childrenelderly-non-college-educated-c-only-improves-data-quality-d-makes-the-model-run-faster-q3-problem-solving-how-would-you-address-bias-in-a-job-recommendation-ai-system-a-ignore-the-bias-it-will-fix-itself-b-analyze-outcomes-across-demographics-audit-training-data-implement-fairness-metrics-c-only-use-data-from-one-demographic-group-d-remove-all-demographic-information-q4-application-how-would-you-ensure-diversity-in-training-data-for-a-global-educational-platform-a-use-only-english-language-data-b-collect-multi-language-data-ensure-cultural-representation-test-across-diverse-groups-c-focus-on-one-culture-only-d-use-the-same-data-for-all-regions-q5-reflectionmeta-learning-how-does-experiencing-biased-ai-systems-change-your-perspective-on-ai-fairness-a-bias-doesnt-matter-in-ai-systems-b-shows-the-importance-of-diverse-and-representative-ai-development-c-bias-only-affects-certain-people-d-ai-bias-is-impossible-to-fix",
+      "totalQuestions": 5,
+      "questions": [
+        {
+          "questionId": "ai-3-l2-q1",
+          "globalId": "exit-ticket-0546",
+          "questionNumber": 1,
+          "questionType": "vocabulary",
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "prompt": "How do training data, bias, and data quality relate to each other?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "options": [
+            {
+              "key": "A",
+              "text": "They are completely separate concepts",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What would happen if this were true in real-world scenarios?"
+            },
+            {
+              "key": "B",
+              "text": "Poor quality or biased training data leads to biased AI models",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "Only data quality matters for AI performance",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Review the core principles discussed in the lesson."
+            },
+            {
+              "key": "D",
+              "text": "Bias has no effect on AI models",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Consider what the definition actually means in practice."
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "Poor quality or biased training data leads to biased AI models",
+          "metadata": {
+            "difficulty": "easy",
+            "estimatedTime": 30,
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "bias",
+              "ethics",
+              "fairness"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_PROMPT_CLARITY",
+            "AI3_PROMPT_ENGINEERING"
+          ]
+        },
+        {
+          "questionId": "ai-3-l2-q2",
+          "globalId": "exit-ticket-0547",
+          "questionNumber": 2,
+          "questionType": "code_understanding",
+          "questionTypeLabel": "Code Understanding",
+          "prompt": "What problems might this data filtering create?",
+          "hasCodeBlock": true,
+          "codeLanguage": "python",
+          "codeContent": "training_data = original_dataset.filter(\n    lambda x: x['language'] == 'English' and \n              x['age_group'] == 'adult' and\n              x['education_level'] == 'college'\n)",
+          "options": [
+            {
+              "key": "A",
+              "text": "No problems, this filtering is perfect",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Review the core principles discussed in the lesson."
+            },
+            {
+              "key": "B",
+              "text": "Creates bias against non-English speakers, children/elderly, non-college educated",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "Only improves data quality",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What is the key difference between these concepts?"
+            },
+            {
+              "key": "D",
+              "text": "Makes the model run faster",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Review the core principles discussed in the lesson."
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "Creates bias against non-English speakers, children/elderly, non-college educated",
+          "metadata": {
+            "difficulty": "medium",
+            "estimatedTime": 60,
+            "bloomsTaxonomy": "understand",
+            "tags": [
+              "python"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_ZERO_SHOT_LEARNING",
+            "AI3_PROMPT_TYPES"
+          ]
+        },
+        {
+          "questionId": "ai-3-l2-q3",
+          "globalId": "exit-ticket-0548",
+          "questionNumber": 3,
+          "questionType": "problem_solving",
+          "questionTypeLabel": "Problem-Solving",
+          "prompt": "How would you address bias in a job recommendation AI system?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "options": [
+            {
+              "key": "A",
+              "text": "Ignore the bias, it will fix itself",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Review the core principles discussed in the lesson."
+            },
+            {
+              "key": "B",
+              "text": "Analyze outcomes across demographics, audit training data, implement fairness metrics",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "Only use data from one demographic group",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Review the core principles discussed in the lesson."
+            },
+            {
+              "key": "D",
+              "text": "Remove all demographic information",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Think about the fundamental purpose of this technology."
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "Analyze outcomes across demographics, audit training data, implement fairness metrics",
+          "metadata": {
+            "difficulty": "medium",
+            "estimatedTime": 90,
+            "bloomsTaxonomy": "apply",
+            "tags": [
+              "bias",
+              "ethics",
+              "fairness"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_PROMPT_REFINEMENT",
+            "AI3_ITERATIVE_PROMPTING"
+          ]
+        },
+        {
+          "questionId": "ai-3-l2-q4",
+          "globalId": "exit-ticket-0549",
+          "questionNumber": 4,
+          "questionType": "application",
+          "questionTypeLabel": "Application",
+          "prompt": "How would you ensure diversity in training data for a global educational platform?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "options": [
+            {
+              "key": "A",
+              "text": "Use only English language data",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Review the core principles discussed in the lesson."
+            },
+            {
+              "key": "B",
+              "text": "Collect multi-language data, ensure cultural representation, test across diverse groups",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "Focus on one culture only",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Review the core principles discussed in the lesson."
+            },
+            {
+              "key": "D",
+              "text": "Use the same data for all regions",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What is the key difference between these concepts?"
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "Collect multi-language data, ensure cultural representation, test across diverse groups",
+          "metadata": {
+            "difficulty": "hard",
+            "estimatedTime": 90,
+            "bloomsTaxonomy": "analyze",
+            "tags": [
+              "artificial-intelligence",
+              "ai"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_TEMPERATURE_PARAMETER",
+            "AI3_MODEL_PARAMETERS"
+          ]
+        },
+        {
+          "questionId": "ai-3-l2-q5",
+          "globalId": "exit-ticket-0550",
+          "questionNumber": 5,
+          "questionType": "reflection",
+          "questionTypeLabel": "Reflection/Meta-learning",
+          "prompt": "How does experiencing biased AI systems change your perspective on AI fairness?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "options": [
+            {
+              "key": "A",
+              "text": "Bias doesn't matter in AI systems",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What would happen if this were true in real-world scenarios?"
+            },
+            {
+              "key": "B",
+              "text": "Shows the importance of diverse and representative AI development",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "Bias only affects certain people",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What is the key difference between these concepts?"
+            },
+            {
+              "key": "D",
+              "text": "AI bias is impossible to fix",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Consider what the definition actually means in practice."
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "Shows the importance of diverse and representative AI development",
+          "metadata": {
+            "difficulty": "easy",
+            "estimatedTime": 60,
+            "bloomsTaxonomy": "evaluate",
+            "tags": [
+              "bias",
+              "ethics",
+              "fairness"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_PROMPT_DEBUGGING",
+            "AI3_OUTPUT_QUALITY"
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "ai-3-lesson-3",
+      "lessonNumber": 3,
+      "lessonTitle": "Word Representations – Embeddings & Neural Networks\n\n### Q1: Vocabulary/Concepts\nHow do word embeddings and neural networks work together for language understanding?\nA) They work independently without interaction\nB) Embeddings convert words to numbers that neural networks can process for meaning ✓\nC) Neural networks replace the need for embeddings\nD) Embeddings only work with traditional programming\n\n### Q2: Code Understanding\nWhat does this word vector arithmetic demonstrate?\n```python\n# king - man + woman ≈ queen\nresult = subtract(add(word_vectors['king'], word_vectors['woman']), word_vectors['man'])\n```\nA) Random mathematical operations\nB) AI can understand analogies and semantic relationships between words ✓\nC) All words have the same meaning\nD) Vector operations don't work with words\n\n### Q3: Problem-Solving\nHow could embeddings improve AI translation of idioms and cultural expressions?\nA) They can't help with idioms\nB) Train on diverse cultural texts, use context-aware embeddings, include cultural knowledge ✓\nC) Only use literal translations\nD) Avoid translating idioms entirely\n\n### Q4: Application\nHow would word embeddings help students learn foreign language vocabulary?\nA) By showing word lists only\nB) Semantic clustering of related words, context-based learning, similarity exercises ✓\nC) Random word presentation\nD) Alphabetical word ordering\n\n### Q5: Reflection/Meta-learning\nHow is AI language understanding different from human language understanding?\nA) They are exactly the same\nB) AI uses mathematical representations, humans use cognitive and experiential processes ✓\nC) AI understanding is always better than human\nD) Human understanding is mathematical like AI\n\n---",
+      "lessonSlug": "word-representations-embeddings-neural-networks-q1-vocabularyconcepts-how-do-word-embeddings-and-neural-networks-work-together-for-language-understanding-a-they-work-independently-without-interaction-b-embeddings-convert-words-to-numbers-that-neural-networks-can-process-for-meaning-c-neural-networks-replace-the-need-for-embeddings-d-embeddings-only-work-with-traditional-programming-q2-code-understanding-what-does-this-word-vector-arithmetic-demonstrate-python-king-man-woman-queen-result-subtractaddword_vectorsking-word_vectorswoman-word_vectorsman-a-random-mathematical-operations-b-ai-can-understand-analogies-and-semantic-relationships-between-words-c-all-words-have-the-same-meaning-d-vector-operations-dont-work-with-words-q3-problem-solving-how-could-embeddings-improve-ai-translation-of-idioms-and-cultural-expressions-a-they-cant-help-with-idioms-b-train-on-diverse-cultural-texts-use-context-aware-embeddings-include-cultural-knowledge-c-only-use-literal-translations-d-avoid-translating-idioms-entirely-q4-application-how-would-word-embeddings-help-students-learn-foreign-language-vocabulary-a-by-showing-word-lists-only-b-semantic-clustering-of-related-words-context-based-learning-similarity-exercises-c-random-word-presentation-d-alphabetical-word-ordering-q5-reflectionmeta-learning-how-is-ai-language-understanding-different-from-human-language-understanding-a-they-are-exactly-the-same-b-ai-uses-mathematical-representations-humans-use-cognitive-and-experiential-processes-c-ai-understanding-is-always-better-than-human-d-human-understanding-is-mathematical-like-ai",
+      "totalQuestions": 5,
+      "questions": [
+        {
+          "questionId": "ai-3-l3-q1",
+          "globalId": "exit-ticket-0551",
+          "questionNumber": 1,
+          "questionType": "vocabulary",
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "prompt": "How do word embeddings and neural networks work together for language understanding?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "options": [
+            {
+              "key": "A",
+              "text": "They work independently without interaction",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What would happen if this were true in real-world scenarios?"
+            },
+            {
+              "key": "B",
+              "text": "Embeddings convert words to numbers that neural networks can process for meaning",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "Neural networks replace the need for embeddings",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What would happen if this were true in real-world scenarios?"
+            },
+            {
+              "key": "D",
+              "text": "Embeddings only work with traditional programming",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What would happen if this were true in real-world scenarios?"
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "Embeddings convert words to numbers that neural networks can process for meaning",
+          "metadata": {
+            "difficulty": "easy",
+            "estimatedTime": 30,
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "neural-networks",
+              "deep-learning",
+              "embeddings",
+              "nlp"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_FEW_SHOT_LEARNING",
+            "AI3_PROMPT_EXAMPLES"
+          ]
+        },
+        {
+          "questionId": "ai-3-l3-q2",
+          "globalId": "exit-ticket-0552",
+          "questionNumber": 2,
+          "questionType": "code_understanding",
+          "questionTypeLabel": "Code Understanding",
+          "prompt": "What does this word vector arithmetic demonstrate?",
+          "hasCodeBlock": true,
+          "codeLanguage": "python",
+          "codeContent": "# king - man + woman ≈ queen\nresult = subtract(add(word_vectors['king'], word_vectors['woman']), word_vectors['man'])",
+          "options": [
+            {
+              "key": "A",
+              "text": "Random mathematical operations",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Review the core principles discussed in the lesson."
+            },
+            {
+              "key": "B",
+              "text": "AI can understand analogies and semantic relationships between words",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "All words have the same meaning",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Think about the fundamental purpose of this technology."
+            },
+            {
+              "key": "D",
+              "text": "Vector operations don't work with words",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What is the key difference between these concepts?"
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "AI can understand analogies and semantic relationships between words",
+          "metadata": {
+            "difficulty": "medium",
+            "estimatedTime": 60,
+            "bloomsTaxonomy": "understand",
+            "tags": [
+              "python",
+              "embeddings",
+              "nlp"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_CHAIN_OF_THOUGHT",
+            "AI3_REASONING_PROMPTS"
+          ]
+        },
+        {
+          "questionId": "ai-3-l3-q3",
+          "globalId": "exit-ticket-0553",
+          "questionNumber": 3,
+          "questionType": "problem_solving",
+          "questionTypeLabel": "Problem-Solving",
+          "prompt": "How could embeddings improve AI translation of idioms and cultural expressions?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "options": [
+            {
+              "key": "A",
+              "text": "They can't help with idioms",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What is the key difference between these concepts?"
+            },
+            {
+              "key": "B",
+              "text": "Train on diverse cultural texts, use context-aware embeddings, include cultural knowledge",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "Only use literal translations",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Think about the fundamental purpose of this technology."
+            },
+            {
+              "key": "D",
+              "text": "Avoid translating idioms entirely",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Review the core principles discussed in the lesson."
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "Train on diverse cultural texts, use context-aware embeddings, include cultural knowledge",
+          "metadata": {
+            "difficulty": "medium",
+            "estimatedTime": 90,
+            "bloomsTaxonomy": "apply",
+            "tags": [
+              "embeddings",
+              "nlp"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_ROLE_PROMPTING",
+            "AI3_PERSONA_DESIGN"
+          ]
+        },
+        {
+          "questionId": "ai-3-l3-q4",
+          "globalId": "exit-ticket-0554",
+          "questionNumber": 4,
+          "questionType": "application",
+          "questionTypeLabel": "Application",
+          "prompt": "How would word embeddings help students learn foreign language vocabulary?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "options": [
+            {
+              "key": "A",
+              "text": "By showing word lists only",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Think about the fundamental purpose of this technology."
+            },
+            {
+              "key": "B",
+              "text": "Semantic clustering of related words, context-based learning, similarity exercises",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "Random word presentation",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What is the key difference between these concepts?"
+            },
+            {
+              "key": "D",
+              "text": "Alphabetical word ordering",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What would happen if this were true in real-world scenarios?"
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "Semantic clustering of related words, context-based learning, similarity exercises",
+          "metadata": {
+            "difficulty": "hard",
+            "estimatedTime": 90,
+            "bloomsTaxonomy": "analyze",
+            "tags": [
+              "embeddings",
+              "nlp"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_PROMPT_INJECTION",
+            "AI3_SECURITY_RISKS"
+          ]
+        },
+        {
+          "questionId": "ai-3-l3-q5",
+          "globalId": "exit-ticket-0555",
+          "questionNumber": 5,
+          "questionType": "reflection",
+          "questionTypeLabel": "Reflection/Meta-learning",
+          "prompt": "How is AI language understanding different from human language understanding?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "options": [
+            {
+              "key": "A",
+              "text": "They are exactly the same",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Consider what the definition actually means in practice."
+            },
+            {
+              "key": "B",
+              "text": "AI uses mathematical representations, humans use cognitive and experiential processes",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "AI understanding is always better than human",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What would happen if this were true in real-world scenarios?"
+            },
+            {
+              "key": "D",
+              "text": "Human understanding is mathematical like AI",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What is the key difference between these concepts?"
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "AI uses mathematical representations, humans use cognitive and experiential processes",
+          "metadata": {
+            "difficulty": "easy",
+            "estimatedTime": 60,
+            "bloomsTaxonomy": "evaluate",
+            "tags": [
+              "artificial-intelligence",
+              "ai"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_PROMPT_OPTIMIZATION",
+            "AI3_EFFICIENCY"
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "ai-3-lesson-4",
+      "lessonNumber": 4,
+      "lessonTitle": "Advanced Model Mechanisms - Attention & Output Generation\n\n### Q1: Vocabulary/Concepts\nWhy are attention mechanisms important for generating high-quality text?\nA) They make processing faster\nB) They allow AI to focus on relevant parts of input for coherent responses ✓\nC) They use less memory\nD) They make models smaller\n\n### Q2: Code Understanding\nHow does this attention mechanism help AI generate better output?\n```python\ndef attention_focus(query, keys, values):\n    scores = compute_similarity(query, keys)\n    weights = softmax(scores)\n    output = weighted_sum(weights, values)\n```\nA) It makes processing faster\nB) It helps AI focus on most relevant input parts when generating each output word ✓\nC) It reduces memory usage\nD) It eliminates all errors\n\n### Q3: Problem-Solving\nHow would you improve a chatbot that loses track of conversation history?\nA) Make it forget everything faster\nB) Extend attention to cover more conversation history, weight recent messages more ✓\nC) Use shorter responses only\nD) Restart the conversation frequently\n\n### Q4: Application\nWhat features would an attention-based AI writing assistant include?\nA) Only grammar checking\nB) Relevance checking, thesis focus maintenance, coherence analysis ✓\nC) Only spell checking\nD) Word counting only\n\n### Q5: Reflection/Meta-learning\nHow does human attention compare to AI attention mechanisms?\nA) They are identical processes\nB) Similar selective focus, but AI uses mathematical calculations vs human cognitive processes ✓\nC) Human attention is completely different and unrelated\nD) AI attention is always more accurate\n\n---",
+      "lessonSlug": "advanced-model-mechanisms-attention-output-generation-q1-vocabularyconcepts-why-are-attention-mechanisms-important-for-generating-high-quality-text-a-they-make-processing-faster-b-they-allow-ai-to-focus-on-relevant-parts-of-input-for-coherent-responses-c-they-use-less-memory-d-they-make-models-smaller-q2-code-understanding-how-does-this-attention-mechanism-help-ai-generate-better-output-python-def-attention_focusquery-keys-values-scores-compute_similarityquery-keys-weights-softmaxscores-output-weighted_sumweights-values-a-it-makes-processing-faster-b-it-helps-ai-focus-on-most-relevant-input-parts-when-generating-each-output-word-c-it-reduces-memory-usage-d-it-eliminates-all-errors-q3-problem-solving-how-would-you-improve-a-chatbot-that-loses-track-of-conversation-history-a-make-it-forget-everything-faster-b-extend-attention-to-cover-more-conversation-history-weight-recent-messages-more-c-use-shorter-responses-only-d-restart-the-conversation-frequently-q4-application-what-features-would-an-attention-based-ai-writing-assistant-include-a-only-grammar-checking-b-relevance-checking-thesis-focus-maintenance-coherence-analysis-c-only-spell-checking-d-word-counting-only-q5-reflectionmeta-learning-how-does-human-attention-compare-to-ai-attention-mechanisms-a-they-are-identical-processes-b-similar-selective-focus-but-ai-uses-mathematical-calculations-vs-human-cognitive-processes-c-human-attention-is-completely-different-and-unrelated-d-ai-attention-is-always-more-accurate",
+      "totalQuestions": 5,
+      "questions": [
+        {
+          "questionId": "ai-3-l4-q1",
+          "globalId": "exit-ticket-0556",
+          "questionNumber": 1,
+          "questionType": "vocabulary",
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "prompt": "Why are attention mechanisms important for generating high-quality text?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "options": [
+            {
+              "key": "A",
+              "text": "They make processing faster",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What is the key difference between these concepts?"
+            },
+            {
+              "key": "B",
+              "text": "They allow AI to focus on relevant parts of input for coherent responses",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "They use less memory",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Review the core principles discussed in the lesson."
+            },
+            {
+              "key": "D",
+              "text": "They make models smaller",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What is the key difference between these concepts?"
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "They allow AI to focus on relevant parts of input for coherent responses",
+          "metadata": {
+            "difficulty": "easy",
+            "estimatedTime": 30,
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "attention-mechanism",
+              "transformers"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_API_BASICS",
+            "AI3_REST_API"
+          ]
+        },
+        {
+          "questionId": "ai-3-l4-q2",
+          "globalId": "exit-ticket-0557",
+          "questionNumber": 2,
+          "questionType": "code_understanding",
+          "questionTypeLabel": "Code Understanding",
+          "prompt": "How does this attention mechanism help AI generate better output?",
+          "hasCodeBlock": true,
+          "codeLanguage": "python",
+          "codeContent": "def attention_focus(query, keys, values):\n    scores = compute_similarity(query, keys)\n    weights = softmax(scores)\n    output = weighted_sum(weights, values)",
+          "options": [
+            {
+              "key": "A",
+              "text": "It makes processing faster",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Consider what the definition actually means in practice."
+            },
+            {
+              "key": "B",
+              "text": "It helps AI focus on most relevant input parts when generating each output word",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "It reduces memory usage",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Think about the fundamental purpose of this technology."
+            },
+            {
+              "key": "D",
+              "text": "It eliminates all errors",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Think about the fundamental purpose of this technology."
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "It helps AI focus on most relevant input parts when generating each output word",
+          "metadata": {
+            "difficulty": "medium",
+            "estimatedTime": 60,
+            "bloomsTaxonomy": "understand",
+            "tags": [
+              "python",
+              "attention-mechanism",
+              "transformers"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_API_AUTHENTICATION",
+            "AI3_API_KEYS"
+          ]
+        },
+        {
+          "questionId": "ai-3-l4-q3",
+          "globalId": "exit-ticket-0558",
+          "questionNumber": 3,
+          "questionType": "problem_solving",
+          "questionTypeLabel": "Problem-Solving",
+          "prompt": "How would you improve a chatbot that loses track of conversation history?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "options": [
+            {
+              "key": "A",
+              "text": "Make it forget everything faster",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What would happen if this were true in real-world scenarios?"
+            },
+            {
+              "key": "B",
+              "text": "Extend attention to cover more conversation history, weight recent messages more",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "Use shorter responses only",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Review the core principles discussed in the lesson."
+            },
+            {
+              "key": "D",
+              "text": "Restart the conversation frequently",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Review the core principles discussed in the lesson."
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "Extend attention to cover more conversation history, weight recent messages more",
+          "metadata": {
+            "difficulty": "medium",
+            "estimatedTime": 90,
+            "bloomsTaxonomy": "apply",
+            "tags": [
+              "artificial-intelligence",
+              "ai"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_REQUEST_RESPONSE",
+            "AI3_JSON_FORMAT"
+          ]
+        },
+        {
+          "questionId": "ai-3-l4-q4",
+          "globalId": "exit-ticket-0559",
+          "questionNumber": 4,
+          "questionType": "application",
+          "questionTypeLabel": "Application",
+          "prompt": "What features would an attention-based AI writing assistant include?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "options": [
+            {
+              "key": "A",
+              "text": "Only grammar checking",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What is the key difference between these concepts?"
+            },
+            {
+              "key": "B",
+              "text": "Relevance checking, thesis focus maintenance, coherence analysis",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "Only spell checking",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What would happen if this were true in real-world scenarios?"
+            },
+            {
+              "key": "D",
+              "text": "Word counting only",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Consider what the definition actually means in practice."
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "Relevance checking, thesis focus maintenance, coherence analysis",
+          "metadata": {
+            "difficulty": "hard",
+            "estimatedTime": 90,
+            "bloomsTaxonomy": "analyze",
+            "tags": [
+              "attention-mechanism",
+              "transformers"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_ERROR_HANDLING",
+            "AI3_API_DEBUGGING"
+          ]
+        },
+        {
+          "questionId": "ai-3-l4-q5",
+          "globalId": "exit-ticket-0560",
+          "questionNumber": 5,
+          "questionType": "reflection",
+          "questionTypeLabel": "Reflection/Meta-learning",
+          "prompt": "How does human attention compare to AI attention mechanisms?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "options": [
+            {
+              "key": "A",
+              "text": "They are identical processes",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Think about the fundamental purpose of this technology."
+            },
+            {
+              "key": "B",
+              "text": "Similar selective focus, but AI uses mathematical calculations vs human cognitive processes",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "Human attention is completely different and unrelated",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Review the core principles discussed in the lesson."
+            },
+            {
+              "key": "D",
+              "text": "AI attention is always more accurate",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Review the core principles discussed in the lesson."
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "Similar selective focus, but AI uses mathematical calculations vs human cognitive processes",
+          "metadata": {
+            "difficulty": "easy",
+            "estimatedTime": 60,
+            "bloomsTaxonomy": "evaluate",
+            "tags": [
+              "attention-mechanism",
+              "transformers"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_RATE_LIMITING",
+            "AI3_API_COSTS"
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "ai-3-lesson-5",
+      "lessonNumber": 5,
+      "lessonTitle": "Interaction with Language Models & Prompt Engineering\n\n### Q1: Vocabulary/Concepts\nWhen would you use zero-shot vs few-shot prompting?\nA) Always use zero-shot for everything\nB) Zero-shot for simple tasks, few-shot for complex patterns ✓\nC) Always use few-shot for everything\nD) There's no difference between them\n\n### Q2: Code Understanding\nWhy is Chain-of-Thought prompting more effective?\n```\nStep 1: Calculate 1/3 of 24 = 8 stickers\nStep 2: Remainder = 24 - 8 = 16 stickers\nStep 3: Calculate 1/4 of 16 = 4 stickers\nStep 4: Final = 16 - 4 = 12 stickers\n```\nA) It makes responses longer\nB) Breaks complex problems into steps, improves accuracy, allows verification ✓\nC) It's faster than direct answers\nD) It uses more technical language\n\n### Q3: Problem-Solving\nHow would you design prompts for an AI tutor that adapts to different grade levels?\nA) Use the same prompt for all levels\nB) Include grade-level context, vocabulary adaptation, complexity scaling guidelines ✓\nC) Only use technical language\nD) Never specify the grade level\n\n### Q4: Application\nWhat prompting techniques would help a creative writing AI?\nA) Very short, simple prompts only\nB) Role-based prompting, structured output, few-shot examples, iterative refinement ✓\nC) Random instructions\nD) No specific techniques needed\n\n### Q5: Reflection/Meta-learning\nHow has learning prompt engineering changed your AI interaction approach?\nA) No change in approach\nB) Increased specificity, better context setting, strategic use of examples ✓\nC) Made interactions more complicated\nD) Reduced the quality of interactions\n\n---",
+      "lessonSlug": "interaction-with-language-models-prompt-engineering-q1-vocabularyconcepts-when-would-you-use-zero-shot-vs-few-shot-prompting-a-always-use-zero-shot-for-everything-b-zero-shot-for-simple-tasks-few-shot-for-complex-patterns-c-always-use-few-shot-for-everything-d-theres-no-difference-between-them-q2-code-understanding-why-is-chain-of-thought-prompting-more-effective-step-1-calculate-13-of-24-8-stickers-step-2-remainder-24-8-16-stickers-step-3-calculate-14-of-16-4-stickers-step-4-final-16-4-12-stickers-a-it-makes-responses-longer-b-breaks-complex-problems-into-steps-improves-accuracy-allows-verification-c-its-faster-than-direct-answers-d-it-uses-more-technical-language-q3-problem-solving-how-would-you-design-prompts-for-an-ai-tutor-that-adapts-to-different-grade-levels-a-use-the-same-prompt-for-all-levels-b-include-grade-level-context-vocabulary-adaptation-complexity-scaling-guidelines-c-only-use-technical-language-d-never-specify-the-grade-level-q4-application-what-prompting-techniques-would-help-a-creative-writing-ai-a-very-short-simple-prompts-only-b-role-based-prompting-structured-output-few-shot-examples-iterative-refinement-c-random-instructions-d-no-specific-techniques-needed-q5-reflectionmeta-learning-how-has-learning-prompt-engineering-changed-your-ai-interaction-approach-a-no-change-in-approach-b-increased-specificity-better-context-setting-strategic-use-of-examples-c-made-interactions-more-complicated-d-reduced-the-quality-of-interactions",
+      "totalQuestions": 5,
+      "questions": [
+        {
+          "questionId": "ai-3-l5-q1",
+          "globalId": "exit-ticket-0561",
+          "questionNumber": 1,
+          "questionType": "vocabulary",
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "prompt": "When would you use zero-shot vs few-shot prompting?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "options": [
+            {
+              "key": "A",
+              "text": "Always use zero-shot for everything",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Review the core principles discussed in the lesson."
+            },
+            {
+              "key": "B",
+              "text": "Zero-shot for simple tasks, few-shot for complex patterns",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "Always use few-shot for everything",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Think about the fundamental purpose of this technology."
+            },
+            {
+              "key": "D",
+              "text": "There's no difference between them",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Think about the fundamental purpose of this technology."
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "Zero-shot for simple tasks, few-shot for complex patterns",
+          "metadata": {
+            "difficulty": "easy",
+            "estimatedTime": 30,
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "prompt-engineering",
+              "generative-ai"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_TEXT_GENERATION",
+            "AI3_CONTENT_CREATION"
+          ]
+        },
+        {
+          "questionId": "ai-3-l5-q2",
+          "globalId": "exit-ticket-0562",
+          "questionNumber": 2,
+          "questionType": "code_understanding",
+          "questionTypeLabel": "Code Understanding",
+          "prompt": "Why is Chain-of-Thought prompting more effective?",
+          "hasCodeBlock": true,
+          "codeLanguage": "python",
+          "codeContent": "Step 1: Calculate 1/3 of 24 = 8 stickers\nStep 2: Remainder = 24 - 8 = 16 stickers\nStep 3: Calculate 1/4 of 16 = 4 stickers\nStep 4: Final = 16 - 4 = 12 stickers",
+          "options": [
+            {
+              "key": "A",
+              "text": "It makes responses longer",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What is the key difference between these concepts?"
+            },
+            {
+              "key": "B",
+              "text": "Breaks complex problems into steps, improves accuracy, allows verification",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "It's faster than direct answers",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What is the key difference between these concepts?"
+            },
+            {
+              "key": "D",
+              "text": "It uses more technical language",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Think about the fundamental purpose of this technology."
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "Breaks complex problems into steps, improves accuracy, allows verification",
+          "metadata": {
+            "difficulty": "medium",
+            "estimatedTime": 60,
+            "bloomsTaxonomy": "understand",
+            "tags": [
+              "python",
+              "prompt-engineering",
+              "generative-ai"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_SUMMARIZATION",
+            "AI3_TEXT_TRANSFORMATION"
+          ]
+        },
+        {
+          "questionId": "ai-3-l5-q3",
+          "globalId": "exit-ticket-0563",
+          "questionNumber": 3,
+          "questionType": "problem_solving",
+          "questionTypeLabel": "Problem-Solving",
+          "prompt": "How would you design prompts for an AI tutor that adapts to different grade levels?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "options": [
+            {
+              "key": "A",
+              "text": "Use the same prompt for all levels",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What is the key difference between these concepts?"
+            },
+            {
+              "key": "B",
+              "text": "Include grade-level context, vocabulary adaptation, complexity scaling guidelines",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "Only use technical language",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What is the key difference between these concepts?"
+            },
+            {
+              "key": "D",
+              "text": "Never specify the grade level",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Think about the fundamental purpose of this technology."
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "Include grade-level context, vocabulary adaptation, complexity scaling guidelines",
+          "metadata": {
+            "difficulty": "medium",
+            "estimatedTime": 90,
+            "bloomsTaxonomy": "apply",
+            "tags": [
+              "prompt-engineering",
+              "generative-ai"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_TRANSLATION",
+            "AI3_LANGUAGE_MODELS"
+          ]
+        },
+        {
+          "questionId": "ai-3-l5-q4",
+          "globalId": "exit-ticket-0564",
+          "questionNumber": 4,
+          "questionType": "application",
+          "questionTypeLabel": "Application",
+          "prompt": "What prompting techniques would help a creative writing AI?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "options": [
+            {
+              "key": "A",
+              "text": "Very short, simple prompts only",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Consider what the definition actually means in practice."
+            },
+            {
+              "key": "B",
+              "text": "Role-based prompting, structured output, few-shot examples, iterative refinement",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "Random instructions",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Consider what the definition actually means in practice."
+            },
+            {
+              "key": "D",
+              "text": "No specific techniques needed",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Consider what the definition actually means in practice."
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "Role-based prompting, structured output, few-shot examples, iterative refinement",
+          "metadata": {
+            "difficulty": "hard",
+            "estimatedTime": 90,
+            "bloomsTaxonomy": "analyze",
+            "tags": [
+              "prompt-engineering",
+              "generative-ai"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_STYLE_TRANSFER",
+            "AI3_TONE_CONTROL"
+          ]
+        },
+        {
+          "questionId": "ai-3-l5-q5",
+          "globalId": "exit-ticket-0565",
+          "questionNumber": 5,
+          "questionType": "reflection",
+          "questionTypeLabel": "Reflection/Meta-learning",
+          "prompt": "How has learning prompt engineering changed your AI interaction approach?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "options": [
+            {
+              "key": "A",
+              "text": "No change in approach",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Review the core principles discussed in the lesson."
+            },
+            {
+              "key": "B",
+              "text": "Increased specificity, better context setting, strategic use of examples",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "Made interactions more complicated",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What would happen if this were true in real-world scenarios?"
+            },
+            {
+              "key": "D",
+              "text": "Reduced the quality of interactions",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Review the core principles discussed in the lesson."
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "Increased specificity, better context setting, strategic use of examples",
+          "metadata": {
+            "difficulty": "easy",
+            "estimatedTime": 60,
+            "bloomsTaxonomy": "evaluate",
+            "tags": [
+              "prompt-engineering",
+              "generative-ai"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_PLAGIARISM",
+            "AI3_ORIGINALITY"
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "ai-3-lesson-6",
+      "lessonNumber": 6,
+      "lessonTitle": "Advanced Prompt Strategies & Retrieval Techniques\n\n### Q1: Vocabulary/Concepts\nHow do RAG and Constitutional AI improve AI reliability?\nA) They don't improve reliability\nB) RAG provides current information, Constitutional AI ensures ethical behavior ✓\nC) They only make AI faster\nD) They reduce AI capabilities\n\n### Q2: Code Understanding\nHow does this RAG system improve answer accuracy?\n```python\nrelevant_docs = vector_search(user_query, knowledge_base)\nenhanced_prompt = f\"Context: {relevant_docs}\\nUser Question: {user_query}\"\nresponse = language_model.generate(enhanced_prompt)\n```\nA) By making responses longer\nB) By grounding responses in real documents, reducing hallucination ✓\nC) By making processing faster\nD) By using more complex language\n\n### Q3: Problem-Solving\nWhat challenges would you address in a RAG system for school homework help?\nA) No challenges exist\nB) Copyright issues, information quality, source attribution, plagiarism prevention ✓\nC) Only technical performance\nD) Only cost considerations\n\n### Q4: Application\nWhat principles would you include in Constitutional AI for customer service?\nA) No principles needed\nB) Privacy protection, non-discrimination, truthfulness, harm prevention ✓\nC) Only speed optimization\nD) Only cost reduction\n\n### Q5: Reflection/Meta-learning\nHow do advanced techniques address basic generative AI limitations?\nA) They don't address any limitations\nB) RAG addresses hallucination, Constitutional AI handles bias and safety ✓\nC) They make all limitations worse\nD) Only solve technical problems\n\n---",
+      "lessonSlug": "advanced-prompt-strategies-retrieval-techniques-q1-vocabularyconcepts-how-do-rag-and-constitutional-ai-improve-ai-reliability-a-they-dont-improve-reliability-b-rag-provides-current-information-constitutional-ai-ensures-ethical-behavior-c-they-only-make-ai-faster-d-they-reduce-ai-capabilities-q2-code-understanding-how-does-this-rag-system-improve-answer-accuracy-python-relevant_docs-vector_searchuser_query-knowledge_base-enhanced_prompt-fcontext-relevant_docsnuser-question-user_query-response-language_modelgenerateenhanced_prompt-a-by-making-responses-longer-b-by-grounding-responses-in-real-documents-reducing-hallucination-c-by-making-processing-faster-d-by-using-more-complex-language-q3-problem-solving-what-challenges-would-you-address-in-a-rag-system-for-school-homework-help-a-no-challenges-exist-b-copyright-issues-information-quality-source-attribution-plagiarism-prevention-c-only-technical-performance-d-only-cost-considerations-q4-application-what-principles-would-you-include-in-constitutional-ai-for-customer-service-a-no-principles-needed-b-privacy-protection-non-discrimination-truthfulness-harm-prevention-c-only-speed-optimization-d-only-cost-reduction-q5-reflectionmeta-learning-how-do-advanced-techniques-address-basic-generative-ai-limitations-a-they-dont-address-any-limitations-b-rag-addresses-hallucination-constitutional-ai-handles-bias-and-safety-c-they-make-all-limitations-worse-d-only-solve-technical-problems",
+      "totalQuestions": 5,
+      "questions": [
+        {
+          "questionId": "ai-3-l6-q1",
+          "globalId": "exit-ticket-0566",
+          "questionNumber": 1,
+          "questionType": "vocabulary",
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "prompt": "How do RAG and Constitutional AI improve AI reliability?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "options": [
+            {
+              "key": "A",
+              "text": "They don't improve reliability",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What is the key difference between these concepts?"
+            },
+            {
+              "key": "B",
+              "text": "RAG provides current information, Constitutional AI ensures ethical behavior",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "They only make AI faster",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Review the core principles discussed in the lesson."
+            },
+            {
+              "key": "D",
+              "text": "They reduce AI capabilities",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What is the key difference between these concepts?"
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "RAG provides current information, Constitutional AI ensures ethical behavior",
+          "metadata": {
+            "difficulty": "easy",
+            "estimatedTime": 30,
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "rag",
+              "retrieval"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_IMAGE_GENERATION",
+            "AI3_DIFFUSION_MODELS"
+          ]
+        },
+        {
+          "questionId": "ai-3-l6-q2",
+          "globalId": "exit-ticket-0567",
+          "questionNumber": 2,
+          "questionType": "code_understanding",
+          "questionTypeLabel": "Code Understanding",
+          "prompt": "How does this RAG system improve answer accuracy?",
+          "hasCodeBlock": true,
+          "codeLanguage": "python",
+          "codeContent": "relevant_docs = vector_search(user_query, knowledge_base)\nenhanced_prompt = f\"Context: {relevant_docs}\\nUser Question: {user_query}\"\nresponse = language_model.generate(enhanced_prompt)",
+          "options": [
+            {
+              "key": "A",
+              "text": "By making responses longer",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Think about the fundamental purpose of this technology."
+            },
+            {
+              "key": "B",
+              "text": "By grounding responses in real documents, reducing hallucination",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "By making processing faster",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What is the key difference between these concepts?"
+            },
+            {
+              "key": "D",
+              "text": "By using more complex language",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What is the key difference between these concepts?"
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "By grounding responses in real documents, reducing hallucination",
+          "metadata": {
+            "difficulty": "medium",
+            "estimatedTime": 60,
+            "bloomsTaxonomy": "understand",
+            "tags": [
+              "python",
+              "prompt-engineering",
+              "generative-ai",
+              "rag",
+              "retrieval"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_IMAGE_PROMPTS",
+            "AI3_VISUAL_DESCRIPTION"
+          ]
+        },
+        {
+          "questionId": "ai-3-l6-q3",
+          "globalId": "exit-ticket-0568",
+          "questionNumber": 3,
+          "questionType": "problem_solving",
+          "questionTypeLabel": "Problem-Solving",
+          "prompt": "What challenges would you address in a RAG system for school homework help?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "options": [
+            {
+              "key": "A",
+              "text": "No challenges exist",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Review the core principles discussed in the lesson."
+            },
+            {
+              "key": "B",
+              "text": "Copyright issues, information quality, source attribution, plagiarism prevention",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "Only technical performance",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Review the core principles discussed in the lesson."
+            },
+            {
+              "key": "D",
+              "text": "Only cost considerations",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Review the core principles discussed in the lesson."
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "Copyright issues, information quality, source attribution, plagiarism prevention",
+          "metadata": {
+            "difficulty": "medium",
+            "estimatedTime": 90,
+            "bloomsTaxonomy": "apply",
+            "tags": [
+              "rag",
+              "retrieval"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_STYLE_PARAMETERS",
+            "AI3_ARTISTIC_CONTROL"
+          ]
+        },
+        {
+          "questionId": "ai-3-l6-q4",
+          "globalId": "exit-ticket-0569",
+          "questionNumber": 4,
+          "questionType": "application",
+          "questionTypeLabel": "Application",
+          "prompt": "What principles would you include in Constitutional AI for customer service?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "options": [
+            {
+              "key": "A",
+              "text": "No principles needed",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Think about the fundamental purpose of this technology."
+            },
+            {
+              "key": "B",
+              "text": "Privacy protection, non-discrimination, truthfulness, harm prevention",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "Only speed optimization",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What would happen if this were true in real-world scenarios?"
+            },
+            {
+              "key": "D",
+              "text": "Only cost reduction",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What would happen if this were true in real-world scenarios?"
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "Privacy protection, non-discrimination, truthfulness, harm prevention",
+          "metadata": {
+            "difficulty": "hard",
+            "estimatedTime": 90,
+            "bloomsTaxonomy": "analyze",
+            "tags": [
+              "artificial-intelligence",
+              "ai"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_IMAGE_EDITING",
+            "AI3_INPAINTING"
+          ]
+        },
+        {
+          "questionId": "ai-3-l6-q5",
+          "globalId": "exit-ticket-0570",
+          "questionNumber": 5,
+          "questionType": "reflection",
+          "questionTypeLabel": "Reflection/Meta-learning",
+          "prompt": "How do advanced techniques address basic generative AI limitations?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "options": [
+            {
+              "key": "A",
+              "text": "They don't address any limitations",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Consider what the definition actually means in practice."
+            },
+            {
+              "key": "B",
+              "text": "RAG addresses hallucination, Constitutional AI handles bias and safety",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "They make all limitations worse",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Consider what the definition actually means in practice."
+            },
+            {
+              "key": "D",
+              "text": "Only solve technical problems",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Review the core principles discussed in the lesson."
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "RAG addresses hallucination, Constitutional AI handles bias and safety",
+          "metadata": {
+            "difficulty": "easy",
+            "estimatedTime": 60,
+            "bloomsTaxonomy": "evaluate",
+            "tags": [
+              "generative-ai",
+              "llm"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_COPYRIGHT",
+            "AI3_AI_ART_ETHICS"
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "ai-3-lesson-7",
+      "lessonNumber": 7,
+      "lessonTitle": "Evaluation Models - Model Cards & Fine-Tuning\n\n### Q1: Vocabulary/Concepts\nWhy are model cards, fine-tuning, and evaluation metrics important for responsible AI?\nA) They are not important\nB) Provide transparency, enable specialization, ensure quality and fairness ✓\nC) Only for technical documentation\nD) Only for marketing purposes\n\n### Q2: Code Understanding\nWhich model would you choose for a public application?\n```python\nmodel_a = {'BLEU': 0.85, 'Bias_Score': 0.23}\nmodel_b = {'BLEU': 0.79, 'Bias_Score': 0.15}\n```\nA) Always choose the highest performance scores\nB) Consider bias score carefully for public applications, may choose Model B ✓\nC) Random selection is fine\nD) Performance metrics don't matter\n\n### Q3: Problem-Solving\nHow would you improve a medical AI that sometimes gives dangerous recommendations?\nA) Ignore the dangerous recommendations\nB) Safety-focused evaluation, medical expert review, conservative training ✓\nC) Make it give recommendations faster\nD) Remove all safety measures\n\n### Q4: Application\nWhat should teachers know before implementing an AI tutoring system?\nA) Only the cost\nB) Intended use, limitations, performance metrics, bias testing, oversight requirements ✓\nC) Only technical specifications\nD) Only the installation process\n\n### Q5: Reflection/Meta-learning\nHow has learning about model evaluation changed your view of AI reliability?\nA) AI is always reliable\nB) Increased awareness of testing importance, critical thinking about limitations ✓\nC) AI is never reliable\nD) Evaluation doesn't matter\n\n---",
+      "lessonSlug": "evaluation-models-model-cards-fine-tuning-q1-vocabularyconcepts-why-are-model-cards-fine-tuning-and-evaluation-metrics-important-for-responsible-ai-a-they-are-not-important-b-provide-transparency-enable-specialization-ensure-quality-and-fairness-c-only-for-technical-documentation-d-only-for-marketing-purposes-q2-code-understanding-which-model-would-you-choose-for-a-public-application-python-model_a-bleu-085-bias_score-023-model_b-bleu-079-bias_score-015-a-always-choose-the-highest-performance-scores-b-consider-bias-score-carefully-for-public-applications-may-choose-model-b-c-random-selection-is-fine-d-performance-metrics-dont-matter-q3-problem-solving-how-would-you-improve-a-medical-ai-that-sometimes-gives-dangerous-recommendations-a-ignore-the-dangerous-recommendations-b-safety-focused-evaluation-medical-expert-review-conservative-training-c-make-it-give-recommendations-faster-d-remove-all-safety-measures-q4-application-what-should-teachers-know-before-implementing-an-ai-tutoring-system-a-only-the-cost-b-intended-use-limitations-performance-metrics-bias-testing-oversight-requirements-c-only-technical-specifications-d-only-the-installation-process-q5-reflectionmeta-learning-how-has-learning-about-model-evaluation-changed-your-view-of-ai-reliability-a-ai-is-always-reliable-b-increased-awareness-of-testing-importance-critical-thinking-about-limitations-c-ai-is-never-reliable-d-evaluation-doesnt-matter",
+      "totalQuestions": 5,
+      "questions": [
+        {
+          "questionId": "ai-3-l7-q1",
+          "globalId": "exit-ticket-0571",
+          "questionNumber": 1,
+          "questionType": "vocabulary",
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "prompt": "Why are model cards, fine-tuning, and evaluation metrics important for responsible AI?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "options": [
+            {
+              "key": "A",
+              "text": "They are not important",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Think about the fundamental purpose of this technology."
+            },
+            {
+              "key": "B",
+              "text": "Provide transparency, enable specialization, ensure quality and fairness",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "Only for technical documentation",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What is the key difference between these concepts?"
+            },
+            {
+              "key": "D",
+              "text": "Only for marketing purposes",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What is the key difference between these concepts?"
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "Provide transparency, enable specialization, ensure quality and fairness",
+          "metadata": {
+            "difficulty": "easy",
+            "estimatedTime": 30,
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "artificial-intelligence",
+              "ai"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_MULTIMODAL_AI",
+            "AI3_MODALITY_TYPES"
+          ]
+        },
+        {
+          "questionId": "ai-3-l7-q2",
+          "globalId": "exit-ticket-0572",
+          "questionNumber": 2,
+          "questionType": "code_understanding",
+          "questionTypeLabel": "Code Understanding",
+          "prompt": "Which model would you choose for a public application?",
+          "hasCodeBlock": true,
+          "codeLanguage": "python",
+          "codeContent": "model_a = {'BLEU': 0.85, 'Bias_Score': 0.23}\nmodel_b = {'BLEU': 0.79, 'Bias_Score': 0.15}",
+          "options": [
+            {
+              "key": "A",
+              "text": "Always choose the highest performance scores",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Think about the fundamental purpose of this technology."
+            },
+            {
+              "key": "B",
+              "text": "Consider bias score carefully for public applications, may choose Model B",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "Random selection is fine",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Review the core principles discussed in the lesson."
+            },
+            {
+              "key": "D",
+              "text": "Performance metrics don't matter",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Consider what the definition actually means in practice."
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "Consider bias score carefully for public applications, may choose Model B",
+          "metadata": {
+            "difficulty": "medium",
+            "estimatedTime": 60,
+            "bloomsTaxonomy": "understand",
+            "tags": [
+              "python",
+              "bias",
+              "ethics",
+              "fairness"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_IMAGE_TO_TEXT",
+            "AI3_VISION_MODELS"
+          ]
+        },
+        {
+          "questionId": "ai-3-l7-q3",
+          "globalId": "exit-ticket-0573",
+          "questionNumber": 3,
+          "questionType": "problem_solving",
+          "questionTypeLabel": "Problem-Solving",
+          "prompt": "How would you improve a medical AI that sometimes gives dangerous recommendations?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "options": [
+            {
+              "key": "A",
+              "text": "Ignore the dangerous recommendations",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Think about the fundamental purpose of this technology."
+            },
+            {
+              "key": "B",
+              "text": "Safety-focused evaluation, medical expert review, conservative training",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "Make it give recommendations faster",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Consider what the definition actually means in practice."
+            },
+            {
+              "key": "D",
+              "text": "Remove all safety measures",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Think about the fundamental purpose of this technology."
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "Safety-focused evaluation, medical expert review, conservative training",
+          "metadata": {
+            "difficulty": "medium",
+            "estimatedTime": 90,
+            "bloomsTaxonomy": "apply",
+            "tags": [
+              "artificial-intelligence",
+              "ai"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_AUDIO_GENERATION",
+            "AI3_TTS_MODELS"
+          ]
+        },
+        {
+          "questionId": "ai-3-l7-q4",
+          "globalId": "exit-ticket-0574",
+          "questionNumber": 4,
+          "questionType": "application",
+          "questionTypeLabel": "Application",
+          "prompt": "What should teachers know before implementing an AI tutoring system?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "options": [
+            {
+              "key": "A",
+              "text": "Only the cost",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Review the core principles discussed in the lesson."
+            },
+            {
+              "key": "B",
+              "text": "Intended use, limitations, performance metrics, bias testing, oversight requirements",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "Only technical specifications",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Review the core principles discussed in the lesson."
+            },
+            {
+              "key": "D",
+              "text": "Only the installation process",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Consider what the definition actually means in practice."
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "Intended use, limitations, performance metrics, bias testing, oversight requirements",
+          "metadata": {
+            "difficulty": "hard",
+            "estimatedTime": 90,
+            "bloomsTaxonomy": "analyze",
+            "tags": [
+              "artificial-intelligence",
+              "ai"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_VIDEO_UNDERSTANDING",
+            "AI3_TEMPORAL_MODELS"
+          ]
+        },
+        {
+          "questionId": "ai-3-l7-q5",
+          "globalId": "exit-ticket-0575",
+          "questionNumber": 5,
+          "questionType": "reflection",
+          "questionTypeLabel": "Reflection/Meta-learning",
+          "prompt": "How has learning about model evaluation changed your view of AI reliability?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "options": [
+            {
+              "key": "A",
+              "text": "AI is always reliable",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Review the core principles discussed in the lesson."
+            },
+            {
+              "key": "B",
+              "text": "Increased awareness of testing importance, critical thinking about limitations",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "AI is never reliable",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Review the core principles discussed in the lesson."
+            },
+            {
+              "key": "D",
+              "text": "Evaluation doesn't matter",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What is the key difference between these concepts?"
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "Increased awareness of testing importance, critical thinking about limitations",
+          "metadata": {
+            "difficulty": "easy",
+            "estimatedTime": 60,
+            "bloomsTaxonomy": "evaluate",
+            "tags": [
+              "artificial-intelligence",
+              "ai"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_CROSS_MODAL",
+            "AI3_MODALITY_INTEGRATION"
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "ai-3-lesson-8",
+      "lessonNumber": 8,
+      "lessonTitle": "AI Coding with IDE\n\n### Q1: Vocabulary/Concepts\nHow do AI coding tools change the software development process?\nA) They don't change anything\nB) Accelerate development, reduce errors, democratize programming ✓\nC) Make programming impossible\nD) Only affect code appearance\n\n### Q2: Code Understanding\nWhat are the benefits and issues with this AI-generated email validation code?\n```python\ndef validate_email(email):\n    pattern = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$'\n    return re.match(pattern, email) is not None\n```\nA) Perfect code with no issues\nB) Quick implementation but may not cover edge cases, needs review and testing ✓\nC) Completely wrong approach\nD) Too simple to be useful\n\n### Q3: Problem-Solving\nHow would you systematically debug AI-generated code that has bugs?\nA) Give up and write code manually\nB) Understand intended functionality, test systematically, break down complex parts ✓\nC) Use more AI to fix the AI\nD) Copy different AI-generated code\n\n### Q4: Application\nHow would you balance AI assistance with learning programming fundamentals?\nA) Use AI for everything\nB) Staged AI introduction, code review requirements, manual implementation of core concepts ✓\nC) Never use AI\nD) Only use AI for advanced topics\n\n### Q5: Reflection/Meta-learning\nHow have AI coding tools affected your programming learning?\nA) Made learning unnecessary\nB) Changed pace of learning, increased importance of code reading and critical evaluation ✓\nC) Made programming impossible\nD) No effect on learning\n\n---",
+      "lessonSlug": "ai-coding-with-ide-q1-vocabularyconcepts-how-do-ai-coding-tools-change-the-software-development-process-a-they-dont-change-anything-b-accelerate-development-reduce-errors-democratize-programming-c-make-programming-impossible-d-only-affect-code-appearance-q2-code-understanding-what-are-the-benefits-and-issues-with-this-ai-generated-email-validation-code-python-def-validate_emailemail-pattern-ra-za-z0-9_-a-za-z0-9-a-za-z2-return-rematchpattern-email-is-not-none-a-perfect-code-with-no-issues-b-quick-implementation-but-may-not-cover-edge-cases-needs-review-and-testing-c-completely-wrong-approach-d-too-simple-to-be-useful-q3-problem-solving-how-would-you-systematically-debug-ai-generated-code-that-has-bugs-a-give-up-and-write-code-manually-b-understand-intended-functionality-test-systematically-break-down-complex-parts-c-use-more-ai-to-fix-the-ai-d-copy-different-ai-generated-code-q4-application-how-would-you-balance-ai-assistance-with-learning-programming-fundamentals-a-use-ai-for-everything-b-staged-ai-introduction-code-review-requirements-manual-implementation-of-core-concepts-c-never-use-ai-d-only-use-ai-for-advanced-topics-q5-reflectionmeta-learning-how-have-ai-coding-tools-affected-your-programming-learning-a-made-learning-unnecessary-b-changed-pace-of-learning-increased-importance-of-code-reading-and-critical-evaluation-c-made-programming-impossible-d-no-effect-on-learning",
+      "totalQuestions": 5,
+      "questions": [
+        {
+          "questionId": "ai-3-l8-q1",
+          "globalId": "exit-ticket-0576",
+          "questionNumber": 1,
+          "questionType": "vocabulary",
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "prompt": "How do AI coding tools change the software development process?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "options": [
+            {
+              "key": "A",
+              "text": "They don't change anything",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Think about the fundamental purpose of this technology."
+            },
+            {
+              "key": "B",
+              "text": "Accelerate development, reduce errors, democratize programming",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "Make programming impossible",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Review the core principles discussed in the lesson."
+            },
+            {
+              "key": "D",
+              "text": "Only affect code appearance",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Consider what the definition actually means in practice."
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "Accelerate development, reduce errors, democratize programming",
+          "metadata": {
+            "difficulty": "easy",
+            "estimatedTime": 30,
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "artificial-intelligence",
+              "ai"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_AI_BIAS",
+            "AI3_FAIRNESS"
+          ]
+        },
+        {
+          "questionId": "ai-3-l8-q2",
+          "globalId": "exit-ticket-0577",
+          "questionNumber": 2,
+          "questionType": "code_understanding",
+          "questionTypeLabel": "Code Understanding",
+          "prompt": "What are the benefits and issues with this AI-generated email validation code?",
+          "hasCodeBlock": true,
+          "codeLanguage": "python",
+          "codeContent": "def validate_email(email):\n    pattern = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$'\n    return re.match(pattern, email) is not None",
+          "options": [
+            {
+              "key": "A",
+              "text": "Perfect code with no issues",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What is the key difference between these concepts?"
+            },
+            {
+              "key": "B",
+              "text": "Quick implementation but may not cover edge cases, needs review and testing",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "Completely wrong approach",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What is the key difference between these concepts?"
+            },
+            {
+              "key": "D",
+              "text": "Too simple to be useful",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What would happen if this were true in real-world scenarios?"
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "Quick implementation but may not cover edge cases, needs review and testing",
+          "metadata": {
+            "difficulty": "medium",
+            "estimatedTime": 60,
+            "bloomsTaxonomy": "understand",
+            "tags": [
+              "python"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_TRAINING_DATA_BIAS",
+            "AI3_DATASET_QUALITY"
+          ]
+        },
+        {
+          "questionId": "ai-3-l8-q3",
+          "globalId": "exit-ticket-0578",
+          "questionNumber": 3,
+          "questionType": "problem_solving",
+          "questionTypeLabel": "Problem-Solving",
+          "prompt": "How would you systematically debug AI-generated code that has bugs?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "options": [
+            {
+              "key": "A",
+              "text": "Give up and write code manually",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Consider what the definition actually means in practice."
+            },
+            {
+              "key": "B",
+              "text": "Understand intended functionality, test systematically, break down complex parts",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "Use more AI to fix the AI",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Consider what the definition actually means in practice."
+            },
+            {
+              "key": "D",
+              "text": "Copy different AI-generated code",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What would happen if this were true in real-world scenarios?"
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "Understand intended functionality, test systematically, break down complex parts",
+          "metadata": {
+            "difficulty": "medium",
+            "estimatedTime": 90,
+            "bloomsTaxonomy": "apply",
+            "tags": [
+              "artificial-intelligence",
+              "ai"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_HALLUCINATION",
+            "AI3_FACT_CHECKING"
+          ]
+        },
+        {
+          "questionId": "ai-3-l8-q4",
+          "globalId": "exit-ticket-0579",
+          "questionNumber": 4,
+          "questionType": "application",
+          "questionTypeLabel": "Application",
+          "prompt": "How would you balance AI assistance with learning programming fundamentals?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "options": [
+            {
+              "key": "A",
+              "text": "Use AI for everything",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Review the core principles discussed in the lesson."
+            },
+            {
+              "key": "B",
+              "text": "Staged AI introduction, code review requirements, manual implementation of core concepts",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "Never use AI",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Review the core principles discussed in the lesson."
+            },
+            {
+              "key": "D",
+              "text": "Only use AI for advanced topics",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Think about the fundamental purpose of this technology."
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "Staged AI introduction, code review requirements, manual implementation of core concepts",
+          "metadata": {
+            "difficulty": "hard",
+            "estimatedTime": 90,
+            "bloomsTaxonomy": "analyze",
+            "tags": [
+              "artificial-intelligence",
+              "ai"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_PRIVACY",
+            "AI3_DATA_SECURITY"
+          ]
+        },
+        {
+          "questionId": "ai-3-l8-q5",
+          "globalId": "exit-ticket-0580",
+          "questionNumber": 5,
+          "questionType": "reflection",
+          "questionTypeLabel": "Reflection/Meta-learning",
+          "prompt": "How have AI coding tools affected your programming learning?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "options": [
+            {
+              "key": "A",
+              "text": "Made learning unnecessary",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Review the core principles discussed in the lesson."
+            },
+            {
+              "key": "B",
+              "text": "Changed pace of learning, increased importance of code reading and critical evaluation",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "Made programming impossible",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What would happen if this were true in real-world scenarios?"
+            },
+            {
+              "key": "D",
+              "text": "No effect on learning",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Think about the fundamental purpose of this technology."
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "Changed pace of learning, increased importance of code reading and critical evaluation",
+          "metadata": {
+            "difficulty": "easy",
+            "estimatedTime": 60,
+            "bloomsTaxonomy": "evaluate",
+            "tags": [
+              "artificial-intelligence",
+              "ai"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_ENVIRONMENTAL_IMPACT",
+            "AI3_SUSTAINABILITY"
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "ai-3-lesson-9",
+      "lessonNumber": 9,
+      "lessonTitle": "Vibe Coding with GitHub\n\n### Q1: Vocabulary/Concepts\nHow do collaborative AI development tools support team-based software development?\nA) They don't support teams\nB) Enable efficient collaboration, code sharing, AI-enhanced development at scale ✓\nC) Only work for individual developers\nD) Make collaboration more difficult\n\n### Q2: Code Understanding\nWhat are advantages and challenges of AI in this collaborative workflow?\n```bash\ngit checkout -b feature/ai-suggestions\n# Use AI to generate code\ngit commit -m \"AI-generated initial implementation\"\n# Create pull request for team review\n```\nA) Only advantages, no challenges\nB) Faster prototyping but requires careful code review and team understanding ✓\nC) Only challenges, no advantages\nD) No difference from manual coding\n\n### Q3: Problem-Solving\nHow would you establish best practices for responsible AI use in team development?\nA) No practices needed\nB) Mandatory code review, AI transparency guidelines, understanding verification ✓\nC) Allow unlimited AI use without oversight\nD) Ban all AI use\n\n### Q4: Application\nWhat should a student team workflow include for AI-enhanced web development?\nA) Only AI-generated code\nB) Clear roles, AI usage guidelines, code review processes, learning objectives ✓\nC) No guidelines needed\nD) Only manual coding\n\n### Q5: Reflection/Meta-learning\nWhat skills will be most important for developers in AI-enhanced teams?\nA) Only technical coding skills\nB) Critical thinking, communication, ethical AI understanding, continuous learning ✓\nC) No human skills needed\nD) Only AI prompting skills",
+      "lessonSlug": "vibe-coding-with-github-q1-vocabularyconcepts-how-do-collaborative-ai-development-tools-support-team-based-software-development-a-they-dont-support-teams-b-enable-efficient-collaboration-code-sharing-ai-enhanced-development-at-scale-c-only-work-for-individual-developers-d-make-collaboration-more-difficult-q2-code-understanding-what-are-advantages-and-challenges-of-ai-in-this-collaborative-workflow-bash-git-checkout-b-featureai-suggestions-use-ai-to-generate-code-git-commit-m-ai-generated-initial-implementation-create-pull-request-for-team-review-a-only-advantages-no-challenges-b-faster-prototyping-but-requires-careful-code-review-and-team-understanding-c-only-challenges-no-advantages-d-no-difference-from-manual-coding-q3-problem-solving-how-would-you-establish-best-practices-for-responsible-ai-use-in-team-development-a-no-practices-needed-b-mandatory-code-review-ai-transparency-guidelines-understanding-verification-c-allow-unlimited-ai-use-without-oversight-d-ban-all-ai-use-q4-application-what-should-a-student-team-workflow-include-for-ai-enhanced-web-development-a-only-ai-generated-code-b-clear-roles-ai-usage-guidelines-code-review-processes-learning-objectives-c-no-guidelines-needed-d-only-manual-coding-q5-reflectionmeta-learning-what-skills-will-be-most-important-for-developers-in-ai-enhanced-teams-a-only-technical-coding-skills-b-critical-thinking-communication-ethical-ai-understanding-continuous-learning-c-no-human-skills-needed-d-only-ai-prompting-skills",
+      "totalQuestions": 5,
+      "questions": [
+        {
+          "questionId": "ai-3-l9-q1",
+          "globalId": "exit-ticket-0581",
+          "questionNumber": 1,
+          "questionType": "vocabulary",
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "prompt": "How do collaborative AI development tools support team-based software development?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "options": [
+            {
+              "key": "A",
+              "text": "They don't support teams",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What would happen if this were true in real-world scenarios?"
+            },
+            {
+              "key": "B",
+              "text": "Enable efficient collaboration, code sharing, AI-enhanced development at scale",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "Only work for individual developers",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Review the core principles discussed in the lesson."
+            },
+            {
+              "key": "D",
+              "text": "Make collaboration more difficult",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Consider what the definition actually means in practice."
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "Enable efficient collaboration, code sharing, AI-enhanced development at scale",
+          "metadata": {
+            "difficulty": "easy",
+            "estimatedTime": 30,
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "artificial-intelligence",
+              "ai"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_APPLICATION_DESIGN",
+            "AI3_USER_EXPERIENCE"
+          ]
+        },
+        {
+          "questionId": "ai-3-l9-q2",
+          "globalId": "exit-ticket-0582",
+          "questionNumber": 2,
+          "questionType": "code_understanding",
+          "questionTypeLabel": "Code Understanding",
+          "prompt": "What are advantages and challenges of AI in this collaborative workflow?",
+          "hasCodeBlock": true,
+          "codeLanguage": "bash",
+          "codeContent": "git checkout -b feature/ai-suggestions\n# Use AI to generate code\ngit commit -m \"AI-generated initial implementation\"\n# Create pull request for team review",
+          "options": [
+            {
+              "key": "A",
+              "text": "Only advantages, no challenges",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Review the core principles discussed in the lesson."
+            },
+            {
+              "key": "B",
+              "text": "Faster prototyping but requires careful code review and team understanding",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "Only challenges, no advantages",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Consider what the definition actually means in practice."
+            },
+            {
+              "key": "D",
+              "text": "No difference from manual coding",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Consider what the definition actually means in practice."
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "Faster prototyping but requires careful code review and team understanding",
+          "metadata": {
+            "difficulty": "medium",
+            "estimatedTime": 60,
+            "bloomsTaxonomy": "understand",
+            "tags": [
+              "bash"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_SYSTEM_INTEGRATION",
+            "AI3_ARCHITECTURE"
+          ]
+        },
+        {
+          "questionId": "ai-3-l9-q3",
+          "globalId": "exit-ticket-0583",
+          "questionNumber": 3,
+          "questionType": "problem_solving",
+          "questionTypeLabel": "Problem-Solving",
+          "prompt": "How would you establish best practices for responsible AI use in team development?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "options": [
+            {
+              "key": "A",
+              "text": "No practices needed",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Think about the fundamental purpose of this technology."
+            },
+            {
+              "key": "B",
+              "text": "Mandatory code review, AI transparency guidelines, understanding verification",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "Allow unlimited AI use without oversight",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What would happen if this were true in real-world scenarios?"
+            },
+            {
+              "key": "D",
+              "text": "Ban all AI use",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Consider what the definition actually means in practice."
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "Mandatory code review, AI transparency guidelines, understanding verification",
+          "metadata": {
+            "difficulty": "medium",
+            "estimatedTime": 90,
+            "bloomsTaxonomy": "apply",
+            "tags": [
+              "artificial-intelligence",
+              "ai"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_TESTING",
+            "AI3_QUALITY_ASSURANCE"
+          ]
+        },
+        {
+          "questionId": "ai-3-l9-q4",
+          "globalId": "exit-ticket-0584",
+          "questionNumber": 4,
+          "questionType": "application",
+          "questionTypeLabel": "Application",
+          "prompt": "What should a student team workflow include for AI-enhanced web development?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "options": [
+            {
+              "key": "A",
+              "text": "Only AI-generated code",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What would happen if this were true in real-world scenarios?"
+            },
+            {
+              "key": "B",
+              "text": "Clear roles, AI usage guidelines, code review processes, learning objectives",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "No guidelines needed",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Consider what the definition actually means in practice."
+            },
+            {
+              "key": "D",
+              "text": "Only manual coding",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What is the key difference between these concepts?"
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "Clear roles, AI usage guidelines, code review processes, learning objectives",
+          "metadata": {
+            "difficulty": "hard",
+            "estimatedTime": 90,
+            "bloomsTaxonomy": "analyze",
+            "tags": [
+              "artificial-intelligence",
+              "ai"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_DEPLOYMENT",
+            "AI3_PRODUCTION"
+          ]
+        },
+        {
+          "questionId": "ai-3-l9-q5",
+          "globalId": "exit-ticket-0585",
+          "questionNumber": 5,
+          "questionType": "reflection",
+          "questionTypeLabel": "Reflection/Meta-learning",
+          "prompt": "What skills will be most important for developers in AI-enhanced teams?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "options": [
+            {
+              "key": "A",
+              "text": "Only technical coding skills",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "What would happen if this were true in real-world scenarios?"
+            },
+            {
+              "key": "B",
+              "text": "Critical thinking, communication, ethical AI understanding, continuous learning",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct understanding!",
+                "detailed": "This answer demonstrates proper understanding of the concept."
+              }
+            },
+            {
+              "key": "C",
+              "text": "No human skills needed",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Review the core principles discussed in the lesson."
+            },
+            {
+              "key": "D",
+              "text": "Only AI prompting skills",
+              "isCorrect": false,
+              "feedback": {
+                "short": "Not quite right.",
+                "detailed": "This option represents a common misconception. Review the lesson content to understand the correct concept."
+              },
+              "socraticHint": "Consider what the definition actually means in practice."
+            }
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "Critical thinking, communication, ethical AI understanding, continuous learning",
+          "metadata": {
+            "difficulty": "easy",
+            "estimatedTime": 60,
+            "bloomsTaxonomy": "evaluate",
+            "tags": [
+              "artificial-intelligence",
+              "ai"
+            ],
+            "source": "exit-ticket",
+            "version": "1.0",
+            "createdDate": "2024-08-13",
+            "lastModified": "2025-11-07"
+          },
+          "misconceptionTargets": [
+            "AI3_MONITORING",
+            "AI3_PERFORMANCE_METRICS"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "version": "1.1",
+    "generatedBy": "claude-code",
+    "totalLessons": 9,
+    "totalQuestions": 45,
+    "lastUpdated": "2025-12-24",
+    "schemaChanges": [
+      "Added misconceptionTargets array to all questions",
+      "Converted feedback from string to structured object (short + detailed)",
+      "Added socraticHint to incorrect options"
+    ]
+  },
+  "staticVersion": "1.0.0",
+  "generatedAt": "2025-12-24T00:53:48.556Z"
+}

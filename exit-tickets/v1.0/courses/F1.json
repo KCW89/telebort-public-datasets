@@ -1,0 +1,2894 @@
+{
+  "courseId": "f1-foundation-creative-computing",
+  "courseName": "F1-Foundation of Creative Computing",
+  "courseCode": "F1",
+  "domain": "creative_computing",
+  "tier": "foundation",
+  "difficulty": 1,
+  "metadata": {
+    "version": "1.1",
+    "lastModified": "2025-12-23",
+    "totalLessons": 8,
+    "totalQuestions": 40,
+    "ageGroup": "8-12",
+    "language": "simple"
+  },
+  "lessons": [
+    {
+      "lessonId": "f1-lesson-1",
+      "lessonNumber": 1,
+      "lessonTitle": "Invention of Computer Programming Language",
+      "lessonSlug": "invention-of-computer-programming-language",
+      "totalQuestions": 5,
+      "questions": [
+        {
+          "questionId": "f1-q001",
+          "globalId": "exit-ticket-0600",
+          "questionNumber": 1,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What is a computer programming language?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_GENERAL"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Instructions written by humans for computers to understand",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! Programming languages help us talk to computers.",
+                "detailed": "Programming languages are like a bridge between humans and computers. They let us write instructions that computers can understand and follow!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Only 0s and 1s that computers read",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! 0s and 1s are binary code, not programming languages.",
+                "detailed": "Binary code (0s and 1s) is what computers understand deep down, but programming languages like Scratch make it easier for humans to write code without using just 0s and 1s!",
+                "socraticHint": "Think about how Scratch blocks use words and pictures. Is that the same as just 0s and 1s?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "A language that computers use to talk to each other",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not exactly! Programming languages help humans give instructions to computers.",
+                "detailed": "Programming languages are made for humans to communicate with computers, not for computers to talk to each other. We use these languages to tell computers what to do!",
+                "socraticHint": "Who creates the programs - humans or computers?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "The language computers speak when they turn on",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! Programming languages are tools we use to create programs.",
+                "detailed": "Programming languages are tools that people use to write programs and tell computers what to do. They help us create games, apps, and websites!",
+                "socraticHint": "Who writes programs using Scratch - you or the computer?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "Instructions written by humans for computers to understand"
+        },
+        {
+          "questionId": "f1-q002",
+          "globalId": "exit-ticket-0601",
+          "questionNumber": 2,
+          "questionType": "trace",
+          "questionArchetype": "trace",
+          "prompt": "Grace Hopper found a real moth in a computer. What do we call problems in code today?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_GENERAL"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Bugs",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! We call code problems 'bugs' because of Grace Hopper's moth!",
+                "detailed": "When Grace Hopper found a real moth causing computer problems, she called it a 'bug'. Now we use the word 'bug' for any problem in our code!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Moths",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! We use the word 'bugs' not 'moths'.",
+                "detailed": "Even though Grace Hopper found a real moth, we call all code problems 'bugs' - not moths. The word 'bug' became the official term for any code mistake!",
+                "socraticHint": "What word do programmers use when their code doesn't work right?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Errors",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Close! 'Errors' is another word, but 'bugs' is the special term from Grace Hopper's story.",
+                "detailed": "While 'error' is sometimes used, the word 'bug' came from Grace Hopper finding a real moth. This fun story gave us the term we use most often today!",
+                "socraticHint": "What word comes from the moth that Grace Hopper found?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Glitches",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! The special word from Grace Hopper's discovery is 'bugs'.",
+                "detailed": "A 'glitch' is a different word. The moth that Grace Hopper found gave us the word 'bug' for code problems!",
+                "socraticHint": "What insect did Grace Hopper find in the computer?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Code Tracing",
+          "correctAnswerText": "Bugs"
+        },
+        {
+          "questionId": "f1-q003",
+          "globalId": "exit-ticket-0602",
+          "questionNumber": 3,
+          "questionType": "bebras",
+          "questionArchetype": "bebras",
+          "prompt": "You want to make a sprite in Scratch say 'Hello'. What do you need to add first?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_BLOCK_CONNECTION"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "An event block to start the action",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! Event blocks like the green flag start your code!",
+                "detailed": "Great thinking! You always need an event block (like 'when green flag clicked') to tell Scratch when to start. Then you can add the 'say' block underneath!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Just the 'say' block by itself",
+              "isCorrect": false,
+              "misconceptionId": "F1_BLOCK_CONNECTION",
+              "feedback": {
+                "short": "Not quite! A 'say' block alone won't work - it needs an event block to start it.",
+                "detailed": "The 'say' block needs an event block on top to tell it when to run. Think of the event block as the 'start' button!",
+                "socraticHint": "How does Scratch know when to make your sprite say something?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "A costume for the sprite",
+              "isCorrect": false,
+              "misconceptionId": "F1_BLOCK_CONNECTION",
+              "feedback": {
+                "short": "Not quite! Costumes change how sprites look, but don't make them say things.",
+                "detailed": "While costumes are fun, you need code blocks to make your sprite say something. Start with an event block, then add a 'say' block!",
+                "socraticHint": "What tells your sprite WHEN to start talking?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "A background for the stage",
+              "isCorrect": false,
+              "misconceptionId": "F1_BLOCK_CONNECTION",
+              "feedback": {
+                "short": "Not quite! Backgrounds don't make sprites talk - you need code blocks!",
+                "detailed": "Backgrounds make your project look nice, but to make a sprite say something, you need an event block to start and a 'say' block to make it talk!",
+                "socraticHint": "What kind of blocks do you snap together to make things happen?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Computational Thinking",
+          "correctAnswerText": "An event block to start the action"
+        },
+        {
+          "questionId": "f1-q004",
+          "globalId": "exit-ticket-0603",
+          "questionNumber": 4,
+          "questionType": "blockmodel",
+          "questionArchetype": "blockmodel",
+          "prompt": "What happens when you click the green flag in Scratch?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_EVENT_TRIGGER"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "All code blocks with 'when green flag clicked' start running",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! The green flag starts all your 'when green flag clicked' code!",
+                "detailed": "Perfect! When you click the green flag, it triggers all the code that starts with the 'when green flag clicked' block. It's like pressing the play button on a game!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Only the first sprite's code runs",
+              "isCorrect": false,
+              "misconceptionId": "F1_EVENT_TRIGGER",
+              "feedback": {
+                "short": "Not quite! The green flag runs code for ALL sprites, not just the first one.",
+                "detailed": "The green flag starts every piece of code that has the 'when green flag clicked' block, no matter which sprite it belongs to!",
+                "socraticHint": "If you have three sprites all with 'when green flag clicked' blocks, what happens to each one?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "It saves your project",
+              "isCorrect": false,
+              "misconceptionId": "F1_EVENT_TRIGGER",
+              "feedback": {
+                "short": "Not quite! The green flag runs your code, it doesn't save it.",
+                "detailed": "The green flag is for running your project, not saving it. To save, you need to use the File menu!",
+                "socraticHint": "What happens to your sprites when you click the green flag?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "It deletes all your sprites",
+              "isCorrect": false,
+              "misconceptionId": "F1_EVENT_TRIGGER",
+              "feedback": {
+                "short": "No! The green flag is safe - it just runs your code!",
+                "detailed": "Don't worry! The green flag never deletes anything. It just starts your program running. Your sprites are safe!",
+                "socraticHint": "Is the green flag for running your project or changing it?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Block Model Analysis",
+          "correctAnswerText": "All code blocks with 'when green flag clicked' start running"
+        },
+        {
+          "questionId": "f1-q005",
+          "globalId": "exit-ticket-0604",
+          "questionNumber": 5,
+          "questionType": "bebras",
+          "questionArchetype": "bebras",
+          "prompt": "Why is Scratch a good programming language for beginners?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_GENERAL"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "It uses colorful blocks that snap together instead of typing code",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! Scratch blocks make coding visual and fun!",
+                "detailed": "You're right! Scratch uses blocks that you can see and drag around. This makes it easier to learn coding without worrying about typing mistakes!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "It's only for making simple projects",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not true! Scratch can make complex games and animations too!",
+                "detailed": "Scratch might seem simple, but you can create amazing complex games, stories, and animations! Many professional concepts can be learned in Scratch.",
+                "socraticHint": "Have you seen complex Scratch games? What makes them complex?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "It writes the code for you automatically",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! You still create all the code yourself by arranging blocks.",
+                "detailed": "Scratch doesn't write code for you - you're the programmer! You choose which blocks to use and how to arrange them. Scratch just makes it easier by using blocks instead of typing.",
+                "socraticHint": "Who decides what blocks to use and where to put them?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "It doesn't teach real programming concepts",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not true! Scratch teaches the same concepts used in all programming!",
+                "detailed": "Scratch teaches real programming concepts like loops, variables, and conditionals - the same ideas used in professional programming languages!",
+                "socraticHint": "Do professional programmers use loops, variables, and conditionals too?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Computational Thinking",
+          "correctAnswerText": "It uses colorful blocks that snap together instead of typing code"
+        }
+      ]
+    },
+    {
+      "lessonId": "f1-lesson-2",
+      "lessonNumber": 2,
+      "lessonTitle": "Concepts of Computational Thinking",
+      "lessonSlug": "concepts-of-computational-thinking",
+      "totalQuestions": 5,
+      "questions": [
+        {
+          "questionId": "f1-q006",
+          "globalId": "exit-ticket-0605",
+          "questionNumber": 1,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What is decomposition in computational thinking?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_GENERAL"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Breaking a big problem into smaller, easier pieces",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! Decomposition means breaking things into smaller parts!",
+                "detailed": "Great job! Decomposition is like taking a huge LEGO set and building it one small section at a time. It makes big problems much easier to solve!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Making something break or fall apart",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! Decomposition in coding means organizing, not breaking things.",
+                "detailed": "In computational thinking, decomposition doesn't mean destroying something. It means carefully breaking a problem into parts so we can solve each part step by step!",
+                "socraticHint": "When you plan how to build something complex, do you think about all the small parts first?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Finding patterns that repeat",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! That's pattern recognition, not decomposition.",
+                "detailed": "Finding patterns is called pattern recognition - another part of computational thinking! Decomposition is specifically about breaking problems into smaller pieces.",
+                "socraticHint": "Which computational thinking concept is about dividing a big task into smaller tasks?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Writing step-by-step instructions",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! That's creating algorithms, not decomposition.",
+                "detailed": "Step-by-step instructions are called algorithms! Decomposition is about breaking big problems into smaller ones first, before we write the steps.",
+                "socraticHint": "What do we call it when we divide one big problem into many small problems?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "Breaking a big problem into smaller, easier pieces"
+        },
+        {
+          "questionId": "f1-q007",
+          "globalId": "exit-ticket-0606",
+          "questionNumber": 2,
+          "questionType": "bebras",
+          "questionArchetype": "bebras",
+          "prompt": "You want to teach someone how to make a sandwich. Which computational thinking skill are you using when you list each step in order?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_GENERAL"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Algorithm",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! Step-by-step instructions are algorithms!",
+                "detailed": "Perfect! When you write clear steps like 'First get bread, then add filling, then put it together', you're creating an algorithm!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Abstraction",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! Abstraction is about focusing on important details, not listing steps.",
+                "detailed": "Abstraction is when you decide what's important and leave out extra details. Writing step-by-step instructions is creating an algorithm!",
+                "socraticHint": "What do we call a list of steps that tells you exactly what to do?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Pattern recognition",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! Pattern recognition is about finding things that repeat.",
+                "detailed": "Pattern recognition is when you notice similarities or things that happen again and again. Creating a step-by-step plan is making an algorithm!",
+                "socraticHint": "Are you finding patterns, or are you writing instructions?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Decomposition",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! Decomposition is breaking problems into parts, not listing steps.",
+                "detailed": "Decomposition would be if you broke 'make a sandwich' into smaller tasks first. Writing the actual steps in order is creating an algorithm!",
+                "socraticHint": "What computational thinking concept involves writing clear steps?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Computational Thinking",
+          "correctAnswerText": "Algorithm"
+        },
+        {
+          "questionId": "f1-q008",
+          "globalId": "exit-ticket-0607",
+          "questionNumber": 3,
+          "questionType": "bebras",
+          "questionArchetype": "bebras",
+          "prompt": "When you decide to focus on studying for tomorrow's test instead of doing other homework, which computational thinking skill are you using?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_GENERAL"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Abstraction",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! Abstraction is focusing on what's most important!",
+                "detailed": "You're right! Abstraction means focusing on the most important thing right now and setting aside other details for later. Great thinking!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Algorithm",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! Algorithms are step-by-step instructions, not choosing what's important.",
+                "detailed": "An algorithm is a list of steps to follow. When you decide what's most important to focus on, that's abstraction!",
+                "socraticHint": "Are you making a list of steps, or deciding what matters most?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Decomposition",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! Decomposition is breaking things into parts, not choosing priorities.",
+                "detailed": "Decomposition is about dividing big problems into smaller ones. Choosing what's most important to focus on is abstraction!",
+                "socraticHint": "Are you dividing a problem into parts, or deciding what needs your attention first?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Pattern recognition",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! Pattern recognition is about finding similarities.",
+                "detailed": "Pattern recognition is when you spot things that are similar or repeat. Deciding what's most important is abstraction!",
+                "socraticHint": "Are you looking for patterns, or choosing what to focus on?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Computational Thinking",
+          "correctAnswerText": "Abstraction"
+        },
+        {
+          "questionId": "f1-q009",
+          "globalId": "exit-ticket-0608",
+          "questionNumber": 4,
+          "questionType": "trace",
+          "questionArchetype": "trace",
+          "prompt": "Look at this pattern: apple, banana, apple, banana, apple, ___. What comes next?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_GENERAL"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Banana",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! You recognized the pattern: apple, banana repeats!",
+                "detailed": "Great job using pattern recognition! The pattern goes apple, banana, apple, banana, so banana comes next. You're thinking like a programmer!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Apple",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! Look at the pattern carefully: apple, banana, apple, banana...",
+                "detailed": "Take another look! The pattern alternates: apple, banana, apple, banana, apple. Since the last one is apple, what should come next?",
+                "socraticHint": "If the pattern goes apple, banana, apple, banana, what follows banana each time?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Orange",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! The pattern only uses apple and banana.",
+                "detailed": "Orange isn't part of this pattern! The pattern repeats just two fruits: apple and banana. Look at how they alternate!",
+                "socraticHint": "Which two fruits keep repeating in the pattern?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "It could be any fruit",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! Patterns follow rules - look for what repeats!",
+                "detailed": "Patterns have specific rules! This pattern repeats apple, banana, apple, banana. When you recognize the pattern, you can predict what comes next!",
+                "socraticHint": "Do you see the same two fruits repeating over and over?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Code Tracing",
+          "correctAnswerText": "Banana"
+        },
+        {
+          "questionId": "f1-q010",
+          "globalId": "exit-ticket-0609",
+          "questionNumber": 5,
+          "questionType": "bebras",
+          "questionArchetype": "bebras",
+          "prompt": "Why is computational thinking useful in everyday life, not just in coding?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_GENERAL"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "It helps you solve any problem by breaking it down and planning steps",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! Computational thinking helps solve all kinds of problems!",
+                "detailed": "Exactly! Whether you're planning a party, organizing your room, or creating a game, computational thinking helps you break problems into steps and find solutions!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "It only works with computers and technology",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not true! Computational thinking works for solving any kind of problem.",
+                "detailed": "Computational thinking started with computers, but the skills work for everything! You can use it to plan your day, cook a meal, or organize your backpack!",
+                "socraticHint": "Can you break down a non-computer problem into smaller steps?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "It makes computers think for you",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! Computational thinking is how YOU think, not how computers think for you.",
+                "detailed": "Computational thinking is a skill that helps YOU solve problems better. It's about how you think and plan, whether you're using a computer or not!",
+                "socraticHint": "Who is doing the thinking when you use computational thinking - you or the computer?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "It's too hard to use outside of class",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not true! You probably already use it without knowing it!",
+                "detailed": "You use computational thinking all the time! When you plan how to get ready for school or figure out how to build something, you're already using these skills!",
+                "socraticHint": "Have you ever broken a big task into smaller steps at home?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Computational Thinking",
+          "correctAnswerText": "It helps you solve any problem by breaking it down and planning steps"
+        }
+      ]
+    },
+    {
+      "lessonId": "f1-lesson-3",
+      "lessonNumber": 3,
+      "lessonTitle": "Events & Sequence",
+      "lessonSlug": "events-and-sequence",
+      "totalQuestions": 5,
+      "questions": [
+        {
+          "questionId": "f1-q011",
+          "globalId": "exit-ticket-0610",
+          "questionNumber": 1,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What is an event in programming?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_EVENT_TRIGGER"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Something that happens that makes code start running",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! Events are triggers that start your code!",
+                "detailed": "Perfect! Events are like signals that tell your code to start. When you click the green flag or click a sprite, that's an event that makes things happen!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "A block that moves sprites around",
+              "isCorrect": false,
+              "misconceptionId": "F1_EVENT_TRIGGER",
+              "feedback": {
+                "short": "Not quite! Motion blocks move sprites, but events START the code.",
+                "detailed": "Events are special blocks that start your code running. They don't move sprites - they tell Scratch WHEN to start doing things!",
+                "socraticHint": "What happens when you click the green flag - does it move a sprite or start your code?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "A party that sprites have in your project",
+              "isCorrect": false,
+              "misconceptionId": "F1_EVENT_TRIGGER",
+              "feedback": {
+                "short": "Not quite! Events in programming are triggers, not parties.",
+                "detailed": "While 'event' can mean a party in real life, in programming an event is something that triggers your code to run - like clicking or pressing a key!",
+                "socraticHint": "What does 'When green flag clicked' do in your code?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Any block in your code",
+              "isCorrect": false,
+              "misconceptionId": "F1_EVENT_TRIGGER",
+              "feedback": {
+                "short": "Not quite! Events are special blocks that START code running.",
+                "detailed": "Not all blocks are events! Event blocks are the special hat-shaped blocks that tell your code when to start, like 'when green flag clicked'.",
+                "socraticHint": "Which blocks always go at the very top of your code to start it?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "Something that happens that makes code start running"
+        },
+        {
+          "questionId": "f1-q012",
+          "globalId": "exit-ticket-0611",
+          "questionNumber": 2,
+          "questionType": "blockmodel",
+          "questionArchetype": "blockmodel",
+          "prompt": "What shape are event blocks in Scratch?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_BLOCK_CONNECTION"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Hat-shaped with a rounded top",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! Event blocks look like hats and go on top!",
+                "detailed": "Great observation! Event blocks have a rounded top like a hat, which reminds us that they always go at the very top of our code!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Hexagon-shaped like stop signs",
+              "isCorrect": false,
+              "misconceptionId": "F1_BLOCK_CONNECTION",
+              "feedback": {
+                "short": "Not quite! Hexagon blocks are boolean blocks, not events.",
+                "detailed": "Hexagon-shaped blocks are used for true/false questions. Event blocks are hat-shaped with a rounded top!",
+                "socraticHint": "What shape is the 'when green flag clicked' block?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Rectangle-shaped like all other blocks",
+              "isCorrect": false,
+              "misconceptionId": "F1_BLOCK_CONNECTION",
+              "feedback": {
+                "short": "Not quite! Event blocks have a special rounded top.",
+                "detailed": "Most blocks are rectangular, but event blocks are special! They have a rounded top like a hat so you know they start your code.",
+                "socraticHint": "Look at the 'when green flag clicked' block - does the top look different from other blocks?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Round like circles",
+              "isCorrect": false,
+              "misconceptionId": "F1_BLOCK_CONNECTION",
+              "feedback": {
+                "short": "Not quite! Event blocks are hat-shaped, not circles.",
+                "detailed": "Round blocks are reporter blocks that give you values. Event blocks have a special rounded top like a hat, but the whole block isn't circular!",
+                "socraticHint": "What does the top of the 'when green flag clicked' block look like?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Block Model Analysis",
+          "correctAnswerText": "Hat-shaped with a rounded top"
+        },
+        {
+          "questionId": "f1-q013",
+          "globalId": "exit-ticket-0612",
+          "questionNumber": 3,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What is sequence in programming?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_SEQUENCE_ORDER"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "The order in which code blocks run, one after another",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! Sequence is all about the order of your code!",
+                "detailed": "Perfect! Sequence means your code blocks run in order from top to bottom, just like following recipe steps one at a time!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "All code blocks running at the same time",
+              "isCorrect": false,
+              "misconceptionId": "F1_SEQUENCE_ORDER",
+              "feedback": {
+                "short": "Not quite! Sequence means one step after another, not all at once.",
+                "detailed": "In sequence, code blocks run one at a time in order, not all together. It's like following directions step by step!",
+                "socraticHint": "When you brush your teeth, do you do all the steps at once or one after another?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "A type of event block",
+              "isCorrect": false,
+              "misconceptionId": "F1_SEQUENCE_ORDER",
+              "feedback": {
+                "short": "Not quite! Sequence is about order, not event blocks.",
+                "detailed": "Sequence isn't a type of block - it's the concept of doing things in a specific order. Events start code, but sequence is how that code runs step by step!",
+                "socraticHint": "Does sequence describe WHAT blocks you use or the ORDER you use them in?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Random blocks that run whenever",
+              "isCorrect": false,
+              "misconceptionId": "F1_SEQUENCE_ORDER",
+              "feedback": {
+                "short": "Not quite! Sequence is very organized, not random!",
+                "detailed": "Sequence is the opposite of random! It means blocks run in a specific order, one after another, following your exact plan.",
+                "socraticHint": "If you follow a recipe, do you do steps in order or randomly?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "The order in which code blocks run, one after another"
+        },
+        {
+          "questionId": "f1-q014",
+          "globalId": "exit-ticket-0613",
+          "questionNumber": 4,
+          "questionType": "trace",
+          "questionArchetype": "trace",
+          "prompt": "Look at this code:\n1. Say 'Hello'\n2. Wait 1 second  \n3. Say 'Goodbye'\n\nWhat happens when this code runs?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_SEQUENCE_ORDER"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "The sprite says 'Hello', waits, then says 'Goodbye'",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! Code runs in sequence from top to bottom!",
+                "detailed": "Perfect! You understand sequence! The blocks run in order: first 'Hello', then wait, then 'Goodbye'. Each step happens one after another!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "The sprite says 'Goodbye', waits, then says 'Hello'",
+              "isCorrect": false,
+              "misconceptionId": "F1_SEQUENCE_ORDER",
+              "feedback": {
+                "short": "Not quite! Code runs from top to bottom, not bottom to top.",
+                "detailed": "Remember, sequence means blocks run in order from top to bottom! So 'Hello' comes first, not 'Goodbye'.",
+                "socraticHint": "Which block is at the top - 'Hello' or 'Goodbye'?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "The sprite says both words at the same time",
+              "isCorrect": false,
+              "misconceptionId": "F1_SEQUENCE_ORDER",
+              "feedback": {
+                "short": "Not quite! Blocks run one at a time in sequence.",
+                "detailed": "In sequence, each block runs one after another, not at the same time. The sprite will say 'Hello' first, then after waiting, say 'Goodbye'.",
+                "socraticHint": "Can you say two different words at exactly the same time?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Nothing happens because the wait block stops everything",
+              "isCorrect": false,
+              "misconceptionId": "F1_SEQUENCE_ORDER",
+              "feedback": {
+                "short": "Not quite! The wait block pauses, then the code continues.",
+                "detailed": "The wait block just makes the sprite pause for a moment. After waiting, the code continues to the next block! So 'Goodbye' will still appear.",
+                "socraticHint": "What happens after you wait for something - do you stop forever or continue?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Code Tracing",
+          "correctAnswerText": "The sprite says 'Hello', waits, then says 'Goodbye'"
+        },
+        {
+          "questionId": "f1-q015",
+          "globalId": "exit-ticket-0614",
+          "questionNumber": 5,
+          "questionType": "bebras",
+          "questionArchetype": "bebras",
+          "prompt": "Why is it important to put code blocks in the right order?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_SEQUENCE_ORDER"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "So your program does exactly what you want it to do",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! Order matters for your program to work right!",
+                "detailed": "Great thinking! Just like putting on socks before shoes, code needs to run in the right order for your program to work the way you planned!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "The computer won't run blocks in the wrong order",
+              "isCorrect": false,
+              "misconceptionId": "F1_SEQUENCE_ORDER",
+              "feedback": {
+                "short": "Not quite! The computer will run your blocks in ANY order you put them.",
+                "detailed": "The computer follows your instructions exactly, even if they're in the wrong order! That's why YOU need to make sure they're in the right sequence.",
+                "socraticHint": "If you tell someone to put on shoes before socks, will they do it even though it's wrong?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "It doesn't matter, the computer figures it out",
+              "isCorrect": false,
+              "misconceptionId": "F1_SEQUENCE_ORDER",
+              "feedback": {
+                "short": "Not quite! Computers follow your exact instructions in order.",
+                "detailed": "Computers can't think for themselves! They do exactly what you tell them in the exact order you tell them. You have to get the sequence right!",
+                "socraticHint": "Can a computer guess what order you meant if you put blocks in the wrong order?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Only for making the code look neat and organized",
+              "isCorrect": false,
+              "misconceptionId": "F1_SEQUENCE_ORDER",
+              "feedback": {
+                "short": "Not quite! Order changes what actually happens, not just looks.",
+                "detailed": "It's not just about looking nice! The order actually changes what your program does. Wrong order means wrong results!",
+                "socraticHint": "What happens if you try to eat a sandwich before making it?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Computational Thinking",
+          "correctAnswerText": "So your program does exactly what you want it to do"
+        }
+      ]
+    },
+    {
+      "lessonId": "f1-lesson-4",
+      "lessonNumber": 4,
+      "lessonTitle": "Loops",
+      "lessonSlug": "loops",
+      "totalQuestions": 5,
+      "questions": [
+        {
+          "questionId": "f1-q016",
+          "globalId": "exit-ticket-0615",
+          "questionNumber": 1,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What is a loop in programming?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_LOOP_FOREVER"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Code that repeats over and over again",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! Loops make code repeat!",
+                "detailed": "Perfect! Loops let us repeat code multiple times without writing it over and over. It's like telling your sprite to jump 10 times with just one block!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "A circle shape in your code",
+              "isCorrect": false,
+              "misconceptionId": "F1_LOOP_FOREVER",
+              "feedback": {
+                "short": "Not quite! Loops repeat code, they're not about shapes.",
+                "detailed": "While the word 'loop' can mean a circle shape, in programming it means repeating code over and over again!",
+                "socraticHint": "What does the 'repeat 10' block do?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Code that only runs once",
+              "isCorrect": false,
+              "misconceptionId": "F1_LOOP_FOREVER",
+              "feedback": {
+                "short": "Not quite! Loops run multiple times, not just once.",
+                "detailed": "Loops are all about repetition! They make code run many times, not just once. That's what makes them so useful!",
+                "socraticHint": "What does 'repeat' mean?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "An event that starts your program",
+              "isCorrect": false,
+              "misconceptionId": "F1_LOOP_FOREVER",
+              "feedback": {
+                "short": "Not quite! Events start code, loops repeat code.",
+                "detailed": "Events (like the green flag) START your code. Loops REPEAT parts of your code over and over. They're different tools!",
+                "socraticHint": "Does 'repeat 10' start your code or repeat code?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "Code that repeats over and over again"
+        },
+        {
+          "questionId": "f1-q017",
+          "globalId": "exit-ticket-0616",
+          "questionNumber": 2,
+          "questionType": "trace",
+          "questionArchetype": "trace",
+          "prompt": "If you have a 'repeat 4' block with 'turn 90 degrees' inside, what happens?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_REPEAT_COUNT"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "The sprite turns 90 degrees four times (full circle)",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! The sprite does a complete 360-degree turn!",
+                "detailed": "Perfect! The loop repeats 'turn 90 degrees' four times: 90 + 90 + 90 + 90 = 360 degrees, which is a full circle!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "The sprite turns 90 degrees only once",
+              "isCorrect": false,
+              "misconceptionId": "F1_REPEAT_COUNT",
+              "feedback": {
+                "short": "Not quite! The 'repeat 4' makes it turn four times.",
+                "detailed": "The 'repeat 4' block runs the code inside it 4 times, not just once! So the sprite turns 90 degrees four separate times.",
+                "socraticHint": "What does the number in 'repeat 4' tell you?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "The sprite turns 4 degrees",
+              "isCorrect": false,
+              "misconceptionId": "F1_REPEAT_COUNT",
+              "feedback": {
+                "short": "Not quite! The sprite turns 90 degrees each time, repeated 4 times.",
+                "detailed": "The number in the repeat block (4) tells you HOW MANY TIMES to repeat, not the number of degrees! It turns 90 degrees, four times.",
+                "socraticHint": "What number is inside the 'turn' block, and what number is in the 'repeat' block?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "The sprite turns forever without stopping",
+              "isCorrect": false,
+              "misconceptionId": "F1_REPEAT_COUNT",
+              "feedback": {
+                "short": "Not quite! 'Repeat 4' stops after 4 times.",
+                "detailed": "A 'repeat 4' block runs exactly 4 times and then stops. The 'forever' block is what runs without stopping!",
+                "socraticHint": "What's the difference between 'repeat 4' and 'forever'?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Code Tracing",
+          "correctAnswerText": "The sprite turns 90 degrees four times (full circle)"
+        },
+        {
+          "questionId": "f1-q018",
+          "globalId": "exit-ticket-0617",
+          "questionNumber": 3,
+          "questionType": "blockmodel",
+          "questionArchetype": "blockmodel",
+          "prompt": "What does the 'forever' block do?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_LOOP_FOREVER"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Keeps repeating the code inside until you stop the program",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! Forever loops run non-stop until you click the stop button!",
+                "detailed": "Exactly! The 'forever' block creates a loop that keeps going and going until you click the stop button. Perfect for animations and games!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Repeats the code exactly 10 times",
+              "isCorrect": false,
+              "misconceptionId": "F1_LOOP_FOREVER",
+              "feedback": {
+                "short": "Not quite! Forever means it never stops, not just 10 times.",
+                "detailed": "The 'forever' block doesn't have a set number - it keeps going until you stop it! If you want it to repeat exactly 10 times, use 'repeat 10'.",
+                "socraticHint": "What does the word 'forever' mean?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Runs the code only one time",
+              "isCorrect": false,
+              "misconceptionId": "F1_LOOP_FOREVER",
+              "feedback": {
+                "short": "Not quite! Forever means it keeps repeating!",
+                "detailed": "The 'forever' block is the opposite of running once - it repeats the code over and over without stopping!",
+                "socraticHint": "Does 'forever' mean 'one time' or 'many times'?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Saves your project permanently",
+              "isCorrect": false,
+              "misconceptionId": "F1_LOOP_FOREVER",
+              "feedback": {
+                "short": "Not quite! Forever loops repeat code, they don't save projects.",
+                "detailed": "The 'forever' block is for repeating code inside your program. To save your project, you use the File menu!",
+                "socraticHint": "Is 'forever' a loop block or a save button?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Block Model Analysis",
+          "correctAnswerText": "Keeps repeating the code inside until you stop the program"
+        },
+        {
+          "questionId": "f1-q019",
+          "globalId": "exit-ticket-0618",
+          "questionNumber": 4,
+          "questionType": "bebras",
+          "questionArchetype": "bebras",
+          "prompt": "Why are loops useful in programming?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_GENERAL"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "They save time by not making you write the same code many times",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! Loops make coding faster and easier!",
+                "detailed": "Great thinking! Instead of dragging and dropping the same blocks 100 times, you can use a loop to repeat them automatically. Work smarter, not harder!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "They make your code run faster on the computer",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! Loops help YOU write code faster, not make it run faster.",
+                "detailed": "Loops don't make the computer run faster - they help YOU write code more easily! Instead of typing the same thing 100 times, you write it once in a loop.",
+                "socraticHint": "Who does a loop help more - you when writing code, or the computer when running it?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "They are the only way to make sprites move",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! You can move sprites without loops too.",
+                "detailed": "You can move sprites with or without loops! Loops just make it easier if you want to repeat the same movement many times.",
+                "socraticHint": "Can you make a sprite move with just a 'move 10 steps' block without a loop?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "They add more sprites to your project",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! Loops repeat code, they don't create sprites.",
+                "detailed": "Loops make code repeat - they don't create new sprites! To add sprites, you use the sprite button at the bottom of Scratch.",
+                "socraticHint": "What does repeating code have to do with creating new sprites?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Computational Thinking",
+          "correctAnswerText": "They save time by not making you write the same code many times"
+        },
+        {
+          "questionId": "f1-q020",
+          "globalId": "exit-ticket-0619",
+          "questionNumber": 5,
+          "questionType": "bebras",
+          "questionArchetype": "bebras",
+          "prompt": "You want to make a sprite say the numbers 1, 2, 3, 4, 5. Which is better?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_GENERAL"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Use a 'repeat 5' loop with a variable that counts up",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! A loop with a counting variable is the smart way!",
+                "detailed": "Perfect! Using a loop with a variable that increases is the professional way to count. Your code is shorter and easier to change!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Use five separate 'say' blocks: say 1, say 2, say 3, say 4, say 5",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "This works, but a loop is better! Less code means less work.",
+                "detailed": "While five 'say' blocks would work, it's not the best way! If you needed to count to 100, would you want to add 100 blocks? A loop makes it much easier!",
+                "socraticHint": "What if you wanted to count to 100? Would you want to add 100 blocks?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Use a 'forever' loop",
+              "isCorrect": false,
+              "misconceptionId": "F1_LOOP_FOREVER",
+              "feedback": {
+                "short": "Not quite! Forever would count forever, not just to 5.",
+                "detailed": "A 'forever' loop wouldn't stop at 5 - it would keep counting forever! You need 'repeat 5' to stop after counting to 5.",
+                "socraticHint": "Do you want to count forever or just to 5?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "You can't make a sprite count in Scratch",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not true! Scratch can definitely count using loops and variables.",
+                "detailed": "Scratch is great at counting! You can use loops and variables together to make your sprite count, do math, keep score, and much more!",
+                "socraticHint": "Have you seen games that keep score? How do they count points?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Computational Thinking",
+          "correctAnswerText": "Use a 'repeat 5' loop with a variable that counts up"
+        }
+      ]
+    },
+    {
+      "lessonId": "f1-lesson-5",
+      "lessonNumber": 5,
+      "lessonTitle": "Conditionals & Operators",
+      "lessonSlug": "conditionals-and-operators",
+      "totalQuestions": 5,
+      "questions": [
+        {
+          "questionId": "f1-q021",
+          "globalId": "exit-ticket-0620",
+          "questionNumber": 1,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What does a conditional (IF-THEN-ELSE) do?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_CONDITIONAL_LOGIC"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Lets your program make decisions based on conditions",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! Conditionals help programs choose what to do!",
+                "detailed": "Perfect! Conditionals are like asking a question: IF it's raining, THEN bring an umbrella, ELSE leave it home. Your program can decide what to do!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Makes code repeat over and over",
+              "isCorrect": false,
+              "misconceptionId": "F1_CONDITIONAL_LOGIC",
+              "feedback": {
+                "short": "Not quite! That's what loops do. Conditionals make choices!",
+                "detailed": "Loops repeat code, but conditionals help your program choose between different paths. Think: IF touching edge THEN bounce, ELSE keep moving.",
+                "socraticHint": "What's the difference between repeating something and choosing between two options?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Runs all the code inside no matter what",
+              "isCorrect": false,
+              "misconceptionId": "F1_CONDITIONAL_LOGIC",
+              "feedback": {
+                "short": "Not quite! Conditionals choose which code to run.",
+                "detailed": "Conditionals don't run everything! They check a condition and run EITHER the THEN part OR the ELSE part, not both!",
+                "socraticHint": "If it's sunny, do you bring an umbrella AND sunglasses, or do you choose?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Stops your program completely",
+              "isCorrect": false,
+              "misconceptionId": "F1_CONDITIONAL_LOGIC",
+              "feedback": {
+                "short": "Not quite! Conditionals help programs make choices, not stop.",
+                "detailed": "Conditionals don't stop your program - they help it make smart decisions about what to do next!",
+                "socraticHint": "When you ask 'IF I'm hungry, THEN eat', does that stop everything or help you decide?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "Lets your program make decisions based on conditions"
+        },
+        {
+          "questionId": "f1-q022",
+          "globalId": "exit-ticket-0621",
+          "questionNumber": 2,
+          "questionType": "trace",
+          "questionArchetype": "trace",
+          "prompt": "Look at this code: IF touching edge THEN turn right. What happens when the sprite touches the edge?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_CONDITIONAL_LOGIC"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "The sprite turns right",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! When the IF condition is true, the THEN action happens!",
+                "detailed": "Perfect! The sprite checks: Am I touching the edge? Yes! Then it does the THEN part: turn right. Great understanding of conditionals!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "The sprite keeps moving straight",
+              "isCorrect": false,
+              "misconceptionId": "F1_CONDITIONAL_LOGIC",
+              "feedback": {
+                "short": "Not quite! When touching the edge, the condition is TRUE so it turns.",
+                "detailed": "When the sprite touches the edge, the IF condition becomes true, so it does what the THEN says: turn right!",
+                "socraticHint": "What happens when the condition after IF is true?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "The sprite disappears",
+              "isCorrect": false,
+              "misconceptionId": "F1_CONDITIONAL_LOGIC",
+              "feedback": {
+                "short": "Not quite! The code says to turn right, not disappear.",
+                "detailed": "Look at what comes after THEN - it says 'turn right', not hide or disappear! The sprite will turn when it touches the edge.",
+                "socraticHint": "What action is written after the THEN?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Nothing happens",
+              "isCorrect": false,
+              "misconceptionId": "F1_CONDITIONAL_LOGIC",
+              "feedback": {
+                "short": "Not quite! When the IF is true, the THEN action runs!",
+                "detailed": "Something definitely happens! When touching edge (condition is true), the sprite turns right (the THEN action).",
+                "socraticHint": "If the condition is true, does the code after THEN run or not?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Code Tracing",
+          "correctAnswerText": "The sprite turns right"
+        },
+        {
+          "questionId": "f1-q023",
+          "globalId": "exit-ticket-0622",
+          "questionNumber": 3,
+          "questionType": "blockmodel",
+          "questionArchetype": "blockmodel",
+          "prompt": "What is an operator in programming?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_GENERAL"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "A block that does math or compares things",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! Operators help us calculate and compare!",
+                "detailed": "Great! Operators are like tools that help you do math (like + - × ÷) or compare things (like > < =). They're super useful in programs!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "A person who runs the computer",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! An operator in coding is a special block, not a person.",
+                "detailed": "While 'operator' can mean a person in real life, in programming it's a type of block that does math or comparisons!",
+                "socraticHint": "What do the + - × ÷ blocks do in Scratch?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "A block that makes sprites move",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! Motion blocks move sprites. Operators do math and comparisons.",
+                "detailed": "Motion blocks move sprites, but operators help you calculate numbers and compare values! They're in the green Operators section.",
+                "socraticHint": "Which Scratch blocks help you add, subtract, or compare numbers?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "A type of event block",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! Event blocks start code. Operators do math and comparisons.",
+                "detailed": "Event blocks start your code running, but operators are different - they help you do math and compare things!",
+                "socraticHint": "What color are the blocks that add and subtract numbers?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Block Model Analysis",
+          "correctAnswerText": "A block that does math or compares things"
+        },
+        {
+          "questionId": "f1-q024",
+          "globalId": "exit-ticket-0623",
+          "questionNumber": 4,
+          "questionType": "trace",
+          "questionArchetype": "trace",
+          "prompt": "What does this condition check: IF score > 50 THEN say 'You win!'",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_GENERAL"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "If the score is greater than 50",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! The > symbol means 'greater than'!",
+                "detailed": "Perfect! The > operator checks if the score is more than 50. If yes (like 51, 60, 100), the sprite says 'You win!'"
+              }
+            },
+            {
+              "key": "B",
+              "text": "If the score is less than 50",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! The > symbol points to the smaller number, meaning 'greater than'.",
+                "detailed": "The > symbol means 'greater than', not 'less than'. Think of it like a hungry alligator eating the bigger number! So score > 50 means score is bigger than 50.",
+                "socraticHint": "Which way does the > symbol point - toward the bigger or smaller number?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "If the score is exactly 50",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! > means greater than, not equal to.",
+                "detailed": "The > symbol means greater than, not equal to! If the score is exactly 50, this condition is false. For exactly 50, you'd use = instead.",
+                "socraticHint": "Is 50 greater than 50, or equal to 50?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "If the score is 50 or higher",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Close! > means greater than (not equal to), so 51 or higher.",
+                "detailed": "Good thinking, but > means strictly greater than (not including 50). You'd need >= to include 50. With just >, scores of 51, 52, 53... would work, but exactly 50 wouldn't!",
+                "socraticHint": "Does 'greater than 50' include the number 50 itself?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Code Tracing",
+          "correctAnswerText": "If the score is greater than 50"
+        },
+        {
+          "questionId": "f1-q025",
+          "globalId": "exit-ticket-0624",
+          "questionNumber": 5,
+          "questionType": "bebras",
+          "questionArchetype": "bebras",
+          "prompt": "Why do we need IF-THEN-ELSE blocks in programs?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_CONDITIONAL_LOGIC"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "To make programs that can respond differently to different situations",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! Conditionals make programs smart and flexible!",
+                "detailed": "Exactly! Just like you make different choices (umbrella when raining, sunglasses when sunny), programs need conditionals to respond to different situations!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "To make code repeat multiple times",
+              "isCorrect": false,
+              "misconceptionId": "F1_CONDITIONAL_LOGIC",
+              "feedback": {
+                "short": "Not quite! Loops make code repeat. Conditionals make choices!",
+                "detailed": "If you want to repeat code, use loops like 'repeat' or 'forever'. Conditionals help your program choose between different actions!",
+                "socraticHint": "What's the difference between doing something many times and choosing what to do?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "To make programs run faster",
+              "isCorrect": false,
+              "misconceptionId": "F1_CONDITIONAL_LOGIC",
+              "feedback": {
+                "short": "Not quite! Conditionals make programs smarter, not faster.",
+                "detailed": "Conditionals don't make programs run faster - they make programs able to decide what to do based on different conditions!",
+                "socraticHint": "Do conditionals change speed or behavior?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Because every program must have them",
+              "isCorrect": false,
+              "misconceptionId": "F1_CONDITIONAL_LOGIC",
+              "feedback": {
+                "short": "Not quite! Simple programs can work without conditionals.",
+                "detailed": "Not every program needs conditionals! Simple programs that always do the same thing don't need them. But conditionals make programs more interesting and interactive!",
+                "socraticHint": "Can you make a simple 'say hello' program without any IF blocks?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Computational Thinking",
+          "correctAnswerText": "To make programs that can respond differently to different situations"
+        }
+      ]
+    },
+    {
+      "lessonId": "f1-lesson-6",
+      "lessonNumber": 6,
+      "lessonTitle": "Variables & Data Types",
+      "lessonSlug": "variables-and-data-types",
+      "totalQuestions": 5,
+      "questions": [
+        {
+          "questionId": "f1-q026",
+          "globalId": "exit-ticket-0625",
+          "questionNumber": 1,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What is a variable?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_VARIABLE_CHANGE"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "A storage box that can hold one piece of information that can change",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! Variables are like memory boxes that can change!",
+                "detailed": "Perfect! A variable is like a labeled box that holds one value. You can change what's inside anytime, just like switching drinks in a water bottle!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "A number that never changes",
+              "isCorrect": false,
+              "misconceptionId": "F1_VARIABLE_CHANGE",
+              "feedback": {
+                "short": "Not quite! Variables can change - that's why they're called 'variable'!",
+                "detailed": "The word 'variable' means it can vary (change)! If a number never changes, it's called a constant, not a variable.",
+                "socraticHint": "What does 'vary' in 'variable' mean?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "A block that makes sprites move",
+              "isCorrect": false,
+              "misconceptionId": "F1_VARIABLE_CHANGE",
+              "feedback": {
+                "short": "Not quite! Motion blocks move sprites. Variables store information.",
+                "detailed": "Variables don't make things move - they store information like scores, names, or numbers that your program can remember and use!",
+                "socraticHint": "What do you store in a labeled box?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "A list of many different values",
+              "isCorrect": false,
+              "misconceptionId": "F1_VARIABLE_CHANGE",
+              "feedback": {
+                "short": "Not quite! That's a list. Variables hold ONE value at a time.",
+                "detailed": "A variable can only hold ONE value at a time (like one number or one word). If you need to store many values, you'd use a list!",
+                "socraticHint": "Can you put multiple drinks in one water bottle at the same time?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "A storage box that can hold one piece of information that can change"
+        },
+        {
+          "questionId": "f1-q027",
+          "globalId": "exit-ticket-0626",
+          "questionNumber": 2,
+          "questionType": "trace",
+          "questionArchetype": "trace",
+          "prompt": "You create a variable called 'score' and set it to 10. Then you change score to 20. What is the score now?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_VARIABLE_CHANGE"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "20",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! The new value replaces the old one!",
+                "detailed": "Perfect! When you change a variable, the new value (20) replaces the old value (10). The variable only remembers the most recent value!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "10",
+              "isCorrect": false,
+              "misconceptionId": "F1_VARIABLE_CHANGE",
+              "feedback": {
+                "short": "Not quite! The score changed to 20, so the old value is gone.",
+                "detailed": "When you set a variable to a new value, it forgets the old value! After changing to 20, the variable no longer remembers 10.",
+                "socraticHint": "If you pour water out of a bottle and fill it with juice, what's in the bottle now?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "30 (because 10 + 20 = 30)",
+              "isCorrect": false,
+              "misconceptionId": "F1_VARIABLE_CHANGE",
+              "feedback": {
+                "short": "Not quite! Changing a variable replaces the old value, it doesn't add.",
+                "detailed": "When you 'set' a variable to 20, you replace the old value with 20 - you don't add them together. If you wanted to add, you'd use 'change score by 10'!",
+                "socraticHint": "What's the difference between 'set to' and 'change by'?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Both 10 and 20",
+              "isCorrect": false,
+              "misconceptionId": "F1_VARIABLE_CHANGE",
+              "feedback": {
+                "short": "Not quite! A variable can only hold ONE value at a time.",
+                "detailed": "A variable can only remember one value at a time! After you change it to 20, it forgets the 10. Think of it like a water bottle - it can only hold one drink at a time!",
+                "socraticHint": "Can one labeled box hold two different values at the same time?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Code Tracing",
+          "correctAnswerText": "20"
+        },
+        {
+          "questionId": "f1-q028",
+          "globalId": "exit-ticket-0627",
+          "questionNumber": 3,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "Which data type is used for words and letters?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_DATA_TYPE_BASIC"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Text (or String)",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! Text or String is for words and letters!",
+                "detailed": "Perfect! Text (also called Strings) is the data type for letters, words, and sentences like 'Hello' or 'Game Over'!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Number",
+              "isCorrect": false,
+              "misconceptionId": "F1_DATA_TYPE_BASIC",
+              "feedback": {
+                "short": "Not quite! Numbers are for counting and math, not letters.",
+                "detailed": "Numbers are for things you can count and do math with (like 5, 10, 3.14). For words and letters, you need the Text or String data type!",
+                "socraticHint": "Can you do math with the word 'Hello'?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Boolean",
+              "isCorrect": false,
+              "misconceptionId": "F1_DATA_TYPE_BASIC",
+              "feedback": {
+                "short": "Not quite! Boolean is only for true or false, not words.",
+                "detailed": "Boolean is special - it can only be 'true' or 'false'! For words and letters, you need Text (String) data type.",
+                "socraticHint": "Can boolean hold the word 'Hello', or only true/false?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Variable",
+              "isCorrect": false,
+              "misconceptionId": "F1_DATA_TYPE_BASIC",
+              "feedback": {
+                "short": "Not quite! Variable is the box, not the type of data inside.",
+                "detailed": "A variable is like the box that holds data. The data TYPE describes what kind of thing is in the box (text, number, or boolean)!",
+                "socraticHint": "Is 'variable' describing the box or what's inside the box?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "Text (or String)"
+        },
+        {
+          "questionId": "f1-q029",
+          "globalId": "exit-ticket-0628",
+          "questionNumber": 4,
+          "questionType": "blockmodel",
+          "questionArchetype": "blockmodel",
+          "prompt": "What is a Boolean data type?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_DATA_TYPE_BASIC"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "A data type that can only be True or False",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! Boolean is always True or False!",
+                "detailed": "Perfect! Boolean is like a yes/no question - it can only be True (yes) or False (no). Nothing else! Great for making decisions in your code!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "A data type for numbers",
+              "isCorrect": false,
+              "misconceptionId": "F1_DATA_TYPE_BASIC",
+              "feedback": {
+                "short": "Not quite! Numbers are a different data type.",
+                "detailed": "Numbers are their own data type! Boolean is special - it can ONLY be True or False, not numbers!",
+                "socraticHint": "Can Boolean be the number 5, or only True/False?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "A data type for words",
+              "isCorrect": false,
+              "misconceptionId": "F1_DATA_TYPE_BASIC",
+              "feedback": {
+                "short": "Not quite! Words are Text/String. Boolean is only True or False.",
+                "detailed": "Words and letters use the Text (String) data type. Boolean can ONLY be True or False - no words allowed!",
+                "socraticHint": "Can Boolean hold the word 'maybe', or only True/False?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "A hexagon-shaped block",
+              "isCorrect": false,
+              "misconceptionId": "F1_DATA_TYPE_BASIC",
+              "feedback": {
+                "short": "Close! Hexagon blocks HOLD boolean values, but Boolean is the data type.",
+                "detailed": "Good observation! Hexagon-shaped blocks do give you boolean values (True/False), but Boolean is the name of the data type, not the shape!",
+                "socraticHint": "Is Boolean describing the shape of a block or the type of data?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Block Model Analysis",
+          "correctAnswerText": "A data type that can only be True or False"
+        },
+        {
+          "questionId": "f1-q030",
+          "globalId": "exit-ticket-0629",
+          "questionNumber": 5,
+          "questionType": "bebras",
+          "questionArchetype": "bebras",
+          "prompt": "Why do we need variables in games?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_VARIABLE_CHANGE"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "To remember important information like score, lives, and level",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! Variables help games remember important information!",
+                "detailed": "Exactly! Variables are like the game's memory. They remember your score, how many lives you have, what level you're on, and much more!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "To make sprites move faster",
+              "isCorrect": false,
+              "misconceptionId": "F1_VARIABLE_CHANGE",
+              "feedback": {
+                "short": "Not quite! Variables store information, they don't make things faster.",
+                "detailed": "Variables don't make sprites move faster - they store information! You could use a variable to STORE a speed value, but the variable itself doesn't change speed.",
+                "socraticHint": "Do variables make things move, or remember information?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "To create new sprites",
+              "isCorrect": false,
+              "misconceptionId": "F1_VARIABLE_CHANGE",
+              "feedback": {
+                "short": "Not quite! Variables store information, they don't create sprites.",
+                "detailed": "Variables don't create sprites - they store and remember information! To create sprites, you use the sprite button in Scratch.",
+                "socraticHint": "What does a storage box do - create things or store things?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Games don't need variables",
+              "isCorrect": false,
+              "misconceptionId": "F1_VARIABLE_CHANGE",
+              "feedback": {
+                "short": "Not true! Almost all games use variables!",
+                "detailed": "Games definitely need variables! How else would they keep track of your score, lives, time, level, and all the other important information?",
+                "socraticHint": "How does a game remember your score if not with a variable?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Computational Thinking",
+          "correctAnswerText": "To remember important information like score, lives, and level"
+        }
+      ]
+    },
+    {
+      "lessonId": "f1-lesson-7",
+      "lessonNumber": 7,
+      "lessonTitle": "Lists",
+      "lessonSlug": "lists",
+      "totalQuestions": 5,
+      "questions": [
+        {
+          "questionId": "f1-q031",
+          "globalId": "exit-ticket-0630",
+          "questionNumber": 1,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What is a list in programming?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_GENERAL"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "A container that can hold many values at the same time",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! Lists can hold multiple values together!",
+                "detailed": "Perfect! A list is like a shopping list - it can hold many items all at once. Much better than making a separate variable for each item!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "A variable that holds only one value",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! That's a variable. Lists hold MANY values!",
+                "detailed": "Variables hold one value, but lists are special - they can hold many values at once! That's what makes lists so powerful!",
+                "socraticHint": "Can a shopping list have multiple items on it?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "A type of loop",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! Loops repeat code, lists store multiple values.",
+                "detailed": "Loops make code repeat, but lists are for storing! Though you often use loops together with lists to go through all the items!",
+                "socraticHint": "Does a list repeat actions or store items?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "A way to organize your sprites",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! Lists store data values, not sprites.",
+                "detailed": "Lists store data like numbers, words, or scores - not sprites! They're for organizing information your program needs to remember.",
+                "socraticHint": "What kind of information would you put on a shopping list?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "A container that can hold many values at the same time"
+        },
+        {
+          "questionId": "f1-q032",
+          "globalId": "exit-ticket-0631",
+          "questionNumber": 2,
+          "questionType": "trace",
+          "questionArchetype": "trace",
+          "prompt": "You have a list: ['apple', 'banana', 'orange']. What is at index 2?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_GENERAL"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "banana",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! In Scratch, we count from 1, so index 2 is banana!",
+                "detailed": "Great job! In Scratch lists, we start counting at 1. So index 1 = apple, index 2 = banana, index 3 = orange!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "apple",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! Apple is at index 1, not index 2.",
+                "detailed": "In Scratch, we start counting from 1! Apple is first (index 1), so banana is at index 2.",
+                "socraticHint": "If we start counting at 1, what number is the second item?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "orange",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! Orange is at index 3.",
+                "detailed": "Orange is the third item! In Scratch, the first item is index 1, second is index 2, third is index 3. So banana is at index 2!",
+                "socraticHint": "What position is orange in - second or third?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "There is nothing at index 2",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! Index 2 points to the second item: banana!",
+                "detailed": "There definitely is something at index 2! In Scratch, we count starting from 1, so index 2 is the second item: banana!",
+                "socraticHint": "How many items are in the list? Can you point to the second one?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Code Tracing",
+          "correctAnswerText": "banana"
+        },
+        {
+          "questionId": "f1-q033",
+          "globalId": "exit-ticket-0632",
+          "questionNumber": 3,
+          "questionType": "bebras",
+          "questionArchetype": "bebras",
+          "prompt": "Why is using a list better than using many separate variables?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_GENERAL"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Lists keep related items organized together and are easier to manage",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! Lists are organized and easy to work with!",
+                "detailed": "Exactly! Instead of having variable1, variable2, variable3... you have one neat list! It's easier to add items, remove items, and keep everything organized!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Lists make your program run faster",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! Lists help organize, not speed up programs.",
+                "detailed": "Lists don't make programs run faster - they make YOUR work easier by organizing data! Instead of managing 100 variables, you manage one list!",
+                "socraticHint": "Is a list about computer speed or programmer organization?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "You can't use variables and lists together",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not true! You can use variables and lists together!",
+                "detailed": "You can absolutely use both! Variables are great for single values, and lists are great for multiple related values. Use the right tool for each job!",
+                "socraticHint": "Can you have both a shopping list AND a single 'total cost' variable?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Lists are not better, they are the same as variables",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! Lists have a special advantage - they hold multiple values!",
+                "detailed": "Lists are better for certain situations! When you need to store many related items (like high scores from 10 players), one list is much better than 10 variables!",
+                "socraticHint": "Would you rather write 100 variable names or use one list?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Computational Thinking",
+          "correctAnswerText": "Lists keep related items organized together and are easier to manage"
+        },
+        {
+          "questionId": "f1-q034",
+          "globalId": "exit-ticket-0633",
+          "questionNumber": 4,
+          "questionType": "blockmodel",
+          "questionArchetype": "blockmodel",
+          "prompt": "What happens when you use the 'add [item] to [list]' block?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_GENERAL"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "The item is added to the end of the list",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! New items go at the end of the list!",
+                "detailed": "Perfect! When you add an item to a list, it goes to the end, just like adding a new item to the bottom of your shopping list!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "The item replaces everything in the list",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! Adding keeps the old items and adds new ones!",
+                "detailed": "The 'add' block doesn't delete anything - it adds to the list! All your old items stay, and the new item goes at the end.",
+                "socraticHint": "When you add an item to a shopping list, do the old items disappear?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "The item is added to the beginning of the list",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! The 'add' block puts items at the END.",
+                "detailed": "The 'add' block puts new items at the end of the list! If you want to add at the beginning, you'd use the 'insert at 1' block instead!",
+                "socraticHint": "When you add something to the bottom of a list, is it at the start or the end?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Nothing happens to the list",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! The list definitely changes when you add items!",
+                "detailed": "The list definitely changes! After you add an item, your list has one more item in it at the end!",
+                "socraticHint": "If you have 3 items and add 1 more, how many do you have now?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Block Model Analysis",
+          "correctAnswerText": "The item is added to the end of the list"
+        },
+        {
+          "questionId": "f1-q035",
+          "globalId": "exit-ticket-0634",
+          "questionNumber": 5,
+          "questionType": "bebras",
+          "questionArchetype": "bebras",
+          "prompt": "When would you use a list in a game?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_GENERAL"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "To store multiple high scores or player names",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! Lists are perfect for storing multiple related items!",
+                "detailed": "Exactly! Lists are great for storing things like all the high scores, all the player names, or all the items in your inventory. One list can hold them all!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "To store just one player's score",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! For one score, a variable is better than a list.",
+                "detailed": "If you only need to store ONE score, a simple variable is better! Lists are great when you need to store MULTIPLE scores or items!",
+                "socraticHint": "Do you need a whole shopping list for just one apple, or just remember 'apple'?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Lists don't work in games",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not true! Games use lists all the time!",
+                "detailed": "Games use lists constantly! For high scores, inventory items, enemy positions, power-ups collected, and so much more!",
+                "socraticHint": "How would a game remember the top 10 high scores without a list?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "To make sprites move",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! Lists store data, motion blocks move sprites.",
+                "detailed": "Lists don't make sprites move - motion blocks do that! Lists store information your game needs to remember, like scores or items.",
+                "socraticHint": "Does a shopping list make you move, or help you remember what to buy?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Computational Thinking",
+          "correctAnswerText": "To store multiple high scores or player names"
+        }
+      ]
+    },
+    {
+      "lessonId": "f1-lesson-8",
+      "lessonNumber": 8,
+      "lessonTitle": "Functions",
+      "lessonSlug": "functions",
+      "totalQuestions": 5,
+      "questions": [
+        {
+          "questionId": "f1-q036",
+          "globalId": "exit-ticket-0635",
+          "questionNumber": 1,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What is a function in programming?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_GENERAL"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "A reusable group of code blocks that you can use over and over",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! Functions are reusable code recipes!",
+                "detailed": "Perfect! Functions are like creating your own special moves! You make them once, then use them whenever you need. It saves time and keeps code organized!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "A variable that stores numbers",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! Variables store data, functions are groups of code!",
+                "detailed": "Variables store information, but functions are different - they're groups of code blocks that work together to do a task!",
+                "socraticHint": "Does a function store information or perform actions?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "A type of loop",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! Loops repeat code, functions package code to reuse!",
+                "detailed": "Loops make code repeat, but functions are different - they let you package code into a reusable block! Though functions can contain loops inside them!",
+                "socraticHint": "Does a function repeat code automatically, or run when you call it?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "A special type of sprite",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! Functions are code blocks, not sprites!",
+                "detailed": "Functions aren't sprites - they're custom blocks you create! In Scratch, you make them with 'Make a Block' in the My Blocks section!",
+                "socraticHint": "Are functions characters on screen or code you can reuse?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "A reusable group of code blocks that you can use over and over"
+        },
+        {
+          "questionId": "f1-q037",
+          "globalId": "exit-ticket-0636",
+          "questionNumber": 2,
+          "questionType": "blockmodel",
+          "questionArchetype": "blockmodel",
+          "prompt": "In Scratch, what do you click to create a function?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_GENERAL"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Make a Block (in the My Blocks section)",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! 'Make a Block' creates your custom function!",
+                "detailed": "Perfect! In Scratch, functions are called 'custom blocks' and you create them by clicking 'Make a Block' in the My Blocks category!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "Make a Variable",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! That makes variables, not functions!",
+                "detailed": "'Make a Variable' creates variables to store data. To create functions, you use 'Make a Block' in My Blocks!",
+                "socraticHint": "What's the difference between storing data and creating reusable code?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Make a List",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! That makes lists, not functions!",
+                "detailed": "'Make a List' creates lists to store multiple values. To create functions, you use 'Make a Block' in My Blocks!",
+                "socraticHint": "Do lists store data or perform actions?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "Add a new sprite",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! That creates sprites, not functions!",
+                "detailed": "Adding sprites creates characters for your project. To create functions, you use 'Make a Block' in My Blocks!",
+                "socraticHint": "Are functions about creating characters or creating reusable code?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Block Model Analysis",
+          "correctAnswerText": "Make a Block (in the My Blocks section)"
+        },
+        {
+          "questionId": "f1-q038",
+          "globalId": "exit-ticket-0637",
+          "questionNumber": 3,
+          "questionType": "vocabulary",
+          "questionArchetype": "vocabulary",
+          "prompt": "What is a parameter in a function?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_GENERAL"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "A blank space where you can put different information each time you use the function",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! Parameters make functions flexible!",
+                "detailed": "Perfect! Parameters are like blank spaces in your function. You can fill them with different information each time, making your function work in different ways!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "The name of your function",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! The function has a name, but parameters are the inputs!",
+                "detailed": "The function name is what you call it (like 'say hello'). Parameters are the blank spaces where you put different information each time!",
+                "socraticHint": "Is 'hello' a name or an input you can change?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "A type of loop",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! Parameters are inputs to functions, not loops!",
+                "detailed": "Loops repeat code, but parameters are something different - they're the blank spaces in functions where you can put different values!",
+                "socraticHint": "Does a parameter repeat something or hold information?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "A variable that never changes",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! Parameters can have different values each time!",
+                "detailed": "Parameters are the opposite of never changing! They're meant to be filled with DIFFERENT values each time you use the function!",
+                "socraticHint": "If you say hello to different friends, does the name change or stay the same?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Vocabulary/Concepts",
+          "correctAnswerText": "A blank space where you can put different information each time you use the function"
+        },
+        {
+          "questionId": "f1-q039",
+          "globalId": "exit-ticket-0638",
+          "questionNumber": 4,
+          "questionType": "trace",
+          "questionArchetype": "trace",
+          "prompt": "You create a function 'greet [name]' that says 'Hello [name]!'. When you use greet 'Sam', what happens?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_GENERAL"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "The sprite says 'Hello Sam!'",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! The parameter 'name' gets filled with 'Sam'!",
+                "detailed": "Perfect! When you call the function with 'Sam', the parameter [name] becomes 'Sam', so the sprite says 'Hello Sam!'. That's the power of parameters!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "The sprite says 'Hello [name]!'",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! The parameter gets replaced with the actual value 'Sam'.",
+                "detailed": "The [name] parameter doesn't stay as [name] - it gets replaced with the actual value you give it! So it becomes 'Hello Sam!', not 'Hello [name]!'",
+                "socraticHint": "When you fill in a blank with 'Sam', do you keep the word 'blank' or use 'Sam'?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "Nothing happens",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! The function runs and says hello!",
+                "detailed": "When you use a function, it runs the code inside! So the sprite definitely says something - 'Hello Sam!'",
+                "socraticHint": "What happens when you call a function?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "The sprite says 'greet Sam'",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! The function runs the code INSIDE it, not just says its name.",
+                "detailed": "The function name is just how you call it. The actual code inside (say 'Hello [name]!') is what runs! So it says 'Hello Sam!', not 'greet Sam'.",
+                "socraticHint": "Does a function say its name or run the code inside it?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Code Tracing",
+          "correctAnswerText": "The sprite says 'Hello Sam!'"
+        },
+        {
+          "questionId": "f1-q040",
+          "globalId": "exit-ticket-0639",
+          "questionNumber": 5,
+          "questionType": "bebras",
+          "questionArchetype": "bebras",
+          "prompt": "Why are functions useful in programming?",
+          "hasCodeBlock": false,
+          "codeLanguage": null,
+          "codeContent": null,
+          "misconceptionTargets": [
+            "F1_GENERAL"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "They let you reuse code instead of writing the same thing many times",
+              "isCorrect": true,
+              "feedback": {
+                "short": "Correct! Functions save time and keep code organized!",
+                "detailed": "Exactly! If you need the same code in 10 places, create a function once and use it 10 times! It saves time and makes your code cleaner and easier to fix!"
+              }
+            },
+            {
+              "key": "B",
+              "text": "They make programs run faster",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! Functions help organize code, not speed it up.",
+                "detailed": "Functions don't make the computer run faster - they help YOU code faster! Instead of writing the same 20 blocks multiple times, write them once in a function!",
+                "socraticHint": "Does a function change computer speed or programmer efficiency?"
+              }
+            },
+            {
+              "key": "C",
+              "text": "They are the only way to make sprites do anything",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not true! You can make sprites do things without functions.",
+                "detailed": "You can definitely code without functions! Functions are just a helpful tool for organizing and reusing code when you need the same actions multiple times.",
+                "socraticHint": "Can you make a sprite move with just a 'move 10 steps' block?"
+              }
+            },
+            {
+              "key": "D",
+              "text": "They automatically write code for you",
+              "isCorrect": false,
+              "misconceptionId": "F1_GENERAL",
+              "feedback": {
+                "short": "Not quite! YOU write the code inside functions.",
+                "detailed": "Functions don't write code for you - YOU create them! You decide what code goes inside, then you can reuse that code easily!",
+                "socraticHint": "Who writes the code that goes inside a function - you or the computer?"
+              }
+            }
+          ],
+          "correctAnswer": "A",
+          "metadata": {
+            "difficulty": "easy",
+            "bloomsTaxonomy": "remember",
+            "tags": [
+              "f1"
+            ],
+            "version": "1.1",
+            "estimatedTime": 30
+          },
+          "questionTypeLabel": "Computational Thinking",
+          "correctAnswerText": "They let you reuse code instead of writing the same thing many times"
+        }
+      ]
+    }
+  ],
+  "totalLessons": 8,
+  "totalQuestions": 40,
+  "staticVersion": "1.0.0",
+  "generatedAt": "2025-12-24T00:53:48.648Z"
+}

@@ -1,0 +1,69 @@
+{
+  "version": "1.1.0",
+  "lastUpdated": "2025-12-19",
+  "schemaVersion": "1.1",
+  "description": "Enhanced exit tickets with misconception IDs, structured feedback, and question archetypes",
+  "enhancementsFromV1": {
+    "options": {
+      "misconceptionId": "References distractor-analysis.md catalog for wrong answers",
+      "feedback": "Structured object with short, detailed, and optional socraticHint fields"
+    },
+    "question": {
+      "questionArchetype": "Classification: vocabulary | trace | bebras | blockmodel",
+      "misconceptionTargets": "Array of misconception IDs this question probes"
+    }
+  },
+  "totalCourses": 1,
+  "totalLessons": 20,
+  "totalQuestions": 100,
+  "enhancedQuestions": 5,
+  "enhancementProgress": {
+    "ai-1": {
+      "lessonsEnhanced": 1,
+      "questionsEnhanced": 5,
+      "status": "in_progress"
+    }
+  },
+  "courses": [
+    {
+      "courseId": "ai-1",
+      "courseCode": "AI1",
+      "courseName": "AI-1 Data Analysis and Data Science",
+      "domain": "ai_data_science",
+      "tier": "intermediate",
+      "difficulty": 2,
+      "totalLessons": 20,
+      "totalQuestions": 100,
+      "enhancedQuestions": 5,
+      "dataFile": "courses/ai-1-data-analysis.json",
+      "enhancementStatus": "in_progress",
+      "enhancedLessons": [1]
+    }
+  ],
+  "statistics": {
+    "questionArchetypeDistribution": {
+      "vocabulary": 1,
+      "trace": 1,
+      "bebras": 1,
+      "blockmodel": 2
+    },
+    "misconceptionCoverage": {
+      "totalDistractors": 12,
+      "taggedDistractors": 12,
+      "coveragePercent": 100
+    }
+  },
+  "changelog": [
+    {
+      "date": "2025-12-19",
+      "version": "1.1.0",
+      "changes": [
+        "Added misconceptionId to all wrong answer options",
+        "Added structured feedback (short, detailed, socraticHint)",
+        "Added questionArchetype classification",
+        "Added misconceptionTargets array per question",
+        "Proof of concept: AI-1 Lesson 1 (5 questions) fully enhanced"
+      ]
+    }
+  ]
+}
